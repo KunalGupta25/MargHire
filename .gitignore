@@ -20,9 +20,15 @@ graphify-out/cache/
 # graphify-out/ itself is left unignored; commit graph.json and GRAPH_REPORT.md
 # but not the cache. See CLAUDE.md for guidance.
 
-# ── Evaluation harness results (run outputs, not source) ─────────────────────
+# ── Evaluation harness results ───────────────────────────────────────────────
 results/
-python/eval/results/
+python/eval/results/*
+!python/eval/results/
+!python/eval/results/.gitkeep
+!python/eval/results/*.json
+python/eval/results/*private*
+python/eval/results/*.private.*
+python/eval/results/private/
 
 # ── Node ─────────────────────────────────────────────────────────────────────
 node_modules/

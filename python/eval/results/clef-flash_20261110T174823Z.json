@@ -1,0 +1,418 @@
+{
+  "run_at_utc": "2026-11-10T17:48:23.181935+00:00",
+  "adapter": "clef-flash",
+  "model_id": "@cf/cloudflare/clef-flash",
+  "shuffle_count": 3,
+  "metrics": {
+    "adapter_name": "clef-flash",
+    "pair_count": 50,
+    "macro_precision": 1.0,
+    "macro_recall": 0.9237777777777778,
+    "macro_f1": 0.9572689723417278,
+    "median_latency_s": 0.9092868500156328,
+    "total_cost_usd": null,
+    "per_pair": [
+      {
+        "pair_id": "pair-001",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.7272727272727273,
+        "f1": 0.8421052631578948,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-002",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.6363636363636364,
+        "f1": 0.7777777777777778,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-003",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-004",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-005",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-006",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8181818181818182,
+        "f1": 0.9,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-007",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-008",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "order_changed": 1.5
+      },
+      {
+        "pair_id": "pair-009",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-010",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-011",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "order_changed": 2
+      },
+      {
+        "pair_id": "pair-012",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-013",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1": 0.8750000000000001,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-014",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-015",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-016",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-017",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-018",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-019",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-020",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-021",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-022",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-023",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-024",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-025",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-026",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-027",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-028",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-029",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-030",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-031",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-032",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-033",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-034",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-035",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-036",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-037",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-038",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-039",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-040",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-041",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-042",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-043",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-044",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-045",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-046",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-047",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 0.5
+      },
+      {
+        "pair_id": "pair-048",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      },
+      {
+        "pair_id": "pair-049",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1": 0.9473684210526316,
+        "order_changed": 1
+      },
+      {
+        "pair_id": "pair-050",
+        "adapter_name": "clef-flash",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "order_changed": 0
+      }
+    ],
+    "mean_order_sensitivity": 0.42
+  }
+}

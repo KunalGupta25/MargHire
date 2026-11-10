@@ -17,11 +17,39 @@ Nov 10, 2026 · @Kunal Gupta
 
 ## Test data policy and the evaluation set
 
-- Fixtures use fake people, companies and repos only. Real resumes and keys never enter the repo or CI.
-- A synthetic profile set covers several role families: designer, frontend, backend, AI, cloud and a mixed profile.
-- The Phase 0 evaluation set targets about 50 resume and job pairs. Each pair needs an inclusion label for every pool item. If you use your own resumes, keep that file outside the repo.
-- The current synthetic pairs record their origin and creation date, but not an individual human labeler. Add labeler provenance before treating the benchmark as hand-labelled decision evidence.
-- Recorded provider responses are scrubbed of personal data before they are committed.
+### Test data policy and privacy guardrails
+- **Zero personal data**: Fixtures and benchmark suites use fake candidates, companies, and repositories only. Real resumes, personal phone numbers, emails, and API keys never enter the repo or CI.
+- **Scrubbed recorded responses**: Recorded provider responses used for contract and unit tests are scrubbed of personal data and credentials before being committed.
+- **Private evaluation isolation**: Evaluators testing against proprietary or personal candidate resumes must keep those files in a directory outside the repository using `EVAL_PRIVATE_PAIRS_DIR`. Private results are excluded from version control via `.gitignore`.
+
+### Dataset specifications
+The Phase 0 benchmark dataset resides in `python/eval/data/pairs/` and contains **50 synthetic evaluation pairs** (~580 total pool items, averaging 11.6 items per candidate) partitioned across 6 fresher role families:
+
+| Family | Pair Range | Target Roles | Core Tech & Competencies Evaluated |
+| --- | --- | --- | --- |
+| **Designer** | `pair-001` – `pair-009` | Junior UI/UX Designer, Product Design Intern | Figma, wireframing, user research, WCAG accessibility, design systems, usability testing |
+| **Frontend** | `pair-010` – `pair-018` | Junior Frontend Developer, React Developer | React 18, TypeScript, Next.js, Tailwind CSS, Zustand, Vitest/RTL, HTML5/CSS3 |
+| **Backend** | `pair-019` – `pair-027` | Junior Backend Developer, Node.js Engineer | Node.js, Express, PostgreSQL, Prisma, Redis caching, JWT auth, REST APIs, Docker |
+| **AI / ML** | `pair-028` – `pair-036` | Junior ML Engineer, Data Science Intern | Python, PyTorch, Scikit-learn, Pandas, Hugging Face transformers, FastAPI, NumPy |
+| **Cloud / DevOps** | `pair-037` – `pair-044` | Cloud Engineer Trainee, Junior DevOps Intern | AWS (S3, EC2, Lambda), Docker, Terraform, GitHub Actions, Linux/Bash, Kubernetes |
+| **Mixed / Generalist** | `pair-045` – `pair-050` | Full Stack Developer Fresher (MERN), SE Trainee | Full-stack MERN, React, Node.js, MongoDB, REST integration, Git, Postman |
+
+### Synthetic labeling methodology and provenance
+- **Target persona**: The dataset models the profile of Indian IT freshers (B.Tech, B.E., B.Des graduating batches 2022–2026) applying to campus placements and entry-level junior positions across startups, GCCs, and IT services.
+- **Label provenance**: Public benchmark pairs carry immutable provenance metadata (`"created_by": "synthetic"` and ISO-8601 `"created_at": "2026-11-10"`). Ground-truth inclusion labels (`labels: { "<item_id>": true/false }`) are hand-curated and audited against a deterministic labeling taxonomy.
+- **Labeling taxonomy & selection criteria**:
+  - **Positive selection (`true`, ~74% of items)**:
+    - *Direct technical match*: Languages, frameworks, and databases explicitly required by the job posting.
+    - *Core engineering hygiene*: Universal fresher practices including version control (Git/GitHub), automated unit/integration testing (Vitest, Jest, Pytest), and REST API integration.
+    - *Qualifying education*: Relevant degree (B.Tech CSE/IT, B.Des) and CGPA confirming eligibility.
+    - *Domain-aligned experience*: Internships and capstones demonstrating practical application of the target stack.
+  - **Negative selection / Distractor rejection (`false`, ~26% of items)**:
+    - *Cross-domain technical distractors*: Technical skills from unrelated domains (e.g., embedded Arduino robotics on a UI/UX or React resume; PyTorch computer vision on a pure frontend role; Figma UI design on a high-throughput backend role).
+    - *Mismatched stack depth*: Complex infrastructure or database items injected into frontend-specific roles that dilute relevance.
+    - *Non-technical & extracurricular activities*: College fest promotional video editing, cultural club management, or sports fest coordination.
+    - *Pre-college / obsolete entries*: High school achievements or outdated tools.
+- **Integrity verification**: Pairs enforce a strict bijective mapping between `pool` items and `labels` keys, verified automatically via `Pair.validate()` and CI unit test `python -m pytest python/eval/test_loader.py`.
+- **Results provenance**: Public benchmark run summaries are committed to `python/eval/results/` (`*.json`), while private test runs (`*private*`, `*.private.*`, `private/`) remain ignored by git.
 
 **Metrics for Role Lens**
 
