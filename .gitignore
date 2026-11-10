@@ -1,0 +1,50 @@
+# ── Environment and secrets ──────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── User data (never commit real personal data) ───────────────────────────────
+data/
+uploads/
+rendered/
+*.pdf
+# Exception: allow template PDF samples explicitly tracked in packages/templates
+!packages/templates/**/*.pdf
+
+# ── Graphify ─────────────────────────────────────────────────────────────────
+graphify-out/cache/
+# graphify-out/ itself is left unignored; commit graph.json and GRAPH_REPORT.md
+# but not the cache. See CLAUDE.md for guidance.
+
+# ── Evaluation harness results (run outputs, not source) ─────────────────────
+results/
+python/eval/results/
+
+# ── Node ─────────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ───────────────────────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,6 @@
+{
+  "name": "@marghire/templates",
+  "version": "0.0.1",
+  "private": true,
+  "description": "LaTeX and Typst resume templates and ATS profiles"
+}
