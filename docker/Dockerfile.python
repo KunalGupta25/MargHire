@@ -1,0 +1,15 @@
+FROM python:3.11-slim AS base
+WORKDIR /app
+RUN groupadd -r marghire && useradd -r -g marghire marghire
+
+FROM base AS deps
+COPY python/pyproject.toml ./python/
+RUN pip install --no-cache-dir uv && \
+    cd python && uv pip install --system -e ".[dev]"
+
+FROM deps AS runtime
+COPY python ./python
+USER marghire
+# The Python helper is a long-running sidecar in future phases.
+# Phase 0: start and exit cleanly to verify the image builds.
+CMD ["python", "-m", "python.eval.run", "--help"]

@@ -1,0 +1,28 @@
+FROM node:20-alpine AS base
+WORKDIR /app
+RUN addgroup -S marghire && adduser -S -G marghire marghire
+
+FROM base AS deps
+COPY package*.json ./
+COPY apps/api/package*.json ./apps/api/
+COPY packages/core/package*.json ./packages/core/
+COPY packages/db/package*.json ./packages/db/
+COPY packages/providers/package*.json ./packages/providers/
+RUN npm ci --workspace=apps/api --workspace=packages/core --workspace=packages/db \
+      --workspace=packages/providers
+
+FROM deps AS build
+COPY apps/api ./apps/api
+COPY packages/core ./packages/core
+COPY packages/db ./packages/db
+COPY packages/providers ./packages/providers
+COPY tsconfig.json ./
+RUN npm run build --workspace=apps/api
+
+FROM base AS runtime
+ENV NODE_ENV=production
+COPY --from=build /app/apps/api/dist ./apps/api/dist
+COPY --from=build /app/node_modules ./node_modules
+EXPOSE 3000
+USER marghire
+CMD ["node", "apps/api/dist/index.js"]
