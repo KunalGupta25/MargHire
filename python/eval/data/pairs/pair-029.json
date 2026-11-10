@@ -1,0 +1,138 @@
+{
+  "id": "pair-029",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate Data Scientist (Tabular & Predictive ML)",
+    "description": "CreditPulse (Gurugram) builds algorithmic risk scoring for consumer lending. We seek an Associate Data Scientist with strong background in statistical modeling, Scikit-learn, XGBoost, LightGBM, and feature engineering on large tabular datasets."
+  },
+  "pool": [
+    {
+      "id": "item-029-01",
+      "kind": "skill",
+      "text": "Supervised Learning Algorithms: in-depth mastery of Random Forests, XGBoost, LightGBM, and Logistic Regression",
+      "tags": [
+        "machine-learning",
+        "xgboost",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "item-029-02",
+      "kind": "skill",
+      "text": "Feature Engineering: handled missing data imputation, target encoding, outlier detection, and scaling",
+      "tags": [
+        "feature-engineering",
+        "data-science"
+      ]
+    },
+    {
+      "id": "item-029-03",
+      "kind": "skill",
+      "text": "Model Interpretability (SHAP & LIME): explained feature importances and individual prediction drivers",
+      "tags": [
+        "shap",
+        "interpretability",
+        "ml"
+      ]
+    },
+    {
+      "id": "item-029-04",
+      "kind": "skill",
+      "text": "Cross-Validation & Hyperopt: tuned hyperparameters using Optuna with stratified K-fold validation",
+      "tags": [
+        "optuna",
+        "cross-validation"
+      ]
+    },
+    {
+      "id": "item-029-05",
+      "kind": "project",
+      "text": "DefaultGuard: loan default risk scoring pipeline with 0.84 ROC-AUC on simulated credit dataset",
+      "tags": [
+        "data-science",
+        "xgboost",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-029-06",
+      "kind": "education",
+      "text": "B.Stat / B.Tech Data Science, ISI Kolkata / BITS Pilani, 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education",
+        "statistics"
+      ]
+    },
+    {
+      "id": "item-029-07",
+      "kind": "skill",
+      "text": "Pandas & Polars: processed 5M+ row datasets efficiently with parallelised queries",
+      "tags": [
+        "pandas",
+        "polars",
+        "data-wrangling"
+      ]
+    },
+    {
+      "id": "item-029-08",
+      "kind": "skill",
+      "text": "Swift iOS development: built a stopwatch application in Xcode",
+      "tags": [
+        "swift",
+        "ios"
+      ]
+    },
+    {
+      "id": "item-029-09",
+      "kind": "work",
+      "text": "Data Science Intern at FinRisk Labs (Gurugram, 4 months): developed churn prediction model",
+      "tags": [
+        "internship",
+        "data-science",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-029-10",
+      "kind": "skill",
+      "text": "SQL for Analytics: wrote window functions, rank queries, and cohorts in Snowflake / Postgres",
+      "tags": [
+        "sql",
+        "analytics"
+      ]
+    },
+    {
+      "id": "item-029-11",
+      "kind": "skill",
+      "text": "Unity 3D game engine: created 2D platformer game as hobby",
+      "tags": [
+        "unity",
+        "gamedev"
+      ]
+    },
+    {
+      "id": "item-029-12",
+      "kind": "skill",
+      "text": "Model Evaluation Metrics: analyzed ROC-AUC, PR-AUC, confusion matrix, precision, and recall trade-offs",
+      "tags": [
+        "metrics",
+        "evaluation"
+      ]
+    }
+  ],
+  "labels": {
+    "item-029-01": true,
+    "item-029-02": true,
+    "item-029-03": true,
+    "item-029-04": true,
+    "item-029-05": true,
+    "item-029-06": true,
+    "item-029-07": true,
+    "item-029-08": false,
+    "item-029-09": true,
+    "item-029-10": true,
+    "item-029-11": false,
+    "item-029-12": true
+  }
+}

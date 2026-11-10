@@ -1,0 +1,141 @@
+{
+  "id": "pair-010",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Frontend Developer (React)",
+    "description": "TechSprint Labs is an agile SaaS product studio in Hyderabad. We are looking for a Junior Frontend Developer to build clean, responsive dashboards and web interfaces. Core requirements: solid TypeScript, React 18, HTML5/CSS3, and state management (Zustand or Redux Toolkit). Experience writing component tests with Vitest or Jest is highly preferred."
+  },
+  "pool": [
+    {
+      "id": "item-010-01",
+      "kind": "skill",
+      "text": "React 18 & TypeScript: built reusable dashboard widgets with clean separation of state and UI",
+      "tags": [
+        "react",
+        "typescript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-010-02",
+      "kind": "skill",
+      "text": "Zustand & React Query: managed server cache and optimistic updates for inventory tracking app",
+      "tags": [
+        "react-query",
+        "zustand",
+        "state-management"
+      ]
+    },
+    {
+      "id": "item-010-03",
+      "kind": "skill",
+      "text": "Tailwind CSS: implemented dark/light responsive layout complying with WCAG contrast requirements",
+      "tags": [
+        "tailwind",
+        "css",
+        "responsive"
+      ]
+    },
+    {
+      "id": "item-010-04",
+      "kind": "skill",
+      "text": "Vitest & React Testing Library: achieved 85% branch coverage on core customer form components",
+      "tags": [
+        "vitest",
+        "testing",
+        "react"
+      ]
+    },
+    {
+      "id": "item-010-05",
+      "kind": "project",
+      "text": "DevPortfolio: open-source portfolio template with Next.js, static generation and 100 Lighthouse score",
+      "tags": [
+        "nextjs",
+        "frontend",
+        "portfolio"
+      ]
+    },
+    {
+      "id": "item-010-06",
+      "kind": "education",
+      "text": "B.Tech in Information Technology, JNTU Hyderabad, 2022\u20132026, CGPA 8.1/10",
+      "tags": [
+        "education",
+        "degree"
+      ]
+    },
+    {
+      "id": "item-010-07",
+      "kind": "work",
+      "text": "Frontend Intern at DevStudio (Hyderabad, 4 months): converted Figma mockups to React components",
+      "tags": [
+        "internship",
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-010-08",
+      "kind": "skill",
+      "text": "Git & GitHub workflows: standard feature branches, PR reviews, and semantic commit tagging",
+      "tags": [
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "item-010-09",
+      "kind": "skill",
+      "text": "Docker containerization: wrote multi-stage Dockerfile for Node.js production deployment",
+      "tags": [
+        "docker",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-010-10",
+      "kind": "skill",
+      "text": "PostgreSQL & Prisma: created relational schema with foreign key constraints and migrations",
+      "tags": [
+        "postgres",
+        "database"
+      ]
+    },
+    {
+      "id": "item-010-11",
+      "kind": "skill",
+      "text": "PyTorch / Computer Vision: fine-tuned YOLOv8 on traffic sign dataset",
+      "tags": [
+        "pytorch",
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "item-010-12",
+      "kind": "skill",
+      "text": "REST API integration: connected frontend forms with OpenAPI-documented endpoints with Zod parsing",
+      "tags": [
+        "rest",
+        "zod",
+        "api"
+      ]
+    }
+  ],
+  "labels": {
+    "item-010-01": true,
+    "item-010-02": true,
+    "item-010-03": true,
+    "item-010-04": true,
+    "item-010-05": true,
+    "item-010-06": true,
+    "item-010-07": true,
+    "item-010-08": true,
+    "item-010-09": false,
+    "item-010-10": false,
+    "item-010-11": false,
+    "item-010-12": true
+  }
+}

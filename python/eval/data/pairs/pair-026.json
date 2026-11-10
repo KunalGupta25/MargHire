@@ -1,0 +1,139 @@
+{
+  "id": "pair-026",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Backend Developer (Rust)",
+    "description": "ZeroLatency Systems (Bengaluru) builds low-latency cryptographic key infrastructure and caching proxies. We are seeking a Junior Rust Developer with knowledge of ownership, lifetimes, Tokio async runtime, Axum web framework, and memory safety."
+  },
+  "pool": [
+    {
+      "id": "item-026-01",
+      "kind": "skill",
+      "text": "Rust Language: deep understanding of ownership, borrowing, lifetimes, traits, and error handling with Result",
+      "tags": [
+        "rust",
+        "systems",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-026-02",
+      "kind": "skill",
+      "text": "Tokio Async Runtime: built concurrent asynchronous tasks and handled non-blocking network I/O",
+      "tags": [
+        "tokio",
+        "async",
+        "rust"
+      ]
+    },
+    {
+      "id": "item-026-03",
+      "kind": "skill",
+      "text": "Axum Web Framework: constructed type-safe REST routes, extractors, and state sharing",
+      "tags": [
+        "axum",
+        "rust",
+        "web"
+      ]
+    },
+    {
+      "id": "item-026-04",
+      "kind": "skill",
+      "text": "SQLx & PostgreSQL: wrote compile-time checked SQL queries with connection pooling in async Rust",
+      "tags": [
+        "sqlx",
+        "postgres",
+        "rust"
+      ]
+    },
+    {
+      "id": "item-026-05",
+      "kind": "project",
+      "text": "VaultR: secure secret storage daemon in Rust with AES-256-GCM encryption and zero memory allocations on hot path",
+      "tags": [
+        "rust",
+        "security",
+        "project"
+      ]
+    },
+    {
+      "id": "item-026-06",
+      "kind": "education",
+      "text": "B.Tech in Computer Engineering, NIT Karnataka (Surathkal), 2022\u20132026, CGPA 9.1/10",
+      "tags": [
+        "education",
+        "nit"
+      ]
+    },
+    {
+      "id": "item-026-07",
+      "kind": "skill",
+      "text": "Rust Testing: wrote unit and integration tests using cargo test with proptest property testing",
+      "tags": [
+        "testing",
+        "rust"
+      ]
+    },
+    {
+      "id": "item-026-08",
+      "kind": "skill",
+      "text": "WordPress Theme Development: customized PHP themes for local restaurant website",
+      "tags": [
+        "wordpress",
+        "php"
+      ]
+    },
+    {
+      "id": "item-026-09",
+      "kind": "work",
+      "text": "Systems Intern at CoreLogic (Bengaluru, 3 months): implemented memory profiling tool in Rust",
+      "tags": [
+        "internship",
+        "rust",
+        "systems"
+      ]
+    },
+    {
+      "id": "item-026-10",
+      "kind": "skill",
+      "text": "Linux System Calls: interfaced with epoll, signals, and file descriptors",
+      "tags": [
+        "linux",
+        "systems"
+      ]
+    },
+    {
+      "id": "item-026-11",
+      "kind": "skill",
+      "text": "React JSX styling: built portfolio web page with CSS modules",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-026-12",
+      "kind": "skill",
+      "text": "Cargo & Crates ecosystem: managed dependencies, workspaces, and published open-source crate",
+      "tags": [
+        "cargo",
+        "rust"
+      ]
+    }
+  ],
+  "labels": {
+    "item-026-01": true,
+    "item-026-02": true,
+    "item-026-03": true,
+    "item-026-04": true,
+    "item-026-05": true,
+    "item-026-06": true,
+    "item-026-07": true,
+    "item-026-08": false,
+    "item-026-09": true,
+    "item-026-10": true,
+    "item-026-11": false,
+    "item-026-12": true
+  }
+}

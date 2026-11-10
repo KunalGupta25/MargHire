@@ -1,0 +1,139 @@
+{
+  "id": "pair-045",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Full Stack Software Developer - Fresher (MERN)",
+    "description": "InnovateIndia Solutions in Bengaluru is looking for a Fresher Full Stack Developer (MERN Stack). You will work across both client and server: building responsive React interfaces, creating Node.js/Express REST APIs, modeling data in MongoDB, and testing end-to-end functionality."
+  },
+  "pool": [
+    {
+      "id": "item-045-01",
+      "kind": "skill",
+      "text": "React & TypeScript: created dynamic frontend dashboards with responsive layouts and state hooks",
+      "tags": [
+        "react",
+        "typescript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-045-02",
+      "kind": "skill",
+      "text": "Node.js & Express: constructed REST API endpoints with middleware validation and error handling",
+      "tags": [
+        "nodejs",
+        "express",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-045-03",
+      "kind": "skill",
+      "text": "MongoDB & Mongoose: modeled document schemas, indexed query fields, and handled relations",
+      "tags": [
+        "mongodb",
+        "database",
+        "fullstack"
+      ]
+    },
+    {
+      "id": "item-045-04",
+      "kind": "skill",
+      "text": "Full Stack Integration: connected React frontend forms with Express backend endpoints via Axios",
+      "tags": [
+        "fullstack",
+        "rest",
+        "api"
+      ]
+    },
+    {
+      "id": "item-045-05",
+      "kind": "project",
+      "text": "CommunityHelp: full-stack community volunteering web platform built on MERN with JWT authentication",
+      "tags": [
+        "mern",
+        "fullstack",
+        "project"
+      ]
+    },
+    {
+      "id": "item-045-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, Dayananda Sagar University, Bengaluru, 2022\u20132026, CGPA 8.2/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-045-07",
+      "kind": "skill",
+      "text": "HTML5 & CSS3: implemented responsive designs with flexbox and media queries",
+      "tags": [
+        "html",
+        "css",
+        "responsive"
+      ]
+    },
+    {
+      "id": "item-045-08",
+      "kind": "skill",
+      "text": "Robotics Arduino: built an obstacle avoiding mini car",
+      "tags": [
+        "arduino",
+        "hardware"
+      ]
+    },
+    {
+      "id": "item-045-09",
+      "kind": "work",
+      "text": "Full Stack Intern at CodeCraft (Bengaluru, 3 months): developed user profile and settings pages",
+      "tags": [
+        "internship",
+        "fullstack",
+        "mern"
+      ]
+    },
+    {
+      "id": "item-045-10",
+      "kind": "skill",
+      "text": "Git & GitHub: standard branch workflow, feature pull requests, and code reviews",
+      "tags": [
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "item-045-11",
+      "kind": "skill",
+      "text": "Video Editing: edited promotional reels for college cultural fest",
+      "tags": [
+        "video-editing",
+        "premiere"
+      ]
+    },
+    {
+      "id": "item-045-12",
+      "kind": "skill",
+      "text": "Postman: authored automated test collections verifying API status codes and payloads",
+      "tags": [
+        "postman",
+        "testing"
+      ]
+    }
+  ],
+  "labels": {
+    "item-045-01": true,
+    "item-045-02": true,
+    "item-045-03": true,
+    "item-045-04": true,
+    "item-045-05": true,
+    "item-045-06": true,
+    "item-045-07": true,
+    "item-045-08": false,
+    "item-045-09": true,
+    "item-045-10": true,
+    "item-045-11": false,
+    "item-045-12": true
+  }
+}

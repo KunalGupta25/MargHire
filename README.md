@@ -4,7 +4,8 @@ A free, self-hostable, open-source tool for Indian IT freshers. It keeps one poo
 professional data, then builds a resume, cover letter and HR email tailored to each job. It also
 tracks applications and exposes everything through an MCP server.
 
-**Status:** Phase 0 (repo skeleton and evaluation harness). Not yet usable end-to-end.
+**Status:** Phase 0 foundations and evaluation harness are in place; the model comparison and
+allowance checks remain open. Not yet usable end-to-end.
 
 ## What it does
 
@@ -45,7 +46,7 @@ Requirements: Node 20+, npm 10+, Python 3.10+.
 ```sh
 npm install
 cp .env.example .env
-# Set DATABASE_URL to a SQLite path (see .env.example)
+# SQLite is the default; .env.example has a local file path example.
 npm run dev
 ```
 

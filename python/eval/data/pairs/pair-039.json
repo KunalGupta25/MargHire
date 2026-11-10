@@ -1,0 +1,139 @@
+{
+  "id": "pair-039",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Kubernetes & Cloud Platform Engineer",
+    "description": "KubeStack Solutions (Pune) builds managed Kubernetes platforms for enterprise clients. We seek a Junior Cloud Platform Engineer proficient in Kubernetes architecture, kubectl, Helm charts, ingress controllers, and container networking."
+  },
+  "pool": [
+    {
+      "id": "item-039-01",
+      "kind": "skill",
+      "text": "Kubernetes Architecture: core knowledge of Pods, Deployments, Services, ConfigMaps, Secrets, and Namespaces",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "containers"
+      ]
+    },
+    {
+      "id": "item-039-02",
+      "kind": "skill",
+      "text": "Helm Package Manager: authored modular Helm charts with values.yaml parameterization and templating",
+      "tags": [
+        "helm",
+        "kubernetes",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-039-03",
+      "kind": "skill",
+      "text": "Ingress Controllers & Cert-Manager: configured Nginx Ingress with automated Let's Encrypt SSL certificates",
+      "tags": [
+        "ingress",
+        "nginx",
+        "ssl"
+      ]
+    },
+    {
+      "id": "item-039-04",
+      "kind": "skill",
+      "text": "Container Security: scanned image vulnerabilities using Trivy and enforced non-root security contexts",
+      "tags": [
+        "security",
+        "containers",
+        "trivy"
+      ]
+    },
+    {
+      "id": "item-039-05",
+      "kind": "project",
+      "text": "KubeLab: multi-node lightweight K3s cluster configured on local VMs running Prometheus and ingress",
+      "tags": [
+        "kubernetes",
+        "k3s",
+        "project"
+      ]
+    },
+    {
+      "id": "item-039-06",
+      "kind": "education",
+      "text": "B.E. Computer Science, Pune University (Cummins / MIT), 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-039-07",
+      "kind": "skill",
+      "text": "Docker & Containerd: built efficient container images and debugged container runtime crashes",
+      "tags": [
+        "docker",
+        "containerd"
+      ]
+    },
+    {
+      "id": "item-039-08",
+      "kind": "skill",
+      "text": "Android Java: created student GPA calculator app",
+      "tags": [
+        "android",
+        "java"
+      ]
+    },
+    {
+      "id": "item-039-09",
+      "kind": "work",
+      "text": "Cloud Platform Intern at PuneTech (Pune, 3 months): migrated standalone Docker apps into Kubernetes pods",
+      "tags": [
+        "internship",
+        "kubernetes",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-039-10",
+      "kind": "skill",
+      "text": "GitOps with ArgoCD: synchronized Kubernetes manifests automatically from Git repository branches",
+      "tags": [
+        "argocd",
+        "gitops",
+        "k8s"
+      ]
+    },
+    {
+      "id": "item-039-11",
+      "kind": "skill",
+      "text": "Graphic Design: made club banners using Canva",
+      "tags": [
+        "canva",
+        "design"
+      ]
+    },
+    {
+      "id": "item-039-12",
+      "kind": "skill",
+      "text": "Linux CLI & Networking: used cURL, netstat, ip, and traceroute to debug inter-pod connectivity",
+      "tags": [
+        "linux",
+        "networking"
+      ]
+    }
+  ],
+  "labels": {
+    "item-039-01": true,
+    "item-039-02": true,
+    "item-039-03": true,
+    "item-039-04": true,
+    "item-039-05": true,
+    "item-039-06": true,
+    "item-039-07": true,
+    "item-039-08": false,
+    "item-039-09": true,
+    "item-039-10": true,
+    "item-039-11": false,
+    "item-039-12": true
+  }
+}

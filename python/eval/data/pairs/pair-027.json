@@ -1,0 +1,140 @@
+{
+  "id": "pair-027",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Backend & Cloud Engineer (Serverless)",
+    "description": "CloudCraft Digital in Noida specializes in serverless backend platforms. We are hiring a Junior Engineer to develop serverless REST APIs using Node.js/TypeScript, AWS Lambda, API Gateway, DynamoDB, and Serverless Framework / SST."
+  },
+  "pool": [
+    {
+      "id": "item-027-01",
+      "kind": "skill",
+      "text": "AWS Lambda & API Gateway: built lightweight serverless functions with rapid cold-start times",
+      "tags": [
+        "aws-lambda",
+        "serverless",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-027-02",
+      "kind": "skill",
+      "text": "Amazon DynamoDB: designed single-table schemas, partition keys, sort keys, and global secondary indexes",
+      "tags": [
+        "dynamodb",
+        "nosql",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-027-03",
+      "kind": "skill",
+      "text": "TypeScript on Node.js: wrote clean functional handlers with Zod schema validation",
+      "tags": [
+        "typescript",
+        "nodejs",
+        "serverless"
+      ]
+    },
+    {
+      "id": "item-027-04",
+      "kind": "skill",
+      "text": "Infrastructure as Code (SST / CDK): defined cloud resources in TypeScript code",
+      "tags": [
+        "cdk",
+        "sst",
+        "iac"
+      ]
+    },
+    {
+      "id": "item-027-05",
+      "kind": "project",
+      "text": "ServerlessURL: scalable URL shortener with click analytics built on Lambda, DynamoDB and CloudFront",
+      "tags": [
+        "serverless",
+        "aws",
+        "project"
+      ]
+    },
+    {
+      "id": "item-027-06",
+      "kind": "education",
+      "text": "B.Tech IT, Jaypee Institute of Information Technology (JIIT), Noida, 2022\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-027-07",
+      "kind": "skill",
+      "text": "AWS S3 & CloudFront: configured authenticated upload presigned URLs and static assets delivery",
+      "tags": [
+        "s3",
+        "cloudfront",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-027-08",
+      "kind": "skill",
+      "text": "Flutter UI design: designed mobile counter app",
+      "tags": [
+        "flutter",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-027-09",
+      "kind": "work",
+      "text": "Cloud Intern at CloudServe (Noida, 4 months): maintained customer notification Lambda functions",
+      "tags": [
+        "internship",
+        "cloud",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-027-10",
+      "kind": "skill",
+      "text": "Automated CI Deployments: configured GitHub Actions pipeline running CDK diff and deploy",
+      "tags": [
+        "ci-cd",
+        "github-actions"
+      ]
+    },
+    {
+      "id": "item-027-11",
+      "kind": "skill",
+      "text": "Adobe InDesign: prepared college magazine layout",
+      "tags": [
+        "indesign",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-027-12",
+      "kind": "skill",
+      "text": "CloudWatch Monitoring: set up metric alarms for 5xx error spikes and Lambda execution timeouts",
+      "tags": [
+        "cloudwatch",
+        "monitoring",
+        "aws"
+      ]
+    }
+  ],
+  "labels": {
+    "item-027-01": true,
+    "item-027-02": true,
+    "item-027-03": true,
+    "item-027-04": true,
+    "item-027-05": true,
+    "item-027-06": true,
+    "item-027-07": true,
+    "item-027-08": false,
+    "item-027-09": true,
+    "item-027-10": true,
+    "item-027-11": false,
+    "item-027-12": true
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "pair-022",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Backend Software Engineer - Go / Golang",
+    "description": "HyperScale Networks in Pune builds high-throughput networking proxies and cloud services. We seek a Fresher or Junior Go Engineer with a solid foundation in Goroutines, channels, pointers, HTTP net/http, and microservices architectures. Prior experience with Docker and gRPC is a big plus."
+  },
+  "pool": [
+    {
+      "id": "item-022-01",
+      "kind": "skill",
+      "text": "Go (Golang) Concurrency: proficient with Goroutines, sync.WaitGroup, channels, and context cancellation",
+      "tags": [
+        "golang",
+        "concurrency",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-022-02",
+      "kind": "skill",
+      "text": "REST & net/http: built clean REST services with standard library and Chi router with middleware chains",
+      "tags": [
+        "golang",
+        "http",
+        "rest"
+      ]
+    },
+    {
+      "id": "item-022-03",
+      "kind": "skill",
+      "text": "gRPC & Protocol Buffers: defined .proto contracts, generated Go stubs, and wrote bidirectional streaming services",
+      "tags": [
+        "grpc",
+        "protobuf",
+        "golang"
+      ]
+    },
+    {
+      "id": "item-022-04",
+      "kind": "skill",
+      "text": "PostgreSQL & pgx: executed efficient queries with connection pooling and transaction rollbacks",
+      "tags": [
+        "postgres",
+        "golang",
+        "database"
+      ]
+    },
+    {
+      "id": "item-022-05",
+      "kind": "project",
+      "text": "GoProxy: lightweight reverse proxy and load balancer supporting round-robin and active health checks",
+      "tags": [
+        "golang",
+        "networking",
+        "project"
+      ]
+    },
+    {
+      "id": "item-022-06",
+      "kind": "education",
+      "text": "B.E. Computer Engineering, COEP Pune, 2022\u20132026, CGPA 8.9/10",
+      "tags": [
+        "education",
+        "coep"
+      ]
+    },
+    {
+      "id": "item-022-07",
+      "kind": "skill",
+      "text": "Go Unit Testing: wrote table-driven tests and benchmarked CPU/memory allocations using testing.B",
+      "tags": [
+        "testing",
+        "golang",
+        "benchmarking"
+      ]
+    },
+    {
+      "id": "item-022-08",
+      "kind": "skill",
+      "text": "Graphic Design: created club newsletter graphics using Canva and Illustrator",
+      "tags": [
+        "canva",
+        "design"
+      ]
+    },
+    {
+      "id": "item-022-09",
+      "kind": "work",
+      "text": "Systems Intern at CloudKite (Pune, 3 months): implemented gRPC health check probe service in Go",
+      "tags": [
+        "internship",
+        "golang",
+        "systems"
+      ]
+    },
+    {
+      "id": "item-022-10",
+      "kind": "skill",
+      "text": "Docker: built minimal multi-stage scratch containers with binary size under 15MB",
+      "tags": [
+        "docker",
+        "containers"
+      ]
+    },
+    {
+      "id": "item-022-11",
+      "kind": "skill",
+      "text": "Angular Material UI: built sample employee form",
+      "tags": [
+        "angular",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-022-12",
+      "kind": "skill",
+      "text": "Git & Linux tooling: proficient with Bash scripting, makefiles, and SSH remote debugging",
+      "tags": [
+        "linux",
+        "git",
+        "bash"
+      ]
+    }
+  ],
+  "labels": {
+    "item-022-01": true,
+    "item-022-02": true,
+    "item-022-03": true,
+    "item-022-04": true,
+    "item-022-05": true,
+    "item-022-06": true,
+    "item-022-07": true,
+    "item-022-08": false,
+    "item-022-09": true,
+    "item-022-10": true,
+    "item-022-11": false,
+    "item-022-12": true
+  }
+}

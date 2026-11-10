@@ -1,0 +1,138 @@
+{
+  "id": "pair-047",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate Technical Consultant / Solutions Engineer",
+    "description": "TechPartner Global in Hyderabad is recruiting Associate Technical Consultants. The position involves understanding client business requirements, building proof-of-concept software solutions, integrating third-party APIs, and communicating technical concepts clearly."
+  },
+  "pool": [
+    {
+      "id": "item-047-01",
+      "kind": "skill",
+      "text": "Technical Communication: authored detailed architectural diagrams, API guides, and client documentation",
+      "tags": [
+        "communication",
+        "documentation",
+        "consulting"
+      ]
+    },
+    {
+      "id": "item-047-02",
+      "kind": "skill",
+      "text": "REST API Integrations: connected and tested diverse third-party APIs (Stripe, Twilio, SendGrid) with Postman",
+      "tags": [
+        "api-integration",
+        "rest",
+        "postman"
+      ]
+    },
+    {
+      "id": "item-047-03",
+      "kind": "skill",
+      "text": "Rapid Prototyping (Python & Node.js): built functional proof-of-concept applications within tight deadlines",
+      "tags": [
+        "prototyping",
+        "python",
+        "nodejs"
+      ]
+    },
+    {
+      "id": "item-047-04",
+      "kind": "skill",
+      "text": "Database Querying: wrote analytical SQL queries to extract data insights for stakeholder presentations",
+      "tags": [
+        "sql",
+        "analytics"
+      ]
+    },
+    {
+      "id": "item-047-05",
+      "kind": "project",
+      "text": "OmniAuthHub: universal OAuth2 integration proof-of-concept demonstrating Google and GitHub single sign-on",
+      "tags": [
+        "oauth",
+        "auth",
+        "poc"
+      ]
+    },
+    {
+      "id": "item-047-06",
+      "kind": "education",
+      "text": "B.Tech IT, JNTU Hyderabad, 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-047-07",
+      "kind": "skill",
+      "text": "Problem Solving: diagnosed client software configuration issues and provided actionable resolutions",
+      "tags": [
+        "problem-solving",
+        "troubleshooting"
+      ]
+    },
+    {
+      "id": "item-047-08",
+      "kind": "skill",
+      "text": "Embedded C: programmed microcontrollers for college electronics lab",
+      "tags": [
+        "embedded-c",
+        "hardware"
+      ]
+    },
+    {
+      "id": "item-047-09",
+      "kind": "work",
+      "text": "Solutions Engineering Intern at CloudServe (Hyderabad, 4 months): created 8 integration demo walk-throughs",
+      "tags": [
+        "internship",
+        "solutions",
+        "consulting"
+      ]
+    },
+    {
+      "id": "item-047-10",
+      "kind": "skill",
+      "text": "Git & Technical Documentation: maintained client-facing Markdown documentation and READMEs",
+      "tags": [
+        "git",
+        "documentation"
+      ]
+    },
+    {
+      "id": "item-047-11",
+      "kind": "skill",
+      "text": "Sound Design: mixed audio tracks for college dance competition",
+      "tags": [
+        "audio",
+        "music"
+      ]
+    },
+    {
+      "id": "item-047-12",
+      "kind": "skill",
+      "text": "JSON / XML Data Transformation: parsed and converted legacy XML payloads into modern JSON schemas",
+      "tags": [
+        "json",
+        "xml",
+        "data"
+      ]
+    }
+  ],
+  "labels": {
+    "item-047-01": true,
+    "item-047-02": true,
+    "item-047-03": true,
+    "item-047-04": true,
+    "item-047-05": true,
+    "item-047-06": true,
+    "item-047-07": true,
+    "item-047-08": false,
+    "item-047-09": true,
+    "item-047-10": true,
+    "item-047-11": false,
+    "item-047-12": true
+  }
+}

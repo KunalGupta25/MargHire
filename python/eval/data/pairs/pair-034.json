@@ -1,0 +1,137 @@
+{
+  "id": "pair-034",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Machine Learning Engineer (Recommendation Systems)",
+    "description": "ShopSmart Technologies (Mumbai) runs an e-commerce intelligence platform. We are seeking a Junior ML Engineer to build personalized recommendation pipelines using collaborative filtering, two-tower models, implicit feedback, and Redis feature stores."
+  },
+  "pool": [
+    {
+      "id": "item-034-01",
+      "kind": "skill",
+      "text": "Recommendation Algorithms: matrix factorization, ALS, collaborative filtering, and Two-Tower neural models",
+      "tags": [
+        "recommendations",
+        "recsys",
+        "ml"
+      ]
+    },
+    {
+      "id": "item-034-02",
+      "kind": "skill",
+      "text": "TensorFlow / PyTorch for RecSys: built deep ranking and candidate retrieval models using PyTorch",
+      "tags": [
+        "pytorch",
+        "recsys"
+      ]
+    },
+    {
+      "id": "item-034-03",
+      "kind": "skill",
+      "text": "Feature Store & Redis: served low-latency user embeddings and item feature vectors from Redis",
+      "tags": [
+        "redis",
+        "feature-store"
+      ]
+    },
+    {
+      "id": "item-034-04",
+      "kind": "skill",
+      "text": "Ranking Evaluation Metrics: evaluated Hit Rate@K, NDCG@K, MRR, and Precision@K",
+      "tags": [
+        "metrics",
+        "recsys",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "item-034-05",
+      "kind": "project",
+      "text": "BookMatch: personalized reading recommendation engine utilizing implicit user click logs and embeddings",
+      "tags": [
+        "recsys",
+        "pytorch",
+        "project"
+      ]
+    },
+    {
+      "id": "item-034-06",
+      "kind": "education",
+      "text": "B.E. Computer Science, Mumbai University (SPIT), 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education",
+        "spit"
+      ]
+    },
+    {
+      "id": "item-034-07",
+      "kind": "skill",
+      "text": "Data Pipeline with Spark / PySpark: executed distributed matrix transformations on user transaction data",
+      "tags": [
+        "pyspark",
+        "big-data"
+      ]
+    },
+    {
+      "id": "item-034-08",
+      "kind": "skill",
+      "text": "React frontend: built a calculator using Vite and JavaScript",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-034-09",
+      "kind": "work",
+      "text": "Data Science Intern at RetailAI (Mumbai, 3 months): optimized cross-sell product suggestions module",
+      "tags": [
+        "internship",
+        "recsys",
+        "ecommerce"
+      ]
+    },
+    {
+      "id": "item-034-10",
+      "kind": "skill",
+      "text": "Python & Scikit-learn: created baseline models and preprocessing transformers",
+      "tags": [
+        "python",
+        "scikit-learn"
+      ]
+    },
+    {
+      "id": "item-034-11",
+      "kind": "skill",
+      "text": "Graphic Design: designed college fest mascot in Adobe Illustrator",
+      "tags": [
+        "illustrator",
+        "design"
+      ]
+    },
+    {
+      "id": "item-034-12",
+      "kind": "skill",
+      "text": "A/B Testing Methodology: statistical hypothesis testing, sample size calculation, and p-value validation",
+      "tags": [
+        "ab-testing",
+        "statistics"
+      ]
+    }
+  ],
+  "labels": {
+    "item-034-01": true,
+    "item-034-02": true,
+    "item-034-03": true,
+    "item-034-04": true,
+    "item-034-05": true,
+    "item-034-06": true,
+    "item-034-07": true,
+    "item-034-08": false,
+    "item-034-09": true,
+    "item-034-10": true,
+    "item-034-11": false,
+    "item-034-12": true
+  }
+}

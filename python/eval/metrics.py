@@ -74,21 +74,41 @@ def aggregate(
 
     Args:
         pairs: All pairs that were evaluated.
-        results: One AdapterResult per pair (shuffle_index == 0 for the primary run).
+        results: Adapter outputs for the primary and optional shuffled runs.
         adapter_name: Name of the adapter being aggregated.
 
     Returns:
         HarnessResult with macro-averaged metrics.
     """
     pair_map = {p.id: p for p in pairs}
-    primary = [r for r in results if r.adapter_name == adapter_name and r.shuffle_index == 0]
+    primary = [
+        r
+        for r in results
+        if r.adapter_name == adapter_name
+        and r.shuffle_index == 0
+        and r.pair_id in pair_map
+    ]
 
     per_pair: list[PairMetrics] = []
+    order_differences: list[float] = []
     for result in primary:
         pair = pair_map.get(result.pair_id)
         if pair is None:
             continue
-        per_pair.append(pair_metrics(pair, result))
+        metrics = pair_metrics(pair, result)
+        variants = [
+            other
+            for other in results
+            if other.adapter_name == adapter_name
+            and other.pair_id == result.pair_id
+            and other.shuffle_index != result.shuffle_index
+        ]
+        if variants:
+            metrics.order_changed = statistics.mean(
+                order_sensitivity(result, other) for other in variants
+            )
+            order_differences.append(metrics.order_changed)
+        per_pair.append(metrics)
 
     if not per_pair:
         return HarnessResult(
@@ -100,10 +120,11 @@ def aggregate(
             median_latency_s=None,
             total_cost_usd=None,
             per_pair=[],
+            mean_order_sensitivity=None,
         )
 
     latencies = [r.latency_s for r in primary if r.latency_s is not None]
-    costs = [r.cost_usd for r in primary if r.cost_usd is not None]
+    costs = [r.cost_usd for r in primary]
 
     return HarnessResult(
         adapter_name=adapter_name,
@@ -112,6 +133,13 @@ def aggregate(
         macro_recall=statistics.mean(m.recall for m in per_pair),
         macro_f1=statistics.mean(m.f1 for m in per_pair),
         median_latency_s=statistics.median(latencies) if latencies else None,
-        total_cost_usd=sum(costs) if costs else None,
+        total_cost_usd=(
+            sum(cost for cost in costs if cost is not None)
+            if costs and all(cost is not None for cost in costs)
+            else None
+        ),
         per_pair=per_pair,
+        mean_order_sensitivity=(
+            statistics.mean(order_differences) if order_differences else None
+        ),
     )

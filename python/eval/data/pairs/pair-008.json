@@ -1,0 +1,41 @@
+{
+  "id": "pair-008",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "UX/UI Designer – EdTech (Service Company)",
+    "description": "EduMatrix Solutions is a Hyderabad IT services firm delivering EdTech platforms for university clients. We are hiring a UX/UI Designer to work on student portals, LMS dashboards, and faculty-facing admin tools. You will gather requirements from client stakeholders, produce wireframes and prototypes, and ensure timely delivery in Agile sprints. Experience with both B2C (student-facing) and B2B (admin) UX is preferred. Candidates with prior IT-services or consulting experience will be prioritised."
+  },
+  "pool": [
+    {"id": "item-008-01", "kind": "skill", "text": "Figma: delivered 12 feature modules across 3 LMS projects — student dashboard, quiz builder, and gradebook admin — with shared component library", "tags": ["figma", "lms", "edtech"]},
+    {"id": "item-008-02", "kind": "work", "text": "UX Designer at Infovision Consulting (Chennai, 1.5 years): designed client-facing EdTech portals for 4 university accounts, managed stakeholder reviews and UAT sign-offs", "tags": ["work", "edtech", "it-services", "ux"]},
+    {"id": "item-008-03", "kind": "skill", "text": "Requirements gathering: facilitated 20+ discovery workshops with client stakeholders using structured interview templates and affinity mapping", "tags": ["requirements-gathering", "stakeholder-management"]},
+    {"id": "item-008-04", "kind": "project", "text": "LearnPath LMS redesign: led UX overhaul for a university's course portal — increased student portal session duration by 22% per client analytics post-launch", "tags": ["lms", "redesign", "edtech", "ux"]},
+    {"id": "item-008-05", "kind": "skill", "text": "Responsive web design: produced desktop, tablet and mobile breakpoint comps for all portal screens; ensured parity with HTML/CSS developer handoffs", "tags": ["responsive-design", "figma", "web"]},
+    {"id": "item-008-06", "kind": "skill", "text": "Agile/Scrum: participated in sprint planning, story pointing, and retrospectives; managed own design tasks in Jira with two-week sprints", "tags": ["agile", "scrum", "jira"]},
+    {"id": "item-008-07", "kind": "education", "text": "B.Tech Electronics and Communication, Osmania University, 2019–2023, CGPA 7.6/10", "tags": ["education", "ece"]},
+    {"id": "item-008-08", "kind": "skill", "text": "Zeplin: used for design handoff on legacy React projects before team migrated to Figma Dev Mode", "tags": ["zeplin", "handoff"]},
+    {"id": "item-008-09", "kind": "skill", "text": "Accessibility: applied WCAG 2.1 guidelines during UAT phase; fixed 14 contrast and focus-order issues flagged by screen-reader QA", "tags": ["accessibility", "wcag"]},
+    {"id": "item-008-10", "kind": "skill", "text": "VXLAN and SDN networking: studied as part of ECE elective; not relevant to design work", "tags": ["networking", "sdn"]},
+    {"id": "item-008-11", "kind": "skill", "text": "InVision: prototyped click-through flows for client demos before Figma adoption", "tags": ["invision", "prototyping"]},
+    {"id": "item-008-12", "kind": "project", "text": "FacultyHub: admin portal UI for assignment grading and attendance — data-dense tables, filter panels, and bulk-action patterns designed in Figma with keyboard-first navigation", "tags": ["admin-ui", "edtech", "figma", "accessibility"]},
+    {"id": "item-008-13", "kind": "certification", "text": "Interaction Design Foundation UX Management Certificate, 2024", "tags": ["certification", "ux-management"]},
+    {"id": "item-008-14", "kind": "skill", "text": "Verilog RTL design: implemented a 4-bit ALU for digital electronics lab assignment", "tags": ["verilog", "rtl", "hardware"]}
+  ],
+  "labels": {
+    "item-008-01": true,
+    "item-008-02": true,
+    "item-008-03": true,
+    "item-008-04": true,
+    "item-008-05": true,
+    "item-008-06": true,
+    "item-008-07": true,
+    "item-008-08": true,
+    "item-008-09": true,
+    "item-008-10": false,
+    "item-008-11": true,
+    "item-008-12": true,
+    "item-008-13": true,
+    "item-008-14": false
+  }
+}

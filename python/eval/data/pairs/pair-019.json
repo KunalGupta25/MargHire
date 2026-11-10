@@ -1,0 +1,140 @@
+{
+  "id": "pair-019",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Backend Developer (Node.js & Express)",
+    "description": "PayQuick Technologies is a fintech startup based in Bengaluru. We are seeking a Junior Backend Developer to design and maintain high-throughput REST APIs, handle database transactions with PostgreSQL, and implement secure JWT authentication. Familiarity with Redis caching and Docker is required."
+  },
+  "pool": [
+    {
+      "id": "item-019-01",
+      "kind": "skill",
+      "text": "Node.js & Express: architected modular REST APIs with controllers, services, and middlewares",
+      "tags": [
+        "nodejs",
+        "express",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-019-02",
+      "kind": "skill",
+      "text": "PostgreSQL & Prisma: executed ACID transactions, wrote complex joins, and managed migrations",
+      "tags": [
+        "postgres",
+        "sql",
+        "prisma"
+      ]
+    },
+    {
+      "id": "item-019-03",
+      "kind": "skill",
+      "text": "Redis: implemented rate-limiting middleware and cached frequent read queries for 10x latency drop",
+      "tags": [
+        "redis",
+        "caching",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-019-04",
+      "kind": "skill",
+      "text": "JWT & Bcrypt: built secure authentication and refresh token rotation with HTTP-only cookies",
+      "tags": [
+        "security",
+        "auth",
+        "jwt"
+      ]
+    },
+    {
+      "id": "item-019-05",
+      "kind": "project",
+      "text": "SplitPay: peer-to-peer expense splitting backend with ledger balance consistency and debt simplification",
+      "tags": [
+        "nodejs",
+        "postgres",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-019-06",
+      "kind": "education",
+      "text": "B.Tech in Computer Science, RV College of Engineering, Bengaluru, 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education",
+        "cs"
+      ]
+    },
+    {
+      "id": "item-019-07",
+      "kind": "skill",
+      "text": "Docker: containerized Node.js services and PostgreSQL for reproducible local and staging setups",
+      "tags": [
+        "docker",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-019-08",
+      "kind": "skill",
+      "text": "Figma wireframing: designed mobile UI layouts for college sports fest",
+      "tags": [
+        "figma",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-019-09",
+      "kind": "work",
+      "text": "Backend Intern at PayRoute (Bengaluru, 4 months): developed payment webhook handlers with retries",
+      "tags": [
+        "internship",
+        "backend",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-019-10",
+      "kind": "skill",
+      "text": "Unit & Integration Testing: wrote 45+ test cases using Vitest and Supertest against live test DB",
+      "tags": [
+        "testing",
+        "vitest",
+        "api"
+      ]
+    },
+    {
+      "id": "item-019-11",
+      "kind": "skill",
+      "text": "CSS Animations: created 3D transform card hover effects",
+      "tags": [
+        "css",
+        "animation"
+      ]
+    },
+    {
+      "id": "item-019-12",
+      "kind": "skill",
+      "text": "Git & GitHub: maintained clean commit history and authored comprehensive pull request notes",
+      "tags": [
+        "git",
+        "github"
+      ]
+    }
+  ],
+  "labels": {
+    "item-019-01": true,
+    "item-019-02": true,
+    "item-019-03": true,
+    "item-019-04": true,
+    "item-019-05": true,
+    "item-019-06": true,
+    "item-019-07": true,
+    "item-019-08": false,
+    "item-019-09": true,
+    "item-019-10": true,
+    "item-019-11": false,
+    "item-019-12": true
+  }
+}

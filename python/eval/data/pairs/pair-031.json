@@ -1,0 +1,139 @@
+{
+  "id": "pair-031",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior GenAI & LLM Application Engineer",
+    "description": "NextGen Intelligence (Bengaluru) develops enterprise search and conversational agents. We need a Junior GenAI Engineer with hands-on experience in LangChain / LlamaIndex, vector databases (Chroma, Qdrant, Pinecone), RAG architectures, and OpenAI / Anthropic APIs."
+  },
+  "pool": [
+    {
+      "id": "item-031-01",
+      "kind": "skill",
+      "text": "RAG Architecture: built Retrieval-Augmented Generation pipelines with hybrid dense/sparse retrieval",
+      "tags": [
+        "rag",
+        "llm",
+        "search"
+      ]
+    },
+    {
+      "id": "item-031-02",
+      "kind": "skill",
+      "text": "Vector Databases: designed schemas and indexed embeddings in ChromaDB, Qdrant, and pgvector",
+      "tags": [
+        "vector-database",
+        "qdrant",
+        "embeddings"
+      ]
+    },
+    {
+      "id": "item-031-03",
+      "kind": "skill",
+      "text": "Prompt Engineering: crafted structured prompts, few-shot examples, and strict JSON output parsing",
+      "tags": [
+        "prompt-engineering",
+        "llm"
+      ]
+    },
+    {
+      "id": "item-031-04",
+      "kind": "skill",
+      "text": "LlamaIndex & LangChain: constructed document loaders, recursive text chunkers, and query engines",
+      "tags": [
+        "llamaindex",
+        "langchain",
+        "genai"
+      ]
+    },
+    {
+      "id": "item-031-05",
+      "kind": "project",
+      "text": "EnterpriseDocSearch: semantic search and question-answering tool over 200 PDF manuals using pgvector",
+      "tags": [
+        "rag",
+        "genai",
+        "llm",
+        "project"
+      ]
+    },
+    {
+      "id": "item-031-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, PES University, Bengaluru, 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-031-07",
+      "kind": "skill",
+      "text": "Embedding Models: benchmarked BGE, sentence-transformers, and OpenAI text-embedding-3 on domain data",
+      "tags": [
+        "embeddings",
+        "nlp"
+      ]
+    },
+    {
+      "id": "item-031-08",
+      "kind": "skill",
+      "text": "Android Java: built simple flashlight app with Android SDK",
+      "tags": [
+        "android",
+        "java"
+      ]
+    },
+    {
+      "id": "item-031-09",
+      "kind": "work",
+      "text": "GenAI Intern at CogentAI (Bengaluru, 4 months): developed RAG evaluation benchmark using RAGAS framework",
+      "tags": [
+        "internship",
+        "genai",
+        "rag"
+      ]
+    },
+    {
+      "id": "item-031-10",
+      "kind": "skill",
+      "text": "Python & FastAPI: exposed conversational streaming endpoints with Server-Sent Events (SSE)",
+      "tags": [
+        "fastapi",
+        "sse",
+        "python"
+      ]
+    },
+    {
+      "id": "item-031-11",
+      "kind": "skill",
+      "text": "Photoshop: designed club banners for tech symposium",
+      "tags": [
+        "photoshop",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-031-12",
+      "kind": "skill",
+      "text": "RAG Evaluation (RAGAS): evaluated context precision, context recall, and faithfulness metrics",
+      "tags": [
+        "ragas",
+        "evaluation"
+      ]
+    }
+  ],
+  "labels": {
+    "item-031-01": true,
+    "item-031-02": true,
+    "item-031-03": true,
+    "item-031-04": true,
+    "item-031-05": true,
+    "item-031-06": true,
+    "item-031-07": true,
+    "item-031-08": false,
+    "item-031-09": true,
+    "item-031-10": true,
+    "item-031-11": false,
+    "item-031-12": true
+  }
+}

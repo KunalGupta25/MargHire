@@ -1,0 +1,137 @@
+{
+  "id": "pair-040",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Cloud Support & Linux Engineer",
+    "description": "HostGlobal Services in Chennai provides 24/7 cloud support and infrastructure management. We are hiring a Fresher/Junior Cloud Support Engineer. You should have strong Linux administration skills, understanding of Apache/Nginx web servers, DNS troubleshooting, and AWS/Azure basics."
+  },
+  "pool": [
+    {
+      "id": "item-040-01",
+      "kind": "skill",
+      "text": "Linux System Administration: managed file permissions, systemd services, cron jobs, and SSH keys",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "ubuntu"
+      ]
+    },
+    {
+      "id": "item-040-02",
+      "kind": "skill",
+      "text": "Web Server Configuration (Nginx / Apache): configured reverse proxies, virtual hosts, and gzip compression",
+      "tags": [
+        "nginx",
+        "apache",
+        "web-server"
+      ]
+    },
+    {
+      "id": "item-040-03",
+      "kind": "skill",
+      "text": "DNS & Domain Management: created and verified A, CNAME, MX, and TXT records with dig and nslookup",
+      "tags": [
+        "dns",
+        "networking"
+      ]
+    },
+    {
+      "id": "item-040-04",
+      "kind": "skill",
+      "text": "Cloud Computing Fundamentals: managed AWS EC2 instances, EBS volumes, and security group rules",
+      "tags": [
+        "aws",
+        "ec2",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-040-05",
+      "kind": "project",
+      "text": "AutoSysAdmin: suite of Bash scripts for automated server backups, disk space alerts, and log rotation",
+      "tags": [
+        "bash",
+        "linux",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-040-06",
+      "kind": "education",
+      "text": "B.Sc. Computer Technology, Loyola College, Chennai, 2023\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-040-07",
+      "kind": "skill",
+      "text": "Troubleshooting Methodology: systematic approach to reading system logs (journalctl, syslog, dmesg)",
+      "tags": [
+        "troubleshooting",
+        "linux"
+      ]
+    },
+    {
+      "id": "item-040-08",
+      "kind": "skill",
+      "text": "React JSX: built a tic-tac-toe game",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-040-09",
+      "kind": "work",
+      "text": "Technical Support Intern at ITCare (Chennai, 4 months): resolved 150+ tickets on hosting and SSL setup",
+      "tags": [
+        "internship",
+        "support",
+        "sysadmin"
+      ]
+    },
+    {
+      "id": "item-040-10",
+      "kind": "skill",
+      "text": "Bash Shell Scripting: automated routine maintenance tasks with error checking and exit codes",
+      "tags": [
+        "bash",
+        "scripting"
+      ]
+    },
+    {
+      "id": "item-040-11",
+      "kind": "skill",
+      "text": "Figma wireframes: designed a food app screen",
+      "tags": [
+        "figma",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-040-12",
+      "kind": "skill",
+      "text": "SSL / TLS Certificates: generated CSRs, installed certificates, and configured auto-renewals with Certbot",
+      "tags": [
+        "ssl",
+        "security"
+      ]
+    }
+  ],
+  "labels": {
+    "item-040-01": true,
+    "item-040-02": true,
+    "item-040-03": true,
+    "item-040-04": true,
+    "item-040-05": true,
+    "item-040-06": true,
+    "item-040-07": true,
+    "item-040-08": false,
+    "item-040-09": true,
+    "item-040-10": true,
+    "item-040-11": false,
+    "item-040-12": true
+  }
+}

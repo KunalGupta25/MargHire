@@ -1,0 +1,138 @@
+{
+  "id": "pair-024",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Backend Engineer (Node.js & Microservices)",
+    "description": "OmniDelivery (Bengaluru) powers hyper-local delivery across 15 Indian cities. We need a Backend Engineer for our order fulfillment team. The role focuses on Node.js/TypeScript, Apache Kafka event streams, Redis distributed locks, and clean architecture."
+  },
+  "pool": [
+    {
+      "id": "item-024-01",
+      "kind": "skill",
+      "text": "Node.js & TypeScript: designed event-driven microservices with dependency injection and clean architecture",
+      "tags": [
+        "nodejs",
+        "typescript",
+        "microservices"
+      ]
+    },
+    {
+      "id": "item-024-02",
+      "kind": "skill",
+      "text": "Apache Kafka: built producers, consumer groups, handled offset commits, and managed dead-letter queues",
+      "tags": [
+        "kafka",
+        "messaging",
+        "event-driven"
+      ]
+    },
+    {
+      "id": "item-024-03",
+      "kind": "skill",
+      "text": "Redis Distributed Locks: implemented Redlock algorithm to avoid double-allocation race conditions",
+      "tags": [
+        "redis",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": "item-024-04",
+      "kind": "skill",
+      "text": "PostgreSQL: managed pessimistic row-locking (FOR UPDATE) for concurrent inventory reservations",
+      "tags": [
+        "postgres",
+        "transactions",
+        "concurrency"
+      ]
+    },
+    {
+      "id": "item-024-05",
+      "kind": "project",
+      "text": "OrderStream: event-driven order processing prototype demonstrating saga pattern rollbacks in Node.js",
+      "tags": [
+        "nodejs",
+        "kafka",
+        "microservices"
+      ]
+    },
+    {
+      "id": "item-024-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, PES University, Bengaluru, 2022\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-024-07",
+      "kind": "skill",
+      "text": "Docker & Kubernetes: deployed multi-service compose stacks and wrote basic Kubernetes manifests",
+      "tags": [
+        "docker",
+        "kubernetes"
+      ]
+    },
+    {
+      "id": "item-024-08",
+      "kind": "skill",
+      "text": "React Native: developed simple calculator mobile app",
+      "tags": [
+        "react-native",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-024-09",
+      "kind": "work",
+      "text": "Backend Intern at SpeedyCart (Bengaluru, 6 months): maintained rider assignment notification pipeline",
+      "tags": [
+        "internship",
+        "backend",
+        "scale"
+      ]
+    },
+    {
+      "id": "item-024-10",
+      "kind": "skill",
+      "text": "Prometheus & Grafana: instrumented HTTP request metrics and visualized 95th percentile latencies",
+      "tags": [
+        "prometheus",
+        "grafana",
+        "observability"
+      ]
+    },
+    {
+      "id": "item-024-11",
+      "kind": "skill",
+      "text": "UI Design: created social media carousels in Figma",
+      "tags": [
+        "figma",
+        "social-media"
+      ]
+    },
+    {
+      "id": "item-024-12",
+      "kind": "skill",
+      "text": "Jest & Testcontainers: ran integration tests against ephemeral Kafka and Postgres containers in CI",
+      "tags": [
+        "testing",
+        "testcontainers"
+      ]
+    }
+  ],
+  "labels": {
+    "item-024-01": true,
+    "item-024-02": true,
+    "item-024-03": true,
+    "item-024-04": true,
+    "item-024-05": true,
+    "item-024-06": true,
+    "item-024-07": true,
+    "item-024-08": false,
+    "item-024-09": true,
+    "item-024-10": true,
+    "item-024-11": false,
+    "item-024-12": true
+  }
+}

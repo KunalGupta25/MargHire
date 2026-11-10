@@ -1,0 +1,140 @@
+{
+  "id": "pair-048",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Developer - Product Engineering (Frontend & Mobile)",
+    "description": "AppCrafters in Chennai creates consumer mobile and web applications for retail brands. We are seeking a Junior Developer skilled in React, React Native / Flutter, mobile responsiveness, and client-side performance optimization."
+  },
+  "pool": [
+    {
+      "id": "item-048-01",
+      "kind": "skill",
+      "text": "React & React Native: built cross-platform mobile screens and web apps sharing business logic",
+      "tags": [
+        "react",
+        "react-native",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-048-02",
+      "kind": "skill",
+      "text": "Mobile Responsiveness: optimized layouts for various phone screen ratios and viewport breakpoints",
+      "tags": [
+        "responsive",
+        "mobile",
+        "css"
+      ]
+    },
+    {
+      "id": "item-048-03",
+      "kind": "skill",
+      "text": "TypeScript: maintained strong typing across state stores, API services, and navigation params",
+      "tags": [
+        "typescript",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-048-04",
+      "kind": "skill",
+      "text": "Client Performance: minimized re-renders using useMemo, useCallback, and memoized list items",
+      "tags": [
+        "performance",
+        "react",
+        "react-native"
+      ]
+    },
+    {
+      "id": "item-048-05",
+      "kind": "project",
+      "text": "QuickShop: responsive grocery ordering app built with React Native and React web companion",
+      "tags": [
+        "react-native",
+        "mobile",
+        "project"
+      ]
+    },
+    {
+      "id": "item-048-06",
+      "kind": "education",
+      "text": "B.E. Computer Science, Anna University (CEG), Chennai, 2022\u20132026, CGPA 8.4/10",
+      "tags": [
+        "education",
+        "ceg"
+      ]
+    },
+    {
+      "id": "item-048-07",
+      "kind": "skill",
+      "text": "State Management (Zustand): lightweight global store handling offline persistent cart data",
+      "tags": [
+        "zustand",
+        "state-management"
+      ]
+    },
+    {
+      "id": "item-048-08",
+      "kind": "skill",
+      "text": "Kubernetes Helm charts: authored charts for deploying scalable Redis clusters",
+      "tags": [
+        "kubernetes",
+        "helm"
+      ]
+    },
+    {
+      "id": "item-048-09",
+      "kind": "work",
+      "text": "Mobile App Intern at RetailApps (Chennai, 3 months): developed product detail and review list screens",
+      "tags": [
+        "internship",
+        "mobile",
+        "react-native"
+      ]
+    },
+    {
+      "id": "item-048-10",
+      "kind": "skill",
+      "text": "REST API Integration: handled network offline states, retry logic, and JSON payload parsing",
+      "tags": [
+        "rest",
+        "api",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-048-11",
+      "kind": "skill",
+      "text": "PyTorch NLP: trained text classification model on movie reviews",
+      "tags": [
+        "nlp",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "item-048-12",
+      "kind": "skill",
+      "text": "UI Component Styling: styled custom buttons, modals, and navigation headers without bulky UI libraries",
+      "tags": [
+        "ui",
+        "styling",
+        "mobile"
+      ]
+    }
+  ],
+  "labels": {
+    "item-048-01": true,
+    "item-048-02": true,
+    "item-048-03": true,
+    "item-048-04": true,
+    "item-048-05": true,
+    "item-048-06": true,
+    "item-048-07": true,
+    "item-048-08": false,
+    "item-048-09": true,
+    "item-048-10": true,
+    "item-048-11": false,
+    "item-048-12": true
+  }
+}

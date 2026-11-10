@@ -1,0 +1,135 @@
+{
+  "id": "pair-017",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior React & GraphQL Developer",
+    "description": "StreamPulse (Bengaluru) develops developer productivity tools. We need a Junior Frontend Developer with practical knowledge of React, Apollo Client / GraphQL queries, and state normalization. You will help build our analytics dashboard querying distributed GraphQL endpoints."
+  },
+  "pool": [
+    {
+      "id": "item-017-01",
+      "kind": "skill",
+      "text": "React & Hooks: built high-performance data tables with virtual scrolling (TanStack Virtual)",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-017-02",
+      "kind": "skill",
+      "text": "GraphQL & Apollo Client: authored queries, mutations, fragment colocation, and cache updates",
+      "tags": [
+        "graphql",
+        "apollo",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-017-03",
+      "kind": "skill",
+      "text": "TypeScript: typed GraphQL queries using GraphQL Code Generator for full end-to-end type safety",
+      "tags": [
+        "typescript",
+        "graphql-codegen"
+      ]
+    },
+    {
+      "id": "item-017-04",
+      "kind": "skill",
+      "text": "Tailwind CSS: styled interactive charting components with responsive container queries",
+      "tags": [
+        "tailwind",
+        "css"
+      ]
+    },
+    {
+      "id": "item-017-05",
+      "kind": "project",
+      "text": "GraphMetrics: full-stack developer metrics dashboard querying GitHub GraphQL API with Apollo Client",
+      "tags": [
+        "graphql",
+        "react",
+        "dashboard"
+      ]
+    },
+    {
+      "id": "item-017-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, Manipal Institute of Technology, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-017-07",
+      "kind": "skill",
+      "text": "Chart.js & Recharts: rendered interactive line charts, heatmaps, and distribution histograms",
+      "tags": [
+        "charts",
+        "dataviz",
+        "react"
+      ]
+    },
+    {
+      "id": "item-017-08",
+      "kind": "skill",
+      "text": "Terraform infrastructure as code: provisioned AWS VPC and security groups",
+      "tags": [
+        "terraform",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-017-09",
+      "kind": "work",
+      "text": "Frontend Intern at CloudScale (Bengaluru, 3 months): developed metric card components in React",
+      "tags": [
+        "internship",
+        "react"
+      ]
+    },
+    {
+      "id": "item-017-10",
+      "kind": "skill",
+      "text": "WebSockets: integrated real-time server events for live notification bell and toaster alerts",
+      "tags": [
+        "websockets",
+        "realtime"
+      ]
+    },
+    {
+      "id": "item-017-11",
+      "kind": "skill",
+      "text": "C# .NET Core: built desktop WPF utility for Windows file synchronization",
+      "tags": [
+        "csharp",
+        "dotnet"
+      ]
+    },
+    {
+      "id": "item-017-12",
+      "kind": "skill",
+      "text": "Jest unit tests: tested GraphQL mock resolvers and UI component error states",
+      "tags": [
+        "jest",
+        "testing"
+      ]
+    }
+  ],
+  "labels": {
+    "item-017-01": true,
+    "item-017-02": true,
+    "item-017-03": true,
+    "item-017-04": true,
+    "item-017-05": true,
+    "item-017-06": true,
+    "item-017-07": true,
+    "item-017-08": false,
+    "item-017-09": true,
+    "item-017-10": true,
+    "item-017-11": false,
+    "item-017-12": true
+  }
+}

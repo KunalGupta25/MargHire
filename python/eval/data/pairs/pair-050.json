@@ -1,0 +1,137 @@
+{
+  "id": "pair-050",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Graduate Technology Trainee (Software Engineering)",
+    "description": "TechGlobal India (Noida) is recruiting Graduate Trainees for its 2026 engineering cohort. The program prepares fresh graduates for enterprise software delivery across full-stack development, database design, modern cloud basics, and agile methodologies."
+  },
+  "pool": [
+    {
+      "id": "item-050-01",
+      "kind": "skill",
+      "text": "Computer Science Fundamentals: solid command of Data Structures, Algorithms, OOP, and Operating Systems",
+      "tags": [
+        "cs-fundamentals",
+        "dsa",
+        "oop"
+      ]
+    },
+    {
+      "id": "item-050-02",
+      "kind": "skill",
+      "text": "Modern Web Programming: hands-on project experience with JavaScript/TypeScript, React, and HTML5/CSS3",
+      "tags": [
+        "javascript",
+        "react",
+        "web"
+      ]
+    },
+    {
+      "id": "item-050-03",
+      "kind": "skill",
+      "text": "Backend & Databases: built CRUD REST endpoints with Node.js/Python and designed relational SQL tables",
+      "tags": [
+        "backend",
+        "sql",
+        "database"
+      ]
+    },
+    {
+      "id": "item-050-04",
+      "kind": "skill",
+      "text": "Agile & Git Workflows: collaborated in sprint plannings, standups, and utilized GitHub for version control",
+      "tags": [
+        "agile",
+        "git",
+        "scrum"
+      ]
+    },
+    {
+      "id": "item-050-05",
+      "kind": "project",
+      "text": "CampusConnect: web portal for college event registration built with React frontend and Express backend",
+      "tags": [
+        "fullstack",
+        "react",
+        "nodejs"
+      ]
+    },
+    {
+      "id": "item-050-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, Galgotias University, Greater Noida, 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-050-07",
+      "kind": "skill",
+      "text": "Problem Solving: solved 250+ algorithmic problems across LeetCode and GeeksforGeeks",
+      "tags": [
+        "dsa",
+        "problem-solving"
+      ]
+    },
+    {
+      "id": "item-050-08",
+      "kind": "skill",
+      "text": "Audio Editing: edited podcasts for college radio club",
+      "tags": [
+        "audio",
+        "podcasting"
+      ]
+    },
+    {
+      "id": "item-050-09",
+      "kind": "work",
+      "text": "Software Engineering Intern at InfoTech (Noida, 3 months): developed data validation modules",
+      "tags": [
+        "internship",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "item-050-10",
+      "kind": "skill",
+      "text": "Cloud Basics: deployed static websites to AWS S3 and provisioned EC2 virtual machines",
+      "tags": [
+        "cloud",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-050-11",
+      "kind": "skill",
+      "text": "Calligraphy: practiced hand lettering for college certificates",
+      "tags": [
+        "calligraphy",
+        "hobby"
+      ]
+    },
+    {
+      "id": "item-050-12",
+      "kind": "skill",
+      "text": "Clean Code Principles: wrote documented, readable code adhering to standard linting conventions",
+      "tags": [
+        "clean-code",
+        "best-practices"
+      ]
+    }
+  ],
+  "labels": {
+    "item-050-01": true,
+    "item-050-02": true,
+    "item-050-03": true,
+    "item-050-04": true,
+    "item-050-05": true,
+    "item-050-06": true,
+    "item-050-07": true,
+    "item-050-08": false,
+    "item-050-09": true,
+    "item-050-10": true,
+    "item-050-11": false,
+    "item-050-12": true
+  }
+}

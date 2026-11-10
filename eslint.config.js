@@ -25,6 +25,7 @@ export default tseslint.config(
       "**/dist/**",
       "python/**",
       "graphify-out/**",
+      ".*/**",
       "**/*.d.ts",
       "**/*.js.map",
     ],

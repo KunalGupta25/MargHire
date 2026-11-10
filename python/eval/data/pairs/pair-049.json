@@ -1,0 +1,138 @@
+{
+  "id": "pair-049",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Software Development Engineer in Test (SDET)",
+    "description": "QualityScale Technologies (Bengaluru) builds enterprise test automation solutions. We are hiring a Junior SDET to build automated testing frameworks for web applications and REST APIs using Playwright, TypeScript / Python, and CI integration."
+  },
+  "pool": [
+    {
+      "id": "item-049-01",
+      "kind": "skill",
+      "text": "Test Automation with Playwright: authored robust end-to-end browser test suites with page object models",
+      "tags": [
+        "playwright",
+        "testing",
+        "e2e"
+      ]
+    },
+    {
+      "id": "item-049-02",
+      "kind": "skill",
+      "text": "API Testing & Automation: automated REST API test assertions using Supertest and Pytest with reporting",
+      "tags": [
+        "api-testing",
+        "supertest",
+        "pytest"
+      ]
+    },
+    {
+      "id": "item-049-03",
+      "kind": "skill",
+      "text": "TypeScript / Python: wrote clean, modular, and maintainable test automation scripts and utilities",
+      "tags": [
+        "typescript",
+        "python",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-049-04",
+      "kind": "skill",
+      "text": "CI/CD Integration: configured automated test runs on GitHub Actions pull requests with HTML reports",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "testing"
+      ]
+    },
+    {
+      "id": "item-049-05",
+      "kind": "project",
+      "text": "AutomatedTestHarness: open-source Playwright test framework with parallel execution and visual regression",
+      "tags": [
+        "playwright",
+        "sdet",
+        "testing"
+      ]
+    },
+    {
+      "id": "item-049-06",
+      "kind": "education",
+      "text": "B.Tech IT, RV Institute of Technology, Bengaluru, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-049-07",
+      "kind": "skill",
+      "text": "Bug Tracking & Reporting: documented reproducible bug reports with network logs, console traces, and steps",
+      "tags": [
+        "qa",
+        "bug-reporting"
+      ]
+    },
+    {
+      "id": "item-049-08",
+      "kind": "skill",
+      "text": "Photoshop: designed banners for college cultural club",
+      "tags": [
+        "photoshop",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-049-09",
+      "kind": "work",
+      "text": "QA Automation Intern at TestCraft (Bengaluru, 4 months): automated 80+ regression test cases in Playwright",
+      "tags": [
+        "internship",
+        "sdet",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-049-10",
+      "kind": "skill",
+      "text": "Git version control: maintained test automation code repositories following standard PR reviews",
+      "tags": [
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "item-049-11",
+      "kind": "skill",
+      "text": "Music Production: created background tracks using FL Studio",
+      "tags": [
+        "music",
+        "audio"
+      ]
+    },
+    {
+      "id": "item-049-12",
+      "kind": "skill",
+      "text": "Test Case Design: applied boundary value analysis, equivalence partitioning, and error guessing",
+      "tags": [
+        "test-design",
+        "qa-methodology"
+      ]
+    }
+  ],
+  "labels": {
+    "item-049-01": true,
+    "item-049-02": true,
+    "item-049-03": true,
+    "item-049-04": true,
+    "item-049-05": true,
+    "item-049-06": true,
+    "item-049-07": true,
+    "item-049-08": false,
+    "item-049-09": true,
+    "item-049-10": true,
+    "item-049-11": false,
+    "item-049-12": true
+  }
+}

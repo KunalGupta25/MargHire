@@ -1,0 +1,41 @@
+{
+  "id": "pair-009",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Brand & Identity Designer (Fresher)",
+    "description": "Crescent Collective is a boutique branding studio in Bengaluru working with early-stage startups across India and Southeast Asia. We are hiring a fresher Brand & Identity Designer who can craft compelling visual identities — logos, colour systems, typeface selection, and brand guidelines. A strong sense of aesthetics, attention to detail, and the ability to present and defend design decisions to clients are essential. You will work directly with the studio's creative director on 3-5 projects simultaneously."
+  },
+  "pool": [
+    {"id": "item-009-01", "kind": "skill", "text": "Adobe Illustrator: created 15 logo concepts across wordmark, lettermark and pictorial mark styles for college design competition; 2 concepts selected for real-world use", "tags": ["illustrator", "logo-design", "branding"]},
+    {"id": "item-009-02", "kind": "skill", "text": "Brand guidelines: authored a 24-page brand book for a college startup covering logo usage, colour palette, typeface rules, do's and don'ts", "tags": ["brand-guidelines", "branding"]},
+    {"id": "item-009-03", "kind": "project", "text": "TeaKraft: brand identity project for a fictional artisanal tea brand — logo, packaging mockups, social media templates, and 20-page brand guide; won Best Branding Project at institute design festival", "tags": ["branding", "packaging", "identity-design"]},
+    {"id": "item-009-04", "kind": "skill", "text": "Colour theory: competent in defining 60-30-10 palettes, complementary and analogous schemes, and testing across print and digital contexts", "tags": ["colour-theory", "branding"]},
+    {"id": "item-009-05", "kind": "skill", "text": "Typography: selected and paired serif/sans-serif systems for 6 brand identities; comfortable with optical sizing and variable fonts", "tags": ["typography", "branding"]},
+    {"id": "item-009-06", "kind": "work", "text": "Brand Design Intern at Tandem Studio (Mumbai, 3 months): assisted senior designer on 4 logo projects, produced packaging mockup renders in Photoshop and prepared client presentation decks", "tags": ["internship", "branding", "packaging"]},
+    {"id": "item-009-07", "kind": "skill", "text": "Mockup rendering in Photoshop: realistic product and stationery mockups for client presentations using smart objects", "tags": ["photoshop", "mockups", "branding"]},
+    {"id": "item-009-08", "kind": "education", "text": "B.Des Graphic Design, Pearl Academy Delhi, 2022–2026, Distinction", "tags": ["education", "graphic-design"]},
+    {"id": "item-009-09", "kind": "skill", "text": "Client presentation: delivered 8 brand concept presentations to real and simulated clients with structured storytelling — brief, insight, concept rationale, application", "tags": ["presentation", "client-communication"]},
+    {"id": "item-009-10", "kind": "project", "text": "EcoRoots: brand identity for a sustainable fashion startup — crafted earthy palette, custom hand-drawn logotype in Illustrator, and product hang-tag design", "tags": ["branding", "sustainability", "identity-design"]},
+    {"id": "item-009-11", "kind": "skill", "text": "Docker Compose: set up a local development environment for a web project using Docker Compose; not related to design work", "tags": ["docker", "devops"]},
+    {"id": "item-009-12", "kind": "skill", "text": "Figma: used for collaborative multi-page brand presentation files and social media template systems", "tags": ["figma", "branding"]},
+    {"id": "item-009-13", "kind": "skill", "text": "InDesign: laid out multi-page brand books and editorial-style documents with master pages and paragraph styles", "tags": ["indesign", "layout", "print"]},
+    {"id": "item-009-14", "kind": "skill", "text": "Shell scripting: wrote a Bash script to automate renaming exported asset files; occasional personal tool use", "tags": ["bash", "scripting"]}
+  ],
+  "labels": {
+    "item-009-01": true,
+    "item-009-02": true,
+    "item-009-03": true,
+    "item-009-04": true,
+    "item-009-05": true,
+    "item-009-06": true,
+    "item-009-07": true,
+    "item-009-08": true,
+    "item-009-09": true,
+    "item-009-10": true,
+    "item-009-11": false,
+    "item-009-12": true,
+    "item-009-13": true,
+    "item-009-14": false
+  }
+}

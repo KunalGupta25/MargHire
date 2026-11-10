@@ -1,0 +1,136 @@
+{
+  "id": "pair-043",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior CI/CD & Build Release Engineer",
+    "description": "AppVelocity (Bengaluru) builds developer tooling. We are hiring a Junior Release Engineer to maintain robust CI/CD systems, speed up build times, manage semantic releases, and ensure zero-downtime blue-green deployments."
+  },
+  "pool": [
+    {
+      "id": "item-043-01",
+      "kind": "skill",
+      "text": "CI/CD Pipeline Architecture: designed matrix builds, artifact caching, and branch protection rules",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-043-02",
+      "kind": "skill",
+      "text": "GitHub Actions & GitLab CI: authored reusable workflows, composite actions, and runner configurations",
+      "tags": [
+        "github-actions",
+        "gitlab-ci"
+      ]
+    },
+    {
+      "id": "item-043-03",
+      "kind": "skill",
+      "text": "Build Optimization & Caching: reduced build pipeline execution time by 45% via dependency cache layers",
+      "tags": [
+        "build-optimization",
+        "caching"
+      ]
+    },
+    {
+      "id": "item-043-04",
+      "kind": "skill",
+      "text": "Docker Multi-Stage Builds: optimized image sizes and layer caching for rapid container compilation",
+      "tags": [
+        "docker",
+        "containers"
+      ]
+    },
+    {
+      "id": "item-043-05",
+      "kind": "project",
+      "text": "FastDeploy: open-source CLI utility for managing canary and blue-green container promotions",
+      "tags": [
+        "devops",
+        "ci-cd",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-043-06",
+      "kind": "education",
+      "text": "B.Tech IT, BMS College of Engineering, Bengaluru, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-043-07",
+      "kind": "skill",
+      "text": "Semantic Versioning & Changelogs: automated release tagging and changelog generation using Release-It",
+      "tags": [
+        "semver",
+        "releases"
+      ]
+    },
+    {
+      "id": "item-043-08",
+      "kind": "skill",
+      "text": "Adobe Illustrator: designed digital invitations for college fest",
+      "tags": [
+        "illustrator",
+        "design"
+      ]
+    },
+    {
+      "id": "item-043-09",
+      "kind": "work",
+      "text": "DevOps Intern at BuildOps (Bengaluru, 3 months): migrated Jenkins freestyle jobs into modular GitHub Actions",
+      "tags": [
+        "internship",
+        "ci-cd",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-043-10",
+      "kind": "skill",
+      "text": "Bash & Python Scripting: developed custom pre-commit validation and linting verification hooks",
+      "tags": [
+        "bash",
+        "python",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-043-11",
+      "kind": "skill",
+      "text": "React JSX styling: built portfolio web page with CSS modules",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-043-12",
+      "kind": "skill",
+      "text": "Nginx Blue-Green Switching: configured dynamic upstream swapping for zero-downtime service upgrades",
+      "tags": [
+        "nginx",
+        "deployment"
+      ]
+    }
+  ],
+  "labels": {
+    "item-043-01": true,
+    "item-043-02": true,
+    "item-043-03": true,
+    "item-043-04": true,
+    "item-043-05": true,
+    "item-043-06": true,
+    "item-043-07": true,
+    "item-043-08": false,
+    "item-043-09": true,
+    "item-043-10": true,
+    "item-043-11": false,
+    "item-043-12": true
+  }
+}

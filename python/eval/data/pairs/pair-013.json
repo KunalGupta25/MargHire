@@ -1,0 +1,136 @@
+{
+  "id": "pair-013",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Graduate Frontend Engineer",
+    "description": "GlobalTech Solutions (Chennai) is hiring Freshers for its core Digital Engineering practice. The role involves developing web frontends using modern JavaScript (ES6+), React, HTML5, SASS/CSS, and browser performance debugging tools. Candidates must have solid CS fundamentals and demonstrable web project work."
+  },
+  "pool": [
+    {
+      "id": "item-013-01",
+      "kind": "skill",
+      "text": "Modern JavaScript (ES6+): deep knowledge of closures, promises, event loop, and async/await",
+      "tags": [
+        "javascript",
+        "es6",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-013-02",
+      "kind": "skill",
+      "text": "React component lifecycle & hooks: implemented custom hooks for window resize and debounce",
+      "tags": [
+        "react",
+        "javascript"
+      ]
+    },
+    {
+      "id": "item-013-03",
+      "kind": "skill",
+      "text": "HTML5 semantic elements & SASS: styled accessible web applications using BEM methodology",
+      "tags": [
+        "html5",
+        "sass",
+        "css"
+      ]
+    },
+    {
+      "id": "item-013-04",
+      "kind": "skill",
+      "text": "Chrome DevTools: profiled network waterfalls, layout thrashing, and memory leaks",
+      "tags": [
+        "devtools",
+        "performance"
+      ]
+    },
+    {
+      "id": "item-013-05",
+      "kind": "project",
+      "text": "StudentPortal: college student management UI created in React with mock REST API server",
+      "tags": [
+        "react",
+        "frontend",
+        "project"
+      ]
+    },
+    {
+      "id": "item-013-06",
+      "kind": "education",
+      "text": "B.Tech in Computer Engineering, SRM University, Chennai, 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education",
+        "btech"
+      ]
+    },
+    {
+      "id": "item-013-07",
+      "kind": "skill",
+      "text": "Git collaboration: managed merge conflicts, rebased feature branches, and participated in PR reviews",
+      "tags": [
+        "git",
+        "version-control"
+      ]
+    },
+    {
+      "id": "item-013-08",
+      "kind": "skill",
+      "text": "AWS EC2 & S3: provisioned virtual machines and configured static website hosting buckets",
+      "tags": [
+        "aws",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-013-09",
+      "kind": "skill",
+      "text": "Data Structures & Algorithms: coursework covering trees, graphs, sorting, and dynamic programming",
+      "tags": [
+        "dsa",
+        "cs-fundamentals"
+      ]
+    },
+    {
+      "id": "item-013-10",
+      "kind": "skill",
+      "text": "TensorFlow: trained CNN model for handwritten digit classification with 98% test accuracy",
+      "tags": [
+        "tensorflow",
+        "ai"
+      ]
+    },
+    {
+      "id": "item-013-11",
+      "kind": "skill",
+      "text": "Postman: tested and documented 20+ REST endpoints for academic team project",
+      "tags": [
+        "postman",
+        "api"
+      ]
+    },
+    {
+      "id": "item-013-12",
+      "kind": "skill",
+      "text": "C programming: developed system level socket server for Linux OS lab",
+      "tags": [
+        "c",
+        "systems"
+      ]
+    }
+  ],
+  "labels": {
+    "item-013-01": true,
+    "item-013-02": true,
+    "item-013-03": true,
+    "item-013-04": true,
+    "item-013-05": true,
+    "item-013-06": true,
+    "item-013-07": true,
+    "item-013-08": false,
+    "item-013-09": true,
+    "item-013-10": false,
+    "item-013-11": true,
+    "item-013-12": false
+  }
+}

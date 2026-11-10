@@ -1,0 +1,138 @@
+{
+  "id": "pair-016",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Frontend Developer - Fresher (Mobile-First Web)",
+    "description": "KisanVani is an AgriTech startup in Noida building lightweight, multilingual web portals for rural and semi-urban users. We are looking for a Fresher Frontend Developer who understands offline-first concepts, Progressive Web Apps (PWA), Service Workers, and responsive lightweight JavaScript."
+  },
+  "pool": [
+    {
+      "id": "item-016-01",
+      "kind": "skill",
+      "text": "PWA & Service Workers: implemented CacheStorage strategies (stale-while-revalidate) for offline views",
+      "tags": [
+        "pwa",
+        "service-workers",
+        "web"
+      ]
+    },
+    {
+      "id": "item-016-02",
+      "kind": "skill",
+      "text": "Vanilla JavaScript & DOM APIs: built interactive forms without heavy frameworks to minimize bandwidth",
+      "tags": [
+        "javascript",
+        "vanilla-js"
+      ]
+    },
+    {
+      "id": "item-016-03",
+      "kind": "skill",
+      "text": "i18n & Localization: set up multi-language string dictionary supporting Hindi and English toggles",
+      "tags": [
+        "i18n",
+        "localization",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-016-04",
+      "kind": "skill",
+      "text": "Responsive Web Design: tested on low-end Android mobile devices with 3G network simulation",
+      "tags": [
+        "responsive",
+        "mobile",
+        "performance"
+      ]
+    },
+    {
+      "id": "item-016-05",
+      "kind": "project",
+      "text": "GramMarket: lightweight agricultural price tracker PWA capable of running completely offline",
+      "tags": [
+        "pwa",
+        "javascript",
+        "agritech"
+      ]
+    },
+    {
+      "id": "item-016-06",
+      "kind": "education",
+      "text": "B.Sc. Information Technology, Amity University, Noida, 2023\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-016-07",
+      "kind": "skill",
+      "text": "IndexedDB: stored and retrieved offline form submissions with background sync when online",
+      "tags": [
+        "indexeddb",
+        "storage",
+        "web"
+      ]
+    },
+    {
+      "id": "item-016-08",
+      "kind": "skill",
+      "text": "Kubernetes Helm charts: authored charts for deploying scalable Redis clusters",
+      "tags": [
+        "kubernetes",
+        "helm"
+      ]
+    },
+    {
+      "id": "item-016-09",
+      "kind": "skill",
+      "text": "Web Vitals optimization: achieved First Contentful Paint < 1.2s on throttled mobile connections",
+      "tags": [
+        "web-vitals",
+        "performance"
+      ]
+    },
+    {
+      "id": "item-016-10",
+      "kind": "skill",
+      "text": "PyTorch NLP: trained sentiment analysis model on Twitter tweets",
+      "tags": [
+        "nlp",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "item-016-11",
+      "kind": "skill",
+      "text": "SVG animation: crafted lightweight vector icons and loading spinners using CSS keyframes",
+      "tags": [
+        "svg",
+        "css",
+        "animation"
+      ]
+    },
+    {
+      "id": "item-016-12",
+      "kind": "skill",
+      "text": "Linux system administration: managed user groups, permissions, and systemd units",
+      "tags": [
+        "linux",
+        "sysadmin"
+      ]
+    }
+  ],
+  "labels": {
+    "item-016-01": true,
+    "item-016-02": true,
+    "item-016-03": true,
+    "item-016-04": true,
+    "item-016-05": true,
+    "item-016-06": true,
+    "item-016-07": true,
+    "item-016-08": false,
+    "item-016-09": true,
+    "item-016-10": false,
+    "item-016-11": true,
+    "item-016-12": false
+  }
+}

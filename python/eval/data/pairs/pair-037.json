@@ -1,0 +1,138 @@
+{
+  "id": "pair-037",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior DevOps Engineer (AWS & Terraform)",
+    "description": "CloudNova Technologies (Bengaluru) helps high-growth SaaS firms manage their cloud infrastructure. We are hiring a Junior DevOps Engineer skilled in AWS (EC2, ECS, VPC, S3), Infrastructure as Code with Terraform, and GitHub Actions CI/CD automation."
+  },
+  "pool": [
+    {
+      "id": "item-037-01",
+      "kind": "skill",
+      "text": "Terraform (IaC): provisioned reusable modules for AWS VPC, subnets, NAT gateways, and security groups",
+      "tags": [
+        "terraform",
+        "iac",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-037-02",
+      "kind": "skill",
+      "text": "AWS Core Services: hands-on configuration of EC2, ECS Fargate, S3, RDS, IAM roles, and CloudWatch",
+      "tags": [
+        "aws",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-037-03",
+      "kind": "skill",
+      "text": "GitHub Actions CI/CD: constructed automated build, test, and container push pipelines to Amazon ECR",
+      "tags": [
+        "github-actions",
+        "ci-cd"
+      ]
+    },
+    {
+      "id": "item-037-04",
+      "kind": "skill",
+      "text": "Docker: authored multi-stage production Dockerfiles with security scanning via Trivy",
+      "tags": [
+        "docker",
+        "containers"
+      ]
+    },
+    {
+      "id": "item-037-05",
+      "kind": "project",
+      "text": "TerraformVPCStack: open-source Terraform module configuring highly-available multi-AZ VPC on AWS",
+      "tags": [
+        "terraform",
+        "aws",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-037-06",
+      "kind": "education",
+      "text": "B.Tech CSE, Dayananda Sagar College of Engineering, Bengaluru, 2022\u20132026, CGPA 8.4/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-037-07",
+      "kind": "skill",
+      "text": "Linux Administration & Bash: wrote automation scripts for log rotation, user management, and system monitoring",
+      "tags": [
+        "linux",
+        "bash",
+        "sysadmin"
+      ]
+    },
+    {
+      "id": "item-037-08",
+      "kind": "skill",
+      "text": "Figma UI design: designed mobile dashboard mockup",
+      "tags": [
+        "figma",
+        "design"
+      ]
+    },
+    {
+      "id": "item-037-09",
+      "kind": "work",
+      "text": "Cloud Ops Intern at CloudNova (Bengaluru, 4 months): automated AWS cost reduction by scheduling dev EC2 shutdowns",
+      "tags": [
+        "internship",
+        "devops",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-037-10",
+      "kind": "skill",
+      "text": "Security & IAM: enforced least-privilege policies, secret management with AWS Secrets Manager, and SSH keys",
+      "tags": [
+        "security",
+        "iam",
+        "aws"
+      ]
+    },
+    {
+      "id": "item-037-11",
+      "kind": "skill",
+      "text": "React JSX: built a personal blog with Gatsby",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-037-12",
+      "kind": "skill",
+      "text": "Monitoring & Alerting: configured Prometheus and Grafana dashboards for container CPU and memory metrics",
+      "tags": [
+        "prometheus",
+        "grafana",
+        "monitoring"
+      ]
+    }
+  ],
+  "labels": {
+    "item-037-01": true,
+    "item-037-02": true,
+    "item-037-03": true,
+    "item-037-04": true,
+    "item-037-05": true,
+    "item-037-06": true,
+    "item-037-07": true,
+    "item-037-08": false,
+    "item-037-09": true,
+    "item-037-10": true,
+    "item-037-11": false,
+    "item-037-12": true
+  }
+}

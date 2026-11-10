@@ -1,0 +1,138 @@
+{
+  "id": "pair-036",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Data Engineer (Python & Snowflake / Spark)",
+    "description": "DataGrid Solutions (Hyderabad) is recruiting a Junior Data Engineer. You will design reliable ETL/ELT pipelines, write distributed transformations in Apache Spark / PySpark, model data warehouses in Snowflake, and orchestrate jobs using Apache Airflow."
+  },
+  "pool": [
+    {
+      "id": "item-036-01",
+      "kind": "skill",
+      "text": "Apache Spark & PySpark: wrote distributed dataframes transformations, partitioning, and caching strategies",
+      "tags": [
+        "spark",
+        "pyspark",
+        "data-engineering"
+      ]
+    },
+    {
+      "id": "item-036-02",
+      "kind": "skill",
+      "text": "Snowflake / BigQuery: built dimensional schemas (Star / Snowflake schema), staging tables, and dynamic views",
+      "tags": [
+        "snowflake",
+        "sql",
+        "data-warehouse"
+      ]
+    },
+    {
+      "id": "item-036-03",
+      "kind": "skill",
+      "text": "Apache Airflow: authored DAGs with task dependencies, retry intervals, SLAs, and Slack alerting",
+      "tags": [
+        "airflow",
+        "orchestration"
+      ]
+    },
+    {
+      "id": "item-036-04",
+      "kind": "skill",
+      "text": "SQL & dbt: wrote modular data models with dbt tests, documentation, and incremental table updates",
+      "tags": [
+        "dbt",
+        "sql",
+        "data-engineering"
+      ]
+    },
+    {
+      "id": "item-036-05",
+      "kind": "project",
+      "text": "LogPipeline: distributed clickstream analytics pipeline ingesting 10GB daily logs into Snowflake with dbt",
+      "tags": [
+        "data-engineering",
+        "pyspark",
+        "snowflake"
+      ]
+    },
+    {
+      "id": "item-036-06",
+      "kind": "education",
+      "text": "B.Tech IT, Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad, 2022\u20132026, CGPA 8.4/10",
+      "tags": [
+        "education",
+        "cbit"
+      ]
+    },
+    {
+      "id": "item-036-07",
+      "kind": "skill",
+      "text": "Python: structured automated data scrapers and ingestion scripts with rate-limiting and logging",
+      "tags": [
+        "python",
+        "data-pipelines"
+      ]
+    },
+    {
+      "id": "item-036-08",
+      "kind": "skill",
+      "text": "Figma: crafted mobile UI wireframes for college club portal",
+      "tags": [
+        "figma",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-036-09",
+      "kind": "work",
+      "text": "Data Engineering Intern at DataSphere (Hyderabad, 5 months): developed and maintained 15 production Airflow DAGs",
+      "tags": [
+        "internship",
+        "data-engineering",
+        "airflow"
+      ]
+    },
+    {
+      "id": "item-036-10",
+      "kind": "skill",
+      "text": "Data Quality & Testing: implemented Great Expectations suites to validate schema conformity",
+      "tags": [
+        "great-expectations",
+        "data-quality"
+      ]
+    },
+    {
+      "id": "item-036-11",
+      "kind": "skill",
+      "text": "React Native: created offline notes mobile application",
+      "tags": [
+        "react-native",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-036-12",
+      "kind": "skill",
+      "text": "Docker & Linux: deployed Airflow standalone containers and managed system cron tasks",
+      "tags": [
+        "docker",
+        "linux"
+      ]
+    }
+  ],
+  "labels": {
+    "item-036-01": true,
+    "item-036-02": true,
+    "item-036-03": true,
+    "item-036-04": true,
+    "item-036-05": true,
+    "item-036-06": true,
+    "item-036-07": true,
+    "item-036-08": false,
+    "item-036-09": true,
+    "item-036-10": true,
+    "item-036-11": false,
+    "item-036-12": true
+  }
+}

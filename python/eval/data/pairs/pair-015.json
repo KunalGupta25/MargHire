@@ -1,0 +1,137 @@
+{
+  "id": "pair-015",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior UI Engineer (Micro-frontends & Design Systems)",
+    "description": "OmniRetail (Bengaluru) builds high-scale omni-channel e-commerce systems. We are seeking a Junior UI Engineer passionate about design systems, Storybook, module federation, and CSS architecture. You will help maintain our shared React component library used across 5 consumer web applications."
+  },
+  "pool": [
+    {
+      "id": "item-015-01",
+      "kind": "skill",
+      "text": "Design Systems with Storybook: documented 30+ accessible components with props and usage examples",
+      "tags": [
+        "storybook",
+        "design-system",
+        "react"
+      ]
+    },
+    {
+      "id": "item-015-02",
+      "kind": "skill",
+      "text": "Tailwind & CSS Modules: built composable component primitives with zero style leakage",
+      "tags": [
+        "css-modules",
+        "tailwind",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-015-03",
+      "kind": "skill",
+      "text": "Webpack Module Federation: understood concepts of remote containers and shared dependencies",
+      "tags": [
+        "webpack",
+        "micro-frontends"
+      ]
+    },
+    {
+      "id": "item-015-04",
+      "kind": "skill",
+      "text": "Component Accessibility (a11y): implemented WAI-ARIA authoring practices for modal and tabs",
+      "tags": [
+        "accessibility",
+        "aria"
+      ]
+    },
+    {
+      "id": "item-015-05",
+      "kind": "project",
+      "text": "AuraUI: standalone open-source React component library published to private Verdaccio registry",
+      "tags": [
+        "react",
+        "storybook",
+        "ui-library"
+      ]
+    },
+    {
+      "id": "item-015-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, PES University, Bengaluru, 2022\u20132026, CGPA 8.8/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-015-07",
+      "kind": "skill",
+      "text": "CI/CD with GitHub Actions: automated chromatic visual regression testing on every pull request",
+      "tags": [
+        "github-actions",
+        "ci-cd"
+      ]
+    },
+    {
+      "id": "item-015-08",
+      "kind": "skill",
+      "text": "Golang microservices: built gRPC user service with Protobuf schemas",
+      "tags": [
+        "golang",
+        "grpc"
+      ]
+    },
+    {
+      "id": "item-015-09",
+      "kind": "work",
+      "text": "UI Engineering Intern at RetailCart (Bengaluru, 4 months): contributed badge, button, and card components",
+      "tags": [
+        "internship",
+        "react",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-015-10",
+      "kind": "skill",
+      "text": "NPM package management: configured package.json exports, semantic release, and TypeScript declarations",
+      "tags": [
+        "npm",
+        "typescript"
+      ]
+    },
+    {
+      "id": "item-015-11",
+      "kind": "skill",
+      "text": "MongoDB aggregation pipelines: optimized complex nested group-by queries",
+      "tags": [
+        "mongodb",
+        "database"
+      ]
+    },
+    {
+      "id": "item-015-12",
+      "kind": "skill",
+      "text": "Rollup & Vite bundler configuration: configured tree-shaking and dual ESM/CJS build targets",
+      "tags": [
+        "vite",
+        "bundler",
+        "javascript"
+      ]
+    }
+  ],
+  "labels": {
+    "item-015-01": true,
+    "item-015-02": true,
+    "item-015-03": true,
+    "item-015-04": true,
+    "item-015-05": true,
+    "item-015-06": true,
+    "item-015-07": true,
+    "item-015-08": false,
+    "item-015-09": true,
+    "item-015-10": true,
+    "item-015-11": false,
+    "item-015-12": true
+  }
+}

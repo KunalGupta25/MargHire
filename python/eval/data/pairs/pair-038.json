@@ -1,0 +1,140 @@
+{
+  "id": "pair-038",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate SRE / Site Reliability Engineer",
+    "description": "FinScale India (Mumbai) runs financial transaction settlement platforms. We are seeking an Associate SRE to monitor distributed system health, track SLOs/SLIs, maintain Prometheus & Grafana alerting, participate in incident postmortems, and automate toil using Python or Go."
+  },
+  "pool": [
+    {
+      "id": "item-038-01",
+      "kind": "skill",
+      "text": "Site Reliability Engineering (SRE) Principles: understood error budgets, SLIs, SLOs, and postmortems",
+      "tags": [
+        "sre",
+        "reliability"
+      ]
+    },
+    {
+      "id": "item-038-02",
+      "kind": "skill",
+      "text": "Prometheus & Grafana: designed PromQL alert rules, recording rules, and multi-cluster dashboards",
+      "tags": [
+        "prometheus",
+        "grafana",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "item-038-03",
+      "kind": "skill",
+      "text": "Python & Bash Scripting: built automated health checkers and Slack notification webhooks",
+      "tags": [
+        "python",
+        "bash",
+        "automation"
+      ]
+    },
+    {
+      "id": "item-038-04",
+      "kind": "skill",
+      "text": "Linux System Internals: analyzed CPU load averages, iowait, memory paging, and TCP connection states",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "networking"
+      ]
+    },
+    {
+      "id": "item-038-05",
+      "kind": "project",
+      "text": "StatusPulse: lightweight uptime monitoring agent written in Python checking HTTP endpoints and reporting to Grafana",
+      "tags": [
+        "python",
+        "sre",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "item-038-06",
+      "kind": "education",
+      "text": "B.E. Information Technology, Mumbai University (VESIT), 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-038-07",
+      "kind": "skill",
+      "text": "Log Aggregation (ELK / Loki): queried application traces and structured JSON logs using LogCLI / Kibana",
+      "tags": [
+        "loki",
+        "elasticsearch",
+        "logging"
+      ]
+    },
+    {
+      "id": "item-038-08",
+      "kind": "skill",
+      "text": "Adobe Photoshop: created posters for college cultural week",
+      "tags": [
+        "photoshop",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-038-09",
+      "kind": "work",
+      "text": "SRE Intern at FinScale (Mumbai, 4 months): automated alert triage for staging microservice failures",
+      "tags": [
+        "internship",
+        "sre",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-038-10",
+      "kind": "skill",
+      "text": "Networking Fundamentals: deep understanding of DNS records, SSL/TLS handshakes, HTTP status codes, and CIDR",
+      "tags": [
+        "networking",
+        "dns",
+        "ssl"
+      ]
+    },
+    {
+      "id": "item-038-11",
+      "kind": "skill",
+      "text": "UI Design: created wireframes for mobile sports app",
+      "tags": [
+        "figma",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-038-12",
+      "kind": "skill",
+      "text": "Chaos Engineering: ran basic stress testing using k6 and Chaos Mesh on staging environment",
+      "tags": [
+        "chaos-engineering",
+        "k6",
+        "testing"
+      ]
+    }
+  ],
+  "labels": {
+    "item-038-01": true,
+    "item-038-02": true,
+    "item-038-03": true,
+    "item-038-04": true,
+    "item-038-05": true,
+    "item-038-06": true,
+    "item-038-07": true,
+    "item-038-08": false,
+    "item-038-09": true,
+    "item-038-10": true,
+    "item-038-11": false,
+    "item-038-12": true
+  }
+}

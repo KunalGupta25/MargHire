@@ -1,0 +1,142 @@
+{
+  "id": "pair-041",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior DevSecOps Engineer",
+    "description": "SecureCloud Cyber in Gurugram helps clients embed security into their development pipelines. We are seeking a Junior DevSecOps Engineer knowledgeable in SAST / DAST tools, container security scanning, secret detection, and automated security policies in CI/CD."
+  },
+  "pool": [
+    {
+      "id": "item-041-01",
+      "kind": "skill",
+      "text": "SAST & DAST Scanning: configured SonarQube and OWASP ZAP in automated test pipelines",
+      "tags": [
+        "sast",
+        "dast",
+        "security",
+        "sonarqube"
+      ]
+    },
+    {
+      "id": "item-041-02",
+      "kind": "skill",
+      "text": "Secret Detection & Scanning: implemented Gitleaks and TruffleHog pre-commit hooks to block leaked keys",
+      "tags": [
+        "gitleaks",
+        "secrets-management",
+        "security"
+      ]
+    },
+    {
+      "id": "item-041-03",
+      "kind": "skill",
+      "text": "Container Vulnerability Scanning: integrated Trivy into GitHub Actions to scan images before registry push",
+      "tags": [
+        "trivy",
+        "docker",
+        "security"
+      ]
+    },
+    {
+      "id": "item-041-04",
+      "kind": "skill",
+      "text": "OWASP Top 10: thorough understanding of SQL injection, XSS, broken access control, and mitigation",
+      "tags": [
+        "owasp",
+        "web-security",
+        "appsec"
+      ]
+    },
+    {
+      "id": "item-041-05",
+      "kind": "project",
+      "text": "SecPipeline: CI/CD template repo implementing SAST, secret detection, and container linting gates",
+      "tags": [
+        "security",
+        "ci-cd",
+        "devsecops"
+      ]
+    },
+    {
+      "id": "item-041-06",
+      "kind": "education",
+      "text": "B.Tech in Cyber Security & Forensic Sciences, NFSU / Amity, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "item-041-07",
+      "kind": "skill",
+      "text": "Infrastructure as Code Security: scanned Terraform code for misconfigurations using tfsec / Checkov",
+      "tags": [
+        "tfsec",
+        "checkov",
+        "iac"
+      ]
+    },
+    {
+      "id": "item-041-08",
+      "kind": "skill",
+      "text": "UI Design: created mobile vector illustrations in Figma",
+      "tags": [
+        "figma",
+        "design"
+      ]
+    },
+    {
+      "id": "item-041-09",
+      "kind": "work",
+      "text": "Security Intern at CyberGuard (Gurugram, 5 months): conducted automated vulnerability assessments",
+      "tags": [
+        "internship",
+        "security",
+        "devsecops"
+      ]
+    },
+    {
+      "id": "item-041-10",
+      "kind": "skill",
+      "text": "GitHub Actions Security Workflows: wrote custom CI security checks failing builds on critical findings",
+      "tags": [
+        "github-actions",
+        "ci-cd"
+      ]
+    },
+    {
+      "id": "item-041-11",
+      "kind": "skill",
+      "text": "PHP & WordPress: created personal photography portfolio site",
+      "tags": [
+        "php",
+        "wordpress"
+      ]
+    },
+    {
+      "id": "item-041-12",
+      "kind": "skill",
+      "text": "Linux Security Hardening: configured UFW firewalls, disabled root SSH login, and configured fail2ban",
+      "tags": [
+        "linux",
+        "security",
+        "hardening"
+      ]
+    }
+  ],
+  "labels": {
+    "item-041-01": true,
+    "item-041-02": true,
+    "item-041-03": true,
+    "item-041-04": true,
+    "item-041-05": true,
+    "item-041-06": true,
+    "item-041-07": true,
+    "item-041-08": false,
+    "item-041-09": true,
+    "item-041-10": true,
+    "item-041-11": false,
+    "item-041-12": true
+  }
+}

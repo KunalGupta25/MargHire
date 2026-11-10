@@ -1,0 +1,138 @@
+{
+  "id": "pair-023",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Database & Backend Developer",
+    "description": "FinMetric Solutions in Mumbai is hiring a Junior Backend Developer focused on relational databases, query optimization, and secure API layers. You will write stored procedures, optimize slow queries, manage PostgreSQL schemas, and expose backend endpoints in Node.js or Python."
+  },
+  "pool": [
+    {
+      "id": "item-023-01",
+      "kind": "skill",
+      "text": "PostgreSQL Administration & SQL: expert in query plans, partial indexes, CTEs, and window functions",
+      "tags": [
+        "postgres",
+        "sql",
+        "database"
+      ]
+    },
+    {
+      "id": "item-023-02",
+      "kind": "skill",
+      "text": "Database Migration & Schema Design: normalized tables to 3NF and managed migrations safely",
+      "tags": [
+        "database-design",
+        "migrations"
+      ]
+    },
+    {
+      "id": "item-023-03",
+      "kind": "skill",
+      "text": "Node.js & TypeScript Backend: exposed REST endpoints consuming database views and stored procedures",
+      "tags": [
+        "nodejs",
+        "typescript",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-023-04",
+      "kind": "skill",
+      "text": "Database Benchmarking: simulated 10,000 concurrent writes using pgbench and analyzed contention",
+      "tags": [
+        "benchmarking",
+        "performance",
+        "postgres"
+      ]
+    },
+    {
+      "id": "item-023-05",
+      "kind": "project",
+      "text": "QueryOptimizerLab: academic research project comparing execution plans of nested subqueries vs CTEs",
+      "tags": [
+        "sql",
+        "research",
+        "database"
+      ]
+    },
+    {
+      "id": "item-023-06",
+      "kind": "education",
+      "text": "B.Tech IT, VJTI Mumbai, 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-023-07",
+      "kind": "skill",
+      "text": "Redis Caching: set up LRU caching policy for hot database query results",
+      "tags": [
+        "redis",
+        "database",
+        "caching"
+      ]
+    },
+    {
+      "id": "item-023-08",
+      "kind": "skill",
+      "text": "CSS Grid & Flexbox: created responsive web pages for college blog",
+      "tags": [
+        "css",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-023-09",
+      "kind": "work",
+      "text": "Database Intern at DBWorks (Mumbai, 4 months): audited 50+ slow queries and added targeted composite indexes",
+      "tags": [
+        "internship",
+        "database",
+        "postgres"
+      ]
+    },
+    {
+      "id": "item-023-10",
+      "kind": "skill",
+      "text": "Security & Sanitization: strictly prevented SQL injection via parameterized prepared statements",
+      "tags": [
+        "security",
+        "sql-injection"
+      ]
+    },
+    {
+      "id": "item-023-11",
+      "kind": "skill",
+      "text": "Video Editing: edited final year project showcase video in Premiere Pro",
+      "tags": [
+        "video-editing",
+        "premiere"
+      ]
+    },
+    {
+      "id": "item-023-12",
+      "kind": "skill",
+      "text": "Linux CLI: analyzed slow query logs using grep, awk, and sed on remote Ubuntu servers",
+      "tags": [
+        "linux",
+        "cli"
+      ]
+    }
+  ],
+  "labels": {
+    "item-023-01": true,
+    "item-023-02": true,
+    "item-023-03": true,
+    "item-023-04": true,
+    "item-023-05": true,
+    "item-023-06": true,
+    "item-023-07": true,
+    "item-023-08": false,
+    "item-023-09": true,
+    "item-023-10": true,
+    "item-023-11": false,
+    "item-023-12": true
+  }
+}

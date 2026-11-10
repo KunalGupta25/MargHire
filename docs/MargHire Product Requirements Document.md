@@ -116,7 +116,7 @@ The build order and tasks are in the implementation plan; this table holds the a
 | --- | --- | --- |
 | Decision models are order-sensitive and untested on this task | Wrong picks would hurt resumes | Shuffle and average options, calibrate thresholds, fall back to the LLM; verify in Phase 0 |
 | Jev pricing and signup status | May not be free | Treat as optional, own key |
-| Whether Clef and Clairic run inside Cloudflare's free allowance | Affects the free-by-default promise | Check before shipping the Cloudflare default |
+| Whether Clef and Clef-flash run inside Cloudflare's free allowance | Affects the free-by-default promise | Check before shipping the Cloudflare default |
 | LinkedIn Member Data Portability API for India | Could replace the ZIP export | Unconfirmed; keep ZIP as the main route |
 | Free-tier limits for Gemini, OpenRouter, Workers AI, Kilo, Adzuna | Drive the router's rate limits | Read each provider's current docs when building its adapter |
 | Which ATS each Indian company uses | Drives ATS profiles | Sources conflict; test on real postings before claiming |

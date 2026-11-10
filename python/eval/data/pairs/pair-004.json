@@ -1,0 +1,37 @@
+{
+  "id": "pair-004",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "UX Researcher (Fresher)",
+    "description": "Sprinto Labs is a Bengaluru B2B SaaS company building compliance automation software. We are looking for a fresher UX Researcher to help us deeply understand our enterprise users — compliance managers and IT admins. You will plan and execute generative and evaluative research using interviews, surveys and diary studies. Strong communication skills and ability to translate research findings into design recommendations are required. No prior professional experience necessary; a strong academic or project portfolio will suffice."
+  },
+  "pool": [
+    {"id": "item-004-01", "kind": "skill", "text": "User interviews: planned discussion guides and conducted 15 semi-structured interviews for three research projects; coded transcripts in NVivo", "tags": ["user-interviews", "nvivo", "ux-research"]},
+    {"id": "item-004-02", "kind": "skill", "text": "Survey design: built screener and concept-validation surveys in Google Forms and Typeform with Likert and semantic-differential scales", "tags": ["survey-design", "typeform", "ux-research"]},
+    {"id": "item-004-03", "kind": "project", "text": "B2B SaaS onboarding study: diary study over 2 weeks with 10 participants new to a project-management SaaS — delivered journey map and 8 priority opportunity areas", "tags": ["diary-study", "b2b", "saas", "journey-map"]},
+    {"id": "item-004-04", "kind": "skill", "text": "Affinity mapping and thematic analysis: synthesised qualitative data from 50+ interviews across three projects using physical and digital sticky-note frameworks", "tags": ["affinity-mapping", "thematic-analysis", "qualitative"]},
+    {"id": "item-004-05", "kind": "skill", "text": "Usability testing: ran moderated sessions on Zoom with think-aloud protocol, identified critical error patterns", "tags": ["usability-testing", "zoom", "think-aloud"]},
+    {"id": "item-004-06", "kind": "education", "text": "M.Sc. Human-Computer Interaction, BITS Pilani Goa, 2024–2026, CGPA 8.8/10", "tags": ["education", "hci"]},
+    {"id": "item-004-07", "kind": "skill", "text": "Statistical analysis in R: computed descriptive stats and ran independent samples t-tests for usability benchmark study", "tags": ["r", "statistics", "quantitative"]},
+    {"id": "item-004-08", "kind": "project", "text": "AccessFirst: accessibility audit of a government e-filing portal — screen-reader testing with NVDA, keyboard-only navigation check, WCAG 2.1 violation report", "tags": ["accessibility", "wcag", "screen-reader", "audit"]},
+    {"id": "item-004-09", "kind": "skill", "text": "Presentation and stakeholder communication: presented research findings to 20-person cross-functional audience with executive summary slide deck", "tags": ["communication", "presentation", "stakeholder"]},
+    {"id": "item-004-10", "kind": "skill", "text": "Figma basics: capable of annotating screens and creating simple wireframes to communicate research recommendations", "tags": ["figma", "wireframing"]},
+    {"id": "item-004-11", "kind": "skill", "text": "Deep learning in PyTorch: trained a CNN image classifier for a college computer vision elective", "tags": ["pytorch", "deep-learning", "cv"]},
+    {"id": "item-004-12", "kind": "certification", "text": "Nielsen Norman Group UX Research Methods certificate, 2025", "tags": ["certification", "ux-research"]}
+  ],
+  "labels": {
+    "item-004-01": true,
+    "item-004-02": true,
+    "item-004-03": true,
+    "item-004-04": true,
+    "item-004-05": true,
+    "item-004-06": true,
+    "item-004-07": true,
+    "item-004-08": true,
+    "item-004-09": true,
+    "item-004-10": true,
+    "item-004-11": false,
+    "item-004-12": true
+  }
+}

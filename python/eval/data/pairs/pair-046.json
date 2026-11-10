@@ -1,0 +1,138 @@
+{
+  "id": "pair-046",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Full Stack Engineer (Python & React)",
+    "description": "AgileSoft Labs in Pune is seeking a Junior Full Stack Engineer. Responsibilities include developing client-facing applications using React and TypeScript on the frontend, and building RESTful APIs using Python (FastAPI or Django) with PostgreSQL on the backend."
+  },
+  "pool": [
+    {
+      "id": "item-046-01",
+      "kind": "skill",
+      "text": "Python & FastAPI: constructed asynchronous REST endpoints with Pydantic validation and automatic OpenAPI",
+      "tags": [
+        "python",
+        "fastapi",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-046-02",
+      "kind": "skill",
+      "text": "React & Tailwind CSS: developed clean, modern UI components with responsive mobile layout",
+      "tags": [
+        "react",
+        "tailwind",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-046-03",
+      "kind": "skill",
+      "text": "PostgreSQL: designed relational schemas, managed migrations, and wrote clean parameterized SQL",
+      "tags": [
+        "postgres",
+        "sql",
+        "database"
+      ]
+    },
+    {
+      "id": "item-046-04",
+      "kind": "skill",
+      "text": "TypeScript: typed frontend API responses matching backend data schemas",
+      "tags": [
+        "typescript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-046-05",
+      "kind": "project",
+      "text": "TaskNest: full-stack agile project planner built with FastAPI backend and React Tailwind frontend",
+      "tags": [
+        "fastapi",
+        "react",
+        "fullstack"
+      ]
+    },
+    {
+      "id": "item-046-06",
+      "kind": "education",
+      "text": "B.E. Computer Technology, Pune University, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-046-07",
+      "kind": "skill",
+      "text": "Docker: wrote Dockerfile and Docker Compose configurations for full-stack local development",
+      "tags": [
+        "docker",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-046-08",
+      "kind": "skill",
+      "text": "Blender 3D: created 3D models for college animation club",
+      "tags": [
+        "blender",
+        "3d"
+      ]
+    },
+    {
+      "id": "item-046-09",
+      "kind": "work",
+      "text": "Full Stack Intern at CloudSoft (Pune, 4 months): developed authentication flows and user dashboard",
+      "tags": [
+        "internship",
+        "fullstack",
+        "react"
+      ]
+    },
+    {
+      "id": "item-046-10",
+      "kind": "skill",
+      "text": "Git version control: managed repository branches, merges, and authored descriptive commit messages",
+      "tags": [
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "item-046-11",
+      "kind": "skill",
+      "text": "Canva design: created digital certificates for university sports day",
+      "tags": [
+        "canva",
+        "design"
+      ]
+    },
+    {
+      "id": "item-046-12",
+      "kind": "skill",
+      "text": "Unit Testing: wrote Pytest suites for backend endpoints and Vitest tests for React components",
+      "tags": [
+        "testing",
+        "pytest",
+        "vitest"
+      ]
+    }
+  ],
+  "labels": {
+    "item-046-01": true,
+    "item-046-02": true,
+    "item-046-03": true,
+    "item-046-04": true,
+    "item-046-05": true,
+    "item-046-06": true,
+    "item-046-07": true,
+    "item-046-08": false,
+    "item-046-09": true,
+    "item-046-10": true,
+    "item-046-11": false,
+    "item-046-12": true
+  }
+}

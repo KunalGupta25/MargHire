@@ -43,6 +43,10 @@ class GeminiAdapter(Adapter):
     def name(self) -> str:
         return "gemini-flash"
 
+    @property
+    def model_id(self) -> str:
+        return self._model
+
     def select(self, pair: Pair, shuffle_index: int = 0) -> AdapterResult:
         if not self._api_key:
             raise ValueError("GEMINI_API_KEY must be configured in .env or environment")
@@ -70,7 +74,7 @@ class GeminiAdapter(Adapter):
             "Do not include explanation or markdown code block formatting."
         )
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self._model}:generateContent?key={self._api_key}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self._model}:generateContent"
         body = {
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json"},
@@ -79,7 +83,7 @@ class GeminiAdapter(Adapter):
         req = urllib.request.Request(
             url,
             data=data,
-            headers={"Content-Type": "application/json"},
+            headers={"x-goog-api-key": self._api_key, "Content-Type": "application/json"},
         )
 
         start_time = time.perf_counter()
@@ -103,7 +107,7 @@ class GeminiAdapter(Adapter):
             )
 
         latency = time.perf_counter() - start_time
-        # Gentle pacing to avoid 15 RPM free tier limits
+        # Keep requests paced; tune this interval for the API project's current limits.
         time.sleep(1.5)
 
         try:
@@ -125,6 +129,6 @@ class GeminiAdapter(Adapter):
             adapter_name=self.name,
             selected_ids=selected,
             latency_s=latency,
-            cost_usd=0.0,  # Free tier
+            cost_usd=None,
             shuffle_index=shuffle_index,
         )

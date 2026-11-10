@@ -1,0 +1,39 @@
+{
+  "id": "pair-006",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Design System Engineer (UI/UX + Frontend)",
+    "description": "Stratosphere Finance is a Mumbai-based fintech scale-up powering neo-banking for SMEs. We are seeking a Design System Engineer who sits at the intersection of design and code. You will own and evolve our shared Figma component library and its React/TypeScript implementation in Storybook. This role requires Figma proficiency, React component authoring, accessibility (WCAG 2.1), and clear documentation skills. Experience with token-based theming systems is a strong advantage."
+  },
+  "pool": [
+    {"id": "item-006-01", "kind": "skill", "text": "Figma: built multi-brand design system with 80+ components, auto-layout, variants, and component properties; maintained token definitions using Tokens Studio plugin", "tags": ["figma", "design-system", "tokens-studio"]},
+    {"id": "item-006-02", "kind": "skill", "text": "React + TypeScript: authored 20 reusable UI components (Button, Input, Modal, DataTable) with prop-based API and forwardRef support", "tags": ["react", "typescript", "frontend"]},
+    {"id": "item-006-03", "kind": "skill", "text": "Storybook: documented all design system components with args tables, controls, and accessibility addon checks; deployed to Chromatic for visual regression", "tags": ["storybook", "chromatic", "design-system"]},
+    {"id": "item-006-04", "kind": "skill", "text": "CSS custom properties and design tokens: implemented light/dark theme switching and 3 brand themes via CSS variable overrides derived from Tokens Studio export", "tags": ["css", "design-tokens", "theming"]},
+    {"id": "item-006-05", "kind": "skill", "text": "WCAG 2.1 AA: audited every component with axe-core and VoiceOver; wrote ARIA patterns for combobox, dialog, and accordion", "tags": ["accessibility", "wcag", "aria"]},
+    {"id": "item-006-06", "kind": "work", "text": "Frontend Design Intern at Clearpath Lending (Pune, 6 months): migrated 15 legacy jQuery components to a new React design system, reduced CSS bundle by 28%", "tags": ["internship", "react", "design-system", "fintech"]},
+    {"id": "item-006-07", "kind": "project", "text": "OpenLoom UI: open-source React component library — 30+ components, Storybook, design tokens, theme provider; 180 GitHub stars", "tags": ["react", "open-source", "design-system", "storybook"]},
+    {"id": "item-006-08", "kind": "education", "text": "B.Tech Information Technology, COEP Pune, 2022–2026, CGPA 8.6/10", "tags": ["education", "it"]},
+    {"id": "item-006-09", "kind": "skill", "text": "Jest + Testing Library: wrote 95% coverage unit tests for all design system components", "tags": ["jest", "testing-library", "testing"]},
+    {"id": "item-006-10", "kind": "skill", "text": "Terraform: wrote IaC modules for provisioning S3 and CloudFront for Storybook static deployment", "tags": ["terraform", "aws", "iac"]},
+    {"id": "item-006-11", "kind": "skill", "text": "Technical writing: authored component usage guidelines, migration guides, and changelog entries for design system consumers", "tags": ["documentation", "technical-writing"]},
+    {"id": "item-006-12", "kind": "skill", "text": "Figma component API design: defined slot patterns and composition strategies for complex components like DataTable and FormField", "tags": ["figma", "component-design"]},
+    {"id": "item-006-13", "kind": "skill", "text": "COBOL: studied legacy mainframe COBOL during a banking-domain module; not used in production", "tags": ["cobol", "mainframe"]}
+  ],
+  "labels": {
+    "item-006-01": true,
+    "item-006-02": true,
+    "item-006-03": true,
+    "item-006-04": true,
+    "item-006-05": true,
+    "item-006-06": true,
+    "item-006-07": true,
+    "item-006-08": true,
+    "item-006-09": true,
+    "item-006-10": false,
+    "item-006-11": true,
+    "item-006-12": true,
+    "item-006-13": false
+  }
+}

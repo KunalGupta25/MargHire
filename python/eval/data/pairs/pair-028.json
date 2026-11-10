@@ -1,0 +1,142 @@
+{
+  "id": "pair-028",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior AI/ML Engineer (PyTorch & NLP)",
+    "description": "BhashaAI is a Bengaluru research lab building generative AI models for Indian languages. We are hiring a Junior ML Engineer proficient in Python, PyTorch, Hugging Face Transformers, fine-tuning LLMs, and tokenization. Candidates must understand evaluation metrics like BLEU and ROUGE."
+  },
+  "pool": [
+    {
+      "id": "item-028-01",
+      "kind": "skill",
+      "text": "PyTorch & Transformers: implemented and fine-tuned Transformer-based sequence classification models",
+      "tags": [
+        "pytorch",
+        "transformers",
+        "nlp"
+      ]
+    },
+    {
+      "id": "item-028-02",
+      "kind": "skill",
+      "text": "Hugging Face ecosystem: proficient with datasets, tokenizers, accelerate, and PEFT / LoRA fine-tuning",
+      "tags": [
+        "huggingface",
+        "lora",
+        "nlp"
+      ]
+    },
+    {
+      "id": "item-028-03",
+      "kind": "skill",
+      "text": "Data Preprocessing for NLP: cleaned multilingual text datasets with regex, deduplication, and normalizers",
+      "tags": [
+        "data-processing",
+        "nlp",
+        "python"
+      ]
+    },
+    {
+      "id": "item-028-04",
+      "kind": "skill",
+      "text": "Evaluation Metrics: evaluated language models using BLEU, ROUGE, Perplexity, and F1 score",
+      "tags": [
+        "nlp-metrics",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "item-028-05",
+      "kind": "project",
+      "text": "IndicSummarizer: fine-tuned mT5 model on Hindi news dataset achieving 34.2 ROUGE-L score",
+      "tags": [
+        "nlp",
+        "huggingface",
+        "indic",
+        "project"
+      ]
+    },
+    {
+      "id": "item-028-06",
+      "kind": "education",
+      "text": "B.Tech in Artificial Intelligence & Data Science, IIT Madras, 2022\u20132026, CGPA 8.8/10",
+      "tags": [
+        "education",
+        "iit",
+        "ai"
+      ]
+    },
+    {
+      "id": "item-028-07",
+      "kind": "skill",
+      "text": "Experiment Tracking with Weights & Biases: logged loss curves, hyperparameter sweeps, and model artifacts",
+      "tags": [
+        "wandb",
+        "mlops"
+      ]
+    },
+    {
+      "id": "item-028-08",
+      "kind": "skill",
+      "text": "WordPress development: managed blogs using Elementor drag-and-drop builder",
+      "tags": [
+        "wordpress",
+        "cms"
+      ]
+    },
+    {
+      "id": "item-028-09",
+      "kind": "work",
+      "text": "ML Research Intern at BhashaTech (Bengaluru, 5 months): trained IndicBERT embeddings for classification",
+      "tags": [
+        "internship",
+        "ml-research",
+        "nlp"
+      ]
+    },
+    {
+      "id": "item-028-10",
+      "kind": "skill",
+      "text": "Python & NumPy / Pandas: vectorized mathematical computations and tabular data wrangling",
+      "tags": [
+        "python",
+        "pandas",
+        "numpy"
+      ]
+    },
+    {
+      "id": "item-028-11",
+      "kind": "skill",
+      "text": "React frontend: built a calculator using Tailwind CSS",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-028-12",
+      "kind": "skill",
+      "text": "GPU Acceleration: utilized CUDA, mixed-precision training (FP16/BF16), and memory profiling",
+      "tags": [
+        "cuda",
+        "gpu",
+        "pytorch"
+      ]
+    }
+  ],
+  "labels": {
+    "item-028-01": true,
+    "item-028-02": true,
+    "item-028-03": true,
+    "item-028-04": true,
+    "item-028-05": true,
+    "item-028-06": true,
+    "item-028-07": true,
+    "item-028-08": false,
+    "item-028-09": true,
+    "item-028-10": true,
+    "item-028-11": false,
+    "item-028-12": true
+  }
+}

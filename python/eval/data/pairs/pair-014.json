@@ -1,0 +1,138 @@
+{
+  "id": "pair-014",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Frontend UI Developer (Angular)",
+    "description": "FinServe Technologies in Mumbai is looking for an Angular Developer to join our banking platform team. Responsibilities include building secure client dashboards using Angular 16+, RxJS, TypeScript, and Angular Material. Understanding of reactive forms, guards, and HTTP interceptors is required."
+  },
+  "pool": [
+    {
+      "id": "item-014-01",
+      "kind": "skill",
+      "text": "Angular 16+: developed modular components, lazy-loaded routes, and route guards",
+      "tags": [
+        "angular",
+        "typescript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-014-02",
+      "kind": "skill",
+      "text": "RxJS operators: mastered switchMap, debounceTime, combineLatest for reactive search streams",
+      "tags": [
+        "rxjs",
+        "angular",
+        "reactive"
+      ]
+    },
+    {
+      "id": "item-014-03",
+      "kind": "skill",
+      "text": "Angular Material: customized themes, tables, dialogs, and paginators to match brand spec",
+      "tags": [
+        "angular-material",
+        "ui"
+      ]
+    },
+    {
+      "id": "item-014-04",
+      "kind": "skill",
+      "text": "TypeScript: strict type safety, generics, interfaces, and enums for financial payloads",
+      "tags": [
+        "typescript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-014-05",
+      "kind": "project",
+      "text": "SecureBankUI: simulated retail banking portal with fund transfer flow, OTP mock, and statement export",
+      "tags": [
+        "angular",
+        "rxjs",
+        "project"
+      ]
+    },
+    {
+      "id": "item-014-06",
+      "kind": "education",
+      "text": "B.E. Information Technology, Mumbai University, 2022\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-014-07",
+      "kind": "skill",
+      "text": "Angular HTTP Interceptor: implemented JWT token attaching and global 401 error redirect handling",
+      "tags": [
+        "angular",
+        "http",
+        "security"
+      ]
+    },
+    {
+      "id": "item-014-08",
+      "kind": "skill",
+      "text": "Docker Swarm: deployed multi-node microservices swarm cluster",
+      "tags": [
+        "docker",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-014-09",
+      "kind": "work",
+      "text": "Frontend Intern at FinEdge (Mumbai, 6 months): maintained customer loan application wizard in Angular",
+      "tags": [
+        "internship",
+        "angular",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-014-10",
+      "kind": "skill",
+      "text": "Python Flask API: built quick mockup backend with SQLite database",
+      "tags": [
+        "python",
+        "flask"
+      ]
+    },
+    {
+      "id": "item-014-11",
+      "kind": "skill",
+      "text": "Jasmine & Karma: wrote unit tests for Angular services and reactive form validators",
+      "tags": [
+        "testing",
+        "jasmine",
+        "angular"
+      ]
+    },
+    {
+      "id": "item-014-12",
+      "kind": "skill",
+      "text": "Solidity: wrote ERC-20 smart contract on Ethereum testnet",
+      "tags": [
+        "blockchain",
+        "solidity"
+      ]
+    }
+  ],
+  "labels": {
+    "item-014-01": true,
+    "item-014-02": true,
+    "item-014-03": true,
+    "item-014-04": true,
+    "item-014-05": true,
+    "item-014-06": true,
+    "item-014-07": true,
+    "item-014-08": false,
+    "item-014-09": true,
+    "item-014-10": false,
+    "item-014-11": true,
+    "item-014-12": false
+  }
+}

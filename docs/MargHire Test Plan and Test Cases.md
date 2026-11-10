@@ -19,8 +19,8 @@ Nov 10, 2026 · @Kunal Gupta
 
 - Fixtures use fake people, companies and repos only. Real resumes and keys never enter the repo or CI.
 - A synthetic profile set covers several role families: designer, frontend, backend, AI, cloud and a mixed profile.
-- The Phase 0 evaluation set has about 50 resume and job pairs. Each pair is labelled by hand: for every pool item, should it appear or not. If you use your own resumes, keep that file outside the repo.
-- Each label records who made it and when, so results are reproducible.
+- The Phase 0 evaluation set targets about 50 resume and job pairs. Each pair needs an inclusion label for every pool item. If you use your own resumes, keep that file outside the repo.
+- The current synthetic pairs record their origin and creation date, but not an individual human labeler. Add labeler provenance before treating the benchmark as hand-labelled decision evidence.
 - Recorded provider responses are scrubbed of personal data before they are committed.
 
 **Metrics for Role Lens**

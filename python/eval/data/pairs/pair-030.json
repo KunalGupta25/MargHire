@@ -1,0 +1,138 @@
+{
+  "id": "pair-030",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Computer Vision Engineer (OpenCV & YOLO)",
+    "description": "VisionEdge AI in Hyderabad builds intelligent edge cameras for industrial surveillance. We are hiring a Junior CV Engineer experienced with OpenCV, YOLOv8/v9, PyTorch, object detection, and tracking algorithms (DeepSORT / ByteTrack)."
+  },
+  "pool": [
+    {
+      "id": "item-030-01",
+      "kind": "skill",
+      "text": "Object Detection & YOLO: trained and optimized YOLOv8 models for real-time bounding box detection",
+      "tags": [
+        "yolo",
+        "computer-vision",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "item-030-02",
+      "kind": "skill",
+      "text": "OpenCV: proficient in image filtering, contour detection, morphological transformations, and video streams",
+      "tags": [
+        "opencv",
+        "image-processing"
+      ]
+    },
+    {
+      "id": "item-030-03",
+      "kind": "skill",
+      "text": "Multi-Object Tracking: integrated ByteTrack and DeepSORT for consistent entity ID persistence across frames",
+      "tags": [
+        "tracking",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "item-030-04",
+      "kind": "skill",
+      "text": "Dataset Annotation: curated and annotated training images using Roboflow and CVAT with data augmentation",
+      "tags": [
+        "annotation",
+        "datasets"
+      ]
+    },
+    {
+      "id": "item-030-05",
+      "kind": "project",
+      "text": "HelmetSentinel: real-time factory safety helmet detection pipeline running at 35 FPS on Nvidia Jetson",
+      "tags": [
+        "computer-vision",
+        "yolo",
+        "project"
+      ]
+    },
+    {
+      "id": "item-030-06",
+      "kind": "education",
+      "text": "B.Tech Electronics & Communication, IIIT Hyderabad, 2022\u20132026, CGPA 8.6/10",
+      "tags": [
+        "education",
+        "iiit"
+      ]
+    },
+    {
+      "id": "item-030-07",
+      "kind": "skill",
+      "text": "ONNX & TensorRT: converted PyTorch weights to ONNX and quantized INT8 models for edge deployment",
+      "tags": [
+        "tensorrt",
+        "onnx",
+        "optimization"
+      ]
+    },
+    {
+      "id": "item-030-08",
+      "kind": "skill",
+      "text": "PHP & Laravel: created user registration portal for college alumni meet",
+      "tags": [
+        "php",
+        "laravel"
+      ]
+    },
+    {
+      "id": "item-030-09",
+      "kind": "work",
+      "text": "Computer Vision Intern at IndusVision (Hyderabad, 4 months): benchmarked detector speeds across GPU architectures",
+      "tags": [
+        "internship",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "item-030-10",
+      "kind": "skill",
+      "text": "Python & C++: implemented latency-sensitive video processing loops in Python and C++",
+      "tags": [
+        "python",
+        "cpp",
+        "vision"
+      ]
+    },
+    {
+      "id": "item-030-11",
+      "kind": "skill",
+      "text": "Graphic Design: made event brochures in Adobe InDesign",
+      "tags": [
+        "indesign",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-030-12",
+      "kind": "skill",
+      "text": "Camera Stream Ingestion: handled RTSP video streams and packet decoding using FFmpeg",
+      "tags": [
+        "ffmpeg",
+        "rtsp",
+        "streaming"
+      ]
+    }
+  ],
+  "labels": {
+    "item-030-01": true,
+    "item-030-02": true,
+    "item-030-03": true,
+    "item-030-04": true,
+    "item-030-05": true,
+    "item-030-06": true,
+    "item-030-07": true,
+    "item-030-08": false,
+    "item-030-09": true,
+    "item-030-10": true,
+    "item-030-11": false,
+    "item-030-12": true
+  }
+}

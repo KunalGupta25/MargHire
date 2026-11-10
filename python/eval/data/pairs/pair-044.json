@@ -1,0 +1,137 @@
+{
+  "id": "pair-044",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Observability & Telemetry Engineer",
+    "description": "MetricWave Technologies in Noida specializes in distributed tracing and telemetry. We are looking for an early-career engineer proficient in OpenTelemetry (OTel), Prometheus, Jaeger distributed tracing, Grafana dashboards, and structured logging."
+  },
+  "pool": [
+    {
+      "id": "item-044-01",
+      "kind": "skill",
+      "text": "OpenTelemetry (OTel): instrumented traces, spans, and metrics in distributed microservices",
+      "tags": [
+        "opentelemetry",
+        "tracing",
+        "observability"
+      ]
+    },
+    {
+      "id": "item-044-02",
+      "kind": "skill",
+      "text": "Prometheus & PromQL: crafted targeted alerts, rate queries, and histograms for service latency percentiles",
+      "tags": [
+        "prometheus",
+        "promql",
+        "metrics"
+      ]
+    },
+    {
+      "id": "item-044-03",
+      "kind": "skill",
+      "text": "Grafana Dashboarding: built interactive dashboards with variables, annotations, and alerting channels",
+      "tags": [
+        "grafana",
+        "dataviz",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "item-044-04",
+      "kind": "skill",
+      "text": "Jaeger Distributed Tracing: analyzed cross-service latency bottlenecks and database call spans",
+      "tags": [
+        "jaeger",
+        "tracing"
+      ]
+    },
+    {
+      "id": "item-044-05",
+      "kind": "project",
+      "text": "TelemetryStack: docker-compose environment demonstrating end-to-end OTel collector, Jaeger, and Prometheus",
+      "tags": [
+        "opentelemetry",
+        "docker",
+        "observability"
+      ]
+    },
+    {
+      "id": "item-044-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, Shiv Nadar University, Noida, 2022\u20132026, CGPA 8.7/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-044-07",
+      "kind": "skill",
+      "text": "Structured JSON Logging: standardized log attributes (correlation ID, traceId, spanId) across services",
+      "tags": [
+        "logging",
+        "observability"
+      ]
+    },
+    {
+      "id": "item-044-08",
+      "kind": "skill",
+      "text": "Vue.js: created simple interactive calculator",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-044-09",
+      "kind": "work",
+      "text": "Observability Intern at TraceCloud (Noida, 4 months): developed synthetic monitoring probes for critical APIs",
+      "tags": [
+        "internship",
+        "observability",
+        "sre"
+      ]
+    },
+    {
+      "id": "item-044-10",
+      "kind": "skill",
+      "text": "Linux CLI: analyzed real-time performance using top, htop, vmstat, and iostat",
+      "tags": [
+        "linux",
+        "performance"
+      ]
+    },
+    {
+      "id": "item-044-11",
+      "kind": "skill",
+      "text": "Graphic Design: designed college newsletter banner in Canva",
+      "tags": [
+        "canva",
+        "design"
+      ]
+    },
+    {
+      "id": "item-044-12",
+      "kind": "skill",
+      "text": "Docker & Container Monitoring: tracked cAdvisor container resource utilization metrics",
+      "tags": [
+        "docker",
+        "cadvisor"
+      ]
+    }
+  ],
+  "labels": {
+    "item-044-01": true,
+    "item-044-02": true,
+    "item-044-03": true,
+    "item-044-04": true,
+    "item-044-05": true,
+    "item-044-06": true,
+    "item-044-07": true,
+    "item-044-08": false,
+    "item-044-09": true,
+    "item-044-10": true,
+    "item-044-11": false,
+    "item-044-12": true
+  }
+}

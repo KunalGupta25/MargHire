@@ -1,0 +1,139 @@
+{
+  "id": "pair-033",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate AI Engineer (Speech & Audio ML)",
+    "description": "VaniTech (Hyderabad) develops speech recognition and voice synthesis systems for regional dialects. We are looking for an Associate AI Engineer with experience in Whisper, audio feature extraction (MFCC, Spectrograms), PyTorch, and torchaudio."
+  },
+  "pool": [
+    {
+      "id": "item-033-01",
+      "kind": "skill",
+      "text": "Speech Recognition & Whisper: fine-tuned OpenAI Whisper models on regional accented speech audio",
+      "tags": [
+        "whisper",
+        "speech",
+        "asr"
+      ]
+    },
+    {
+      "id": "item-033-02",
+      "kind": "skill",
+      "text": "Torchaudio & Librosa: extracted Mel-spectrograms, MFCC features, and applied pitch/speed augmentations",
+      "tags": [
+        "torchaudio",
+        "librosa",
+        "audio"
+      ]
+    },
+    {
+      "id": "item-033-03",
+      "kind": "skill",
+      "text": "PyTorch Deep Learning: trained Conformer and CTC-loss acoustic models for speech classification",
+      "tags": [
+        "pytorch",
+        "deep-learning"
+      ]
+    },
+    {
+      "id": "item-033-04",
+      "kind": "skill",
+      "text": "Audio Data Cleaning: processed raw WAV audio, removed silence, and normalized audio loudness (LUFS)",
+      "tags": [
+        "audio-processing",
+        "python"
+      ]
+    },
+    {
+      "id": "item-033-05",
+      "kind": "project",
+      "text": "DialectVoice: speech dialect recognition model identifying 4 South Indian dialects with 88% accuracy",
+      "tags": [
+        "speech",
+        "audio",
+        "pytorch",
+        "project"
+      ]
+    },
+    {
+      "id": "item-033-06",
+      "kind": "education",
+      "text": "B.Tech ECE, BITS Pilani (Hyderabad Campus), 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education",
+        "bits"
+      ]
+    },
+    {
+      "id": "item-033-07",
+      "kind": "skill",
+      "text": "Word Error Rate (WER) Evaluation: computed WER and CER benchmarks using jiwer library",
+      "tags": [
+        "wer",
+        "evaluation",
+        "speech"
+      ]
+    },
+    {
+      "id": "item-033-08",
+      "kind": "skill",
+      "text": "Spring Boot: developed simple bookstore REST service",
+      "tags": [
+        "java",
+        "spring-boot"
+      ]
+    },
+    {
+      "id": "item-033-09",
+      "kind": "work",
+      "text": "AI Intern at VoiceCraft (Hyderabad, 4 months): annotated and validated 100+ hours of vernacular audio",
+      "tags": [
+        "internship",
+        "speech",
+        "ai"
+      ]
+    },
+    {
+      "id": "item-033-10",
+      "kind": "skill",
+      "text": "Python & SciPy: signal processing, Fast Fourier Transform (FFT), and bandpass filtering",
+      "tags": [
+        "python",
+        "signal-processing"
+      ]
+    },
+    {
+      "id": "item-033-11",
+      "kind": "skill",
+      "text": "HTML & CSS: created responsive landing page for music festival",
+      "tags": [
+        "html",
+        "css"
+      ]
+    },
+    {
+      "id": "item-033-12",
+      "kind": "skill",
+      "text": "Hugging Face Hub: uploaded datasets and model checkpoints with model cards",
+      "tags": [
+        "huggingface",
+        "git"
+      ]
+    }
+  ],
+  "labels": {
+    "item-033-01": true,
+    "item-033-02": true,
+    "item-033-03": true,
+    "item-033-04": true,
+    "item-033-05": true,
+    "item-033-06": true,
+    "item-033-07": true,
+    "item-033-08": false,
+    "item-033-09": true,
+    "item-033-10": true,
+    "item-033-11": false,
+    "item-033-12": true
+  }
+}

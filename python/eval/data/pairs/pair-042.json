@@ -1,0 +1,140 @@
+{
+  "id": "pair-042",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Cloud Infrastructure Engineer (Azure)",
+    "description": "AzurePeak Solutions (Hyderabad) is an enterprise cloud consultancy. We are seeking a Junior Azure Cloud Engineer with knowledge of Azure Resource Manager / Bicep, Azure Virtual Machines, Virtual Networks, Azure DevOps pipelines, and Microsoft Entra ID."
+  },
+  "pool": [
+    {
+      "id": "item-042-01",
+      "kind": "skill",
+      "text": "Microsoft Azure Core Services: hands-on with Azure VMs, VNETs, Blob Storage, and Azure SQL Database",
+      "tags": [
+        "azure",
+        "cloud",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "item-042-02",
+      "kind": "skill",
+      "text": "Azure Bicep / ARM Templates: defined repeatable declarative infrastructure templates for Azure workloads",
+      "tags": [
+        "bicep",
+        "iac",
+        "azure"
+      ]
+    },
+    {
+      "id": "item-042-03",
+      "kind": "skill",
+      "text": "Azure DevOps CI/CD: configured YAML-based pipelines for automated building, testing, and deployment",
+      "tags": [
+        "azure-devops",
+        "ci-cd",
+        "yaml"
+      ]
+    },
+    {
+      "id": "item-042-04",
+      "kind": "skill",
+      "text": "Microsoft Entra ID (Azure AD): managed role-based access control (RBAC), service principals, and app registrations",
+      "tags": [
+        "entra-id",
+        "azure",
+        "iam"
+      ]
+    },
+    {
+      "id": "item-042-05",
+      "kind": "project",
+      "text": "AzureHubSpoke: automated deployment of enterprise Hub-and-Spoke network topology with Azure Bicep",
+      "tags": [
+        "azure",
+        "bicep",
+        "networking"
+      ]
+    },
+    {
+      "id": "item-042-06",
+      "kind": "education",
+      "text": "B.Tech Computer Science, JNTU Hyderabad, 2022\u20132026, CGPA 8.3/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-042-07",
+      "kind": "skill",
+      "text": "PowerShell & Azure CLI: scripted automated resource group creation and audit reporting",
+      "tags": [
+        "powershell",
+        "azure-cli",
+        "scripting"
+      ]
+    },
+    {
+      "id": "item-042-08",
+      "kind": "skill",
+      "text": "Flutter UI design: created personal music player app",
+      "tags": [
+        "flutter",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-042-09",
+      "kind": "work",
+      "text": "Cloud Intern at AzureTech (Hyderabad, 4 months): monitored Azure Monitor alerts and cost optimization advisors",
+      "tags": [
+        "internship",
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "id": "item-042-10",
+      "kind": "skill",
+      "text": "Docker on Azure: deployed containerized applications to Azure App Service and Container Instances",
+      "tags": [
+        "docker",
+        "azure-containers"
+      ]
+    },
+    {
+      "id": "item-042-11",
+      "kind": "skill",
+      "text": "Graphic Design: designed college fest posters in Canva",
+      "tags": [
+        "canva",
+        "design"
+      ]
+    },
+    {
+      "id": "item-042-12",
+      "kind": "skill",
+      "text": "Azure Monitor & Log Analytics: queried resource metrics using Kusto Query Language (KQL)",
+      "tags": [
+        "kql",
+        "monitoring",
+        "azure"
+      ]
+    }
+  ],
+  "labels": {
+    "item-042-01": true,
+    "item-042-02": true,
+    "item-042-03": true,
+    "item-042-04": true,
+    "item-042-05": true,
+    "item-042-06": true,
+    "item-042-07": true,
+    "item-042-08": false,
+    "item-042-09": true,
+    "item-042-10": true,
+    "item-042-11": false,
+    "item-042-12": true
+  }
+}

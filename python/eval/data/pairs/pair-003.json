@@ -1,0 +1,37 @@
+{
+  "id": "pair-003",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Visual Designer – Marketing",
+    "description": "BrandVault is a Noida-based digital marketing agency serving D2C e-commerce brands. We are hiring a Visual Designer who can produce scroll-stopping social media creatives, email banners, and website landing page designs at high velocity. You should be comfortable in Adobe Creative Suite and Figma and have a portfolio showing strong layout, typographic, and colour sense. Prior agency experience is a big plus. You will be expected to handle 8-12 design requests per week."
+  },
+  "pool": [
+    {"id": "item-003-01", "kind": "skill", "text": "Adobe Photoshop: retouched 200+ product images for an e-commerce brand, including background removal and colour grading", "tags": ["photoshop", "image-editing", "ecommerce"]},
+    {"id": "item-003-02", "kind": "skill", "text": "Adobe Illustrator: designed brand identities (logo, palette, typography) for 3 D2C startups during freelance engagements", "tags": ["illustrator", "branding", "logo-design"]},
+    {"id": "item-003-03", "kind": "work", "text": "Graphic Design Intern at Sprout Creative (Delhi, 4 months): produced 60+ social media posts, carousel ads, and email banners for 5 clients on weekly turnaround", "tags": ["internship", "social-media", "email-design", "agency"]},
+    {"id": "item-003-04", "kind": "skill", "text": "Figma: built reusable ad template system with variants for Instagram, Facebook and LinkedIn formats", "tags": ["figma", "templates", "social-media"]},
+    {"id": "item-003-05", "kind": "project", "text": "GlowCraft brand refresh: redesigned logo, packaging mockups and digital style guide for a skincare D2C brand — increased Instagram engagement by 34% (client-reported)", "tags": ["branding", "packaging", "style-guide"]},
+    {"id": "item-003-06", "kind": "skill", "text": "Canva Pro: created 40+ templated designs for a non-profit's awareness campaigns", "tags": ["canva", "social-media"]},
+    {"id": "item-003-07", "kind": "education", "text": "BFA Applied Art, Sir J J School of Art, Mumbai, 2021–2025, First Class", "tags": ["education", "art"]},
+    {"id": "item-003-08", "kind": "skill", "text": "Video editing in Premiere Pro: produced 30-second Reels and product demo videos for two clients", "tags": ["premiere-pro", "video-editing", "social-media"]},
+    {"id": "item-003-09", "kind": "skill", "text": "React Native: attempted to build a mobile app as a side project, abandoned after MVP", "tags": ["react-native", "mobile", "frontend"]},
+    {"id": "item-003-10", "kind": "skill", "text": "Typography: selected and paired Google Fonts for 8 brand projects; understands kerning, tracking and hierarchy", "tags": ["typography", "branding"]},
+    {"id": "item-003-11", "kind": "project", "text": "FestivalFly: designed a 10-page landing website for a music event brand using HTML/CSS — responsive, with parallax hero section", "tags": ["html", "css", "web-design", "landing-page"]},
+    {"id": "item-003-12", "kind": "skill", "text": "Kubernetes: deployed a Helm chart for a demo microservice during a hackathon", "tags": ["kubernetes", "devops"]}
+  ],
+  "labels": {
+    "item-003-01": true,
+    "item-003-02": true,
+    "item-003-03": true,
+    "item-003-04": true,
+    "item-003-05": true,
+    "item-003-06": true,
+    "item-003-07": true,
+    "item-003-08": true,
+    "item-003-09": false,
+    "item-003-10": true,
+    "item-003-11": true,
+    "item-003-12": false
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "pair-020",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate Software Engineer - Java & Spring Boot",
+    "description": "InfraSys Global in Chennai is recruiting Associate Software Engineers for its Enterprise Solutions group. The position requires strong core Java (17+), Spring Boot, Hibernate/JPA, RESTful web services, and relational databases. Candidates should understand clean architecture and unit testing with JUnit."
+  },
+  "pool": [
+    {
+      "id": "item-020-01",
+      "kind": "skill",
+      "text": "Core Java 17+: strong command of multithreading, Streams API, Records, and Exception handling",
+      "tags": [
+        "java",
+        "core-java",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-020-02",
+      "kind": "skill",
+      "text": "Spring Boot 3: built RESTful microservices with Spring Data JPA and validation annotations",
+      "tags": [
+        "spring-boot",
+        "java",
+        "microservices"
+      ]
+    },
+    {
+      "id": "item-020-03",
+      "kind": "skill",
+      "text": "Hibernate ORM: mapped entity relationships (OneToMany, ManyToMany) and solved N+1 query issues",
+      "tags": [
+        "hibernate",
+        "jpa",
+        "database"
+      ]
+    },
+    {
+      "id": "item-020-04",
+      "kind": "skill",
+      "text": "MySQL: wrote indexed SQL queries, stored procedures, and analyzed execution plans with EXPLAIN",
+      "tags": [
+        "mysql",
+        "sql",
+        "database"
+      ]
+    },
+    {
+      "id": "item-020-05",
+      "kind": "project",
+      "text": "InventoryMaster: enterprise warehouse stock management backend built in Spring Boot with JUnit 5 tests",
+      "tags": [
+        "java",
+        "spring-boot",
+        "project"
+      ]
+    },
+    {
+      "id": "item-020-06",
+      "kind": "education",
+      "text": "B.E. Computer Technology, Anna University, Chennai, 2022\u20132026, First Class",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-020-07",
+      "kind": "skill",
+      "text": "JUnit 5 & Mockito: wrote unit tests mocking repository and service dependencies",
+      "tags": [
+        "junit",
+        "mockito",
+        "testing"
+      ]
+    },
+    {
+      "id": "item-020-08",
+      "kind": "skill",
+      "text": "React frontend: built a todo list using create-react-app",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-020-09",
+      "kind": "skill",
+      "text": "Maven build tool: configured pom.xml dependencies, plugins, and multi-module project structure",
+      "tags": [
+        "maven",
+        "java"
+      ]
+    },
+    {
+      "id": "item-020-10",
+      "kind": "skill",
+      "text": "Adobe Photoshop: edited festival banner posters for university cultural committee",
+      "tags": [
+        "photoshop",
+        "graphics"
+      ]
+    },
+    {
+      "id": "item-020-11",
+      "kind": "work",
+      "text": "Software Intern at HexaWare (Chennai, 3 months): developed data export APIs generating CSV and Excel",
+      "tags": [
+        "internship",
+        "java",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "item-020-12",
+      "kind": "skill",
+      "text": "REST API Documentation: integrated Swagger / OpenAPI 3.0 for interactive API documentation",
+      "tags": [
+        "swagger",
+        "openapi",
+        "api"
+      ]
+    }
+  ],
+  "labels": {
+    "item-020-01": true,
+    "item-020-02": true,
+    "item-020-03": true,
+    "item-020-04": true,
+    "item-020-05": true,
+    "item-020-06": true,
+    "item-020-07": true,
+    "item-020-08": false,
+    "item-020-09": true,
+    "item-020-10": false,
+    "item-020-11": true,
+    "item-020-12": true
+  }
+}

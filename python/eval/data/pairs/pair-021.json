@@ -1,0 +1,140 @@
+{
+  "id": "pair-021",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Python Backend Developer (FastAPI / Django)",
+    "description": "DataStream Analytics (Gurugram) is looking for a Junior Python Developer. You will develop asynchronous web APIs using FastAPI, interact with PostgreSQL using SQLAlchemy / asyncpg, write background tasks with Celery and Redis, and ensure code quality with pytest and ruff."
+  },
+  "pool": [
+    {
+      "id": "item-021-01",
+      "kind": "skill",
+      "text": "Python 3.11+ & Asyncio: mastered async/await paradigms, typing hints, and Pydantic data schemas",
+      "tags": [
+        "python",
+        "asyncio",
+        "pydantic"
+      ]
+    },
+    {
+      "id": "item-021-02",
+      "kind": "skill",
+      "text": "FastAPI: built performant REST endpoints with automatic OpenAPI generation and dependency injection",
+      "tags": [
+        "fastapi",
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-021-03",
+      "kind": "skill",
+      "text": "SQLAlchemy 2.0 & Alembic: wrote async ORM models, migrations, and parameterized raw SQL queries",
+      "tags": [
+        "sqlalchemy",
+        "alembic",
+        "postgres"
+      ]
+    },
+    {
+      "id": "item-021-04",
+      "kind": "skill",
+      "text": "Celery & Redis: engineered asynchronous task workers for PDF report generation and email notifications",
+      "tags": [
+        "celery",
+        "redis",
+        "background-tasks"
+      ]
+    },
+    {
+      "id": "item-021-05",
+      "kind": "project",
+      "text": "DocuSigner: async document signing service backend with audit trails and PDF watermarking",
+      "tags": [
+        "fastapi",
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-021-06",
+      "kind": "education",
+      "text": "B.Tech CSE, Thapar University, Patiala, 2022\u20132026, CGPA 8.4/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-021-07",
+      "kind": "skill",
+      "text": "Pytest & Coverage: created fixtures and test suites verifying status codes and error responses",
+      "tags": [
+        "pytest",
+        "testing",
+        "python"
+      ]
+    },
+    {
+      "id": "item-021-08",
+      "kind": "skill",
+      "text": "Figma design system: designed mobile onboarding screens",
+      "tags": [
+        "figma",
+        "design"
+      ]
+    },
+    {
+      "id": "item-021-09",
+      "kind": "work",
+      "text": "Backend Intern at CloudPulse (Gurugram, 4 months): migrated synchronous Flask routes to FastAPI",
+      "tags": [
+        "internship",
+        "fastapi",
+        "python"
+      ]
+    },
+    {
+      "id": "item-021-10",
+      "kind": "skill",
+      "text": "Docker & Docker Compose: orchestrated local development stack with app, Postgres, and Redis",
+      "tags": [
+        "docker",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-021-11",
+      "kind": "skill",
+      "text": "Vue.js: built frontend calculator app for personal use",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-021-12",
+      "kind": "skill",
+      "text": "Ruff & Mypy: maintained strict linting and static type checking in CI workflow",
+      "tags": [
+        "ruff",
+        "mypy",
+        "clean-code"
+      ]
+    }
+  ],
+  "labels": {
+    "item-021-01": true,
+    "item-021-02": true,
+    "item-021-03": true,
+    "item-021-04": true,
+    "item-021-05": true,
+    "item-021-06": true,
+    "item-021-07": true,
+    "item-021-08": false,
+    "item-021-09": true,
+    "item-021-10": true,
+    "item-021-11": false,
+    "item-021-12": true
+  }
+}

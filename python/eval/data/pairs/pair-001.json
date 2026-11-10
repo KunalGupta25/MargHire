@@ -1,0 +1,37 @@
+{
+  "id": "pair-001",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior UI/UX Designer",
+    "description": "Pixelcraft Studios is a Bengaluru-based product startup building consumer apps for the Indian market. We are looking for a Junior UI/UX Designer to join our growing design team. You will own end-to-end design for mobile-first features, from early wireframes to polished Figma handoffs. A strong eye for typography, colour systems, and accessibility is essential. Experience with user research and usability testing is a plus."
+  },
+  "pool": [
+    {"id": "item-001-01", "kind": "skill", "text": "Figma: designed 10+ screens for a consumer fintech app including onboarding, dashboard and transaction flows", "tags": ["figma", "ui", "mobile"]},
+    {"id": "item-001-02", "kind": "skill", "text": "Adobe Illustrator: created icon sets and marketing illustrations for college fest website", "tags": ["illustrator", "graphic-design"]},
+    {"id": "item-001-03", "kind": "project", "text": "PocketLedger: end-to-end UX for a personal finance mobile app — user flows, wireframes, high-fidelity Figma prototype, and usability test report with 8 participants", "tags": ["figma", "ux-research", "mobile", "fintech"]},
+    {"id": "item-001-04", "kind": "skill", "text": "User research: conducted 12 semi-structured interviews and synthesised affinity maps for a food-ordering concept", "tags": ["ux-research", "interviews"]},
+    {"id": "item-001-05", "kind": "skill", "text": "WCAG 2.1 AA colour contrast guidelines: audited three screens and filed 6 accessibility fixes", "tags": ["accessibility", "wcag"]},
+    {"id": "item-001-06", "kind": "skill", "text": "HTML/CSS: hand-coded pixel-perfect landing pages from Figma comps during internship", "tags": ["html", "css"]},
+    {"id": "item-001-07", "kind": "work", "text": "Design Intern at Bluewave Digital (Pune, 3 months): produced UI assets, maintained design system, wrote Figma component documentation", "tags": ["internship", "design-system", "figma"]},
+    {"id": "item-001-08", "kind": "skill", "text": "Prototyping in Figma: interactive micro-interaction prototypes with smart animate for onboarding flows", "tags": ["figma", "prototyping", "micro-interactions"]},
+    {"id": "item-001-09", "kind": "education", "text": "B.Des Visual Communication, Symbiosis Institute of Design, Pune, 2022–2026, CGPA 8.4/10", "tags": ["education", "design"]},
+    {"id": "item-001-10", "kind": "skill", "text": "Arduino / embedded C: built a line-following robot as part of electronics hobby club", "tags": ["arduino", "embedded-c", "electronics"]},
+    {"id": "item-001-11", "kind": "skill", "text": "Motion design in After Effects: created 15-second product demo animation for final-year project", "tags": ["after-effects", "motion-design"]},
+    {"id": "item-001-12", "kind": "project", "text": "CampusConnect redesign: heuristic evaluation and redesign proposal for college ERP portal, reducing task completion time by 40% in moderated tests", "tags": ["ux-research", "redesign", "heuristic-evaluation"]}
+  ],
+  "labels": {
+    "item-001-01": true,
+    "item-001-02": true,
+    "item-001-03": true,
+    "item-001-04": true,
+    "item-001-05": true,
+    "item-001-06": true,
+    "item-001-07": true,
+    "item-001-08": true,
+    "item-001-09": true,
+    "item-001-10": false,
+    "item-001-11": true,
+    "item-001-12": true
+  }
+}

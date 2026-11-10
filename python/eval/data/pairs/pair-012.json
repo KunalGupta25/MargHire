@@ -1,0 +1,138 @@
+{
+  "id": "pair-012",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Web Developer (Next.js & Tailwind)",
+    "description": "IndieStack Studio is a high-velocity digital agency in Bengaluru crafting web applications for Indian D2C brands. We seek a Junior Web Developer fluent in Next.js (App Router), Tailwind CSS, TypeScript, and responsive mobile-first development. Experience integrating CMS platforms (Sanity or Strapi) is a bonus."
+  },
+  "pool": [
+    {
+      "id": "item-012-01",
+      "kind": "skill",
+      "text": "Next.js 14 App Router: built dynamic e-commerce catalog with server components and streaming SSR",
+      "tags": [
+        "nextjs",
+        "react",
+        "typescript"
+      ]
+    },
+    {
+      "id": "item-012-02",
+      "kind": "skill",
+      "text": "Tailwind CSS: styled component library with custom design tokens, dark mode and fluid typography",
+      "tags": [
+        "tailwind",
+        "css",
+        "design-tokens"
+      ]
+    },
+    {
+      "id": "item-012-03",
+      "kind": "skill",
+      "text": "Sanity CMS integration: created schemas and queried content using GROQ for a lifestyle brand blog",
+      "tags": [
+        "cms",
+        "sanity",
+        "api"
+      ]
+    },
+    {
+      "id": "item-012-04",
+      "kind": "skill",
+      "text": "Vercel deployment: configured automated preview deploys and environment variable management",
+      "tags": [
+        "vercel",
+        "deployment"
+      ]
+    },
+    {
+      "id": "item-012-05",
+      "kind": "project",
+      "text": "ChaiCraft: responsive D2C mock storefront built with Next.js, Tailwind, and Stripe checkout integration",
+      "tags": [
+        "ecommerce",
+        "nextjs",
+        "project"
+      ]
+    },
+    {
+      "id": "item-012-06",
+      "kind": "education",
+      "text": "B.Sc. Computer Science, Christ University, Bengaluru, 2023\u20132026",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-012-07",
+      "kind": "skill",
+      "text": "Web Accessibility (a11y): ensured keyboard navigation and ARIA landmarks across all landing pages",
+      "tags": [
+        "accessibility",
+        "a11y"
+      ]
+    },
+    {
+      "id": "item-012-08",
+      "kind": "skill",
+      "text": "Android Java development: built simple SQLite offline notes app in Android Studio",
+      "tags": [
+        "android",
+        "java",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-012-09",
+      "kind": "work",
+      "text": "Web Intern at BrandHive (Bengaluru, 3 months): built 8 promotional landing pages on tight deadlines",
+      "tags": [
+        "internship",
+        "frontend",
+        "agency"
+      ]
+    },
+    {
+      "id": "item-012-10",
+      "kind": "skill",
+      "text": "Apache Kafka: producer and consumer scripts written in Python",
+      "tags": [
+        "kafka",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-012-11",
+      "kind": "skill",
+      "text": "Figma to Code: translated complex multi-page mobile designs to pixel-perfect React code",
+      "tags": [
+        "figma",
+        "frontend"
+      ]
+    },
+    {
+      "id": "item-012-12",
+      "kind": "skill",
+      "text": "Zod validation: validated search query params and newsletter subscription forms",
+      "tags": [
+        "zod",
+        "typescript"
+      ]
+    }
+  ],
+  "labels": {
+    "item-012-01": true,
+    "item-012-02": true,
+    "item-012-03": true,
+    "item-012-04": true,
+    "item-012-05": true,
+    "item-012-06": true,
+    "item-012-07": true,
+    "item-012-08": false,
+    "item-012-09": true,
+    "item-012-10": false,
+    "item-012-11": true,
+    "item-012-12": true
+  }
+}

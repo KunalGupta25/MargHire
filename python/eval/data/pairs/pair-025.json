@@ -1,0 +1,138 @@
+{
+  "id": "pair-025",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Associate Backend Developer - C# / .NET",
+    "description": "Apex Financial Tech in Hyderabad is looking for an Associate Backend Developer. The candidate will work on core banking microservices using C#, .NET 8, ASP.NET Core Web API, Entity Framework Core, and SQL Server. Unit testing and knowledge of SOLID principles are required."
+  },
+  "pool": [
+    {
+      "id": "item-025-01",
+      "kind": "skill",
+      "text": "C# & .NET 8: object-oriented programming, LINQ queries, async task programming, and records",
+      "tags": [
+        "csharp",
+        "dotnet",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-025-02",
+      "kind": "skill",
+      "text": "ASP.NET Core Web API: built secure REST endpoints with model binding, filters, and middleware",
+      "tags": [
+        "aspnet",
+        "dotnet",
+        "api"
+      ]
+    },
+    {
+      "id": "item-025-03",
+      "kind": "skill",
+      "text": "Entity Framework Core: performed code-first migrations, seeded data, and handled optimistic concurrency",
+      "tags": [
+        "efcore",
+        "database",
+        "dotnet"
+      ]
+    },
+    {
+      "id": "item-025-04",
+      "kind": "skill",
+      "text": "SQL Server: designed schemas, foreign keys, stored procedures, and clustered indexes",
+      "tags": [
+        "sql-server",
+        "database"
+      ]
+    },
+    {
+      "id": "item-025-05",
+      "kind": "project",
+      "text": "BankLedgerCore: simulated multi-currency banking ledger in .NET 8 with audit logs and decimal precision",
+      "tags": [
+        "dotnet",
+        "csharp",
+        "fintech"
+      ]
+    },
+    {
+      "id": "item-025-06",
+      "kind": "education",
+      "text": "B.Tech CSE, Vasavi College of Engineering, Hyderabad, 2022\u20132026, CGPA 8.5/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-025-07",
+      "kind": "skill",
+      "text": "xUnit & Moq: authored automated unit tests verifying business rules in service layer",
+      "tags": [
+        "xunit",
+        "moq",
+        "testing"
+      ]
+    },
+    {
+      "id": "item-025-08",
+      "kind": "skill",
+      "text": "Flutter: built cross-platform weather app for Android and iOS",
+      "tags": [
+        "flutter",
+        "mobile"
+      ]
+    },
+    {
+      "id": "item-025-09",
+      "kind": "work",
+      "text": "Backend Intern at Zenith IT (Hyderabad, 4 months): resolved bug tickets in ASP.NET Core service layer",
+      "tags": [
+        "internship",
+        "dotnet",
+        "backend"
+      ]
+    },
+    {
+      "id": "item-025-10",
+      "kind": "skill",
+      "text": "SOLID Principles: applied dependency inversion, single responsibility, and interface segregation",
+      "tags": [
+        "solid",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "item-025-11",
+      "kind": "skill",
+      "text": "Photoshop: designed club logos and team jerseys",
+      "tags": [
+        "photoshop",
+        "design"
+      ]
+    },
+    {
+      "id": "item-025-12",
+      "kind": "skill",
+      "text": "Git & Azure DevOps: tracked work items and managed Git pull request branches",
+      "tags": [
+        "git",
+        "azure-devops"
+      ]
+    }
+  ],
+  "labels": {
+    "item-025-01": true,
+    "item-025-02": true,
+    "item-025-03": true,
+    "item-025-04": true,
+    "item-025-05": true,
+    "item-025-06": true,
+    "item-025-07": true,
+    "item-025-08": false,
+    "item-025-09": true,
+    "item-025-10": true,
+    "item-025-11": false,
+    "item-025-12": true
+  }
+}

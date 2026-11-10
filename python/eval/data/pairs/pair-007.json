@@ -1,0 +1,37 @@
+{
+  "id": "pair-007",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Mobile UX Designer (Android & iOS)",
+    "description": "Wavepath Mobility is a Gurugram B2C startup building a ride-pooling super-app for metro commuters. We are hiring a Mobile UX Designer who understands the nuances of native Android and iOS design conventions while maintaining a consistent cross-platform brand. You will design booking flows, driver/rider dashboards, and real-time map interactions. Experience with Maps SDK overlays and motion design for transitions is a plus. We iterate fast with biweekly sprints."
+  },
+  "pool": [
+    {"id": "item-007-01", "kind": "skill", "text": "Figma: designed 60+ screens across Android and iOS, respecting Material You and Apple HIG conventions including adaptive layout and safe area handling", "tags": ["figma", "android", "ios", "mobile"]},
+    {"id": "item-007-02", "kind": "skill", "text": "Map UI design: prototyped map interaction flows using Figma's map community plugins; documented overlay layer hierarchy for engineering", "tags": ["figma", "maps", "mobile-ux"]},
+    {"id": "item-007-03", "kind": "work", "text": "UX Design Intern at RideSwift (Bengaluru, 6 months): designed driver app home screen, trip-status bottom sheet, and earnings summary screen; participated in bi-weekly user interviews with drivers", "tags": ["internship", "mobile-ux", "ride-tech"]},
+    {"id": "item-007-04", "kind": "project", "text": "Poolio concept: full UX for a ride-pooling app — persona research, flow maps, Android hi-fi Figma prototype, 3-day unmoderated Maze test with 18 participants; redesign reduced booking steps from 7 to 4", "tags": ["mobile-ux", "ride-tech", "figma", "user-research"]},
+    {"id": "item-007-05", "kind": "skill", "text": "iOS Human Interface Guidelines: applied HIG rules for safe areas, back-swipe gestures, sheet presentations and haptic feedback spec", "tags": ["ios", "hig", "mobile-ux"]},
+    {"id": "item-007-06", "kind": "skill", "text": "Motion design: specified transition animations (enter/exit, shared-element) in a motion spec document; annotated durations and easing curves for each screen transition", "tags": ["motion-design", "animation", "mobile"]},
+    {"id": "item-007-07", "kind": "education", "text": "B.Des Interaction Design, IDC School of Design, IIT Bombay, 2022–2026, CGPA 8.3/10", "tags": ["education", "interaction-design"]},
+    {"id": "item-007-08", "kind": "skill", "text": "User research: conducted 10 contextual inquiries with auto-rickshaw commuters in Pune to inform mental-model mapping", "tags": ["user-research", "contextual-inquiry"]},
+    {"id": "item-007-09", "kind": "skill", "text": "PySpark: processed a 10 GB ride-dataset for a data engineering assignment; not related to design work", "tags": ["pyspark", "big-data"]},
+    {"id": "item-007-10", "kind": "skill", "text": "Component organisation in Figma: structured frames by feature, used named auto-layout frames and page splits to keep 300+ screen file manageable", "tags": ["figma", "file-organisation"]},
+    {"id": "item-007-11", "kind": "project", "text": "SafeRoute: location-sharing safety feature UX for a women's mobility app — dark-mode hi-fi, panic-button micro-interaction, emergency contact flow", "tags": ["mobile-ux", "safety", "dark-mode", "figma"]},
+    {"id": "item-007-12", "kind": "skill", "text": "Handoff: used Figma's Dev Mode to generate redlines and annotated spec sheets consumed by Android and iOS engineers", "tags": ["figma", "developer-handoff"]}
+  ],
+  "labels": {
+    "item-007-01": true,
+    "item-007-02": true,
+    "item-007-03": true,
+    "item-007-04": true,
+    "item-007-05": true,
+    "item-007-06": true,
+    "item-007-07": true,
+    "item-007-08": true,
+    "item-007-09": false,
+    "item-007-10": true,
+    "item-007-11": true,
+    "item-007-12": true
+  }
+}

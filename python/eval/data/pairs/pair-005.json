@@ -1,0 +1,39 @@
+{
+  "id": "pair-005",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Interaction Designer",
+    "description": "Luminary Games is a Chennai-based casual mobile gaming studio. We are hiring an Interaction Designer to craft delightful, game-feel-driven UI for our upcoming casual and hypercasual titles. You will design menus, HUDs, reward animations, and onboarding flows, then collaborate with Unity developers to implement them. Proficiency in Figma is required; experience with After Effects or Spine 2D for animation is a strong plus. A portfolio showing playful, motion-rich interfaces will stand out."
+  },
+  "pool": [
+    {"id": "item-005-01", "kind": "skill", "text": "Figma: designed complete UI kit for a hypercasual game — menus, HUD, reward screens, settings — with interactive prototype", "tags": ["figma", "game-ui", "prototype"]},
+    {"id": "item-005-02", "kind": "skill", "text": "After Effects: created sprite animations and UI transition animations exported as JSON via Lottie for mobile integration", "tags": ["after-effects", "lottie", "animation", "mobile"]},
+    {"id": "item-005-03", "kind": "project", "text": "BlastOff Idle: designed all UI/UX for a hypercasual idle clicker game — wireframes, hi-fi comps, and Spine 2D character animations; published on Google Play with 2 000 installs", "tags": ["game-ui", "spine2d", "mobile", "google-play"]},
+    {"id": "item-005-04", "kind": "skill", "text": "Unity UI Toolkit: implemented designed screens in Unity 2022 using UI Toolkit and USS stylesheets", "tags": ["unity", "ui-toolkit", "game-dev"]},
+    {"id": "item-005-05", "kind": "skill", "text": "Spine 2D: rigged and animated 4 characters for a 2D platformer game prototype; exported skeletons for Unity runtime", "tags": ["spine2d", "animation", "game-dev"]},
+    {"id": "item-005-06", "kind": "work", "text": "Game UI Design Intern at PebbleArc Studios (Remote, 5 months): owned UI for 2 mini-games, iterated on reward loop screens based on playtester feedback", "tags": ["internship", "game-ui", "playtesting"]},
+    {"id": "item-005-07", "kind": "education", "text": "B.Des Interaction Design, NID Ahmedabad, 2021–2025, CGPA 8.1/10", "tags": ["education", "interaction-design"]},
+    {"id": "item-005-08", "kind": "skill", "text": "Prototyping micro-interactions: built 10 Figma smart-animate prototypes demonstrating button press, card flip, and confetti reward states", "tags": ["figma", "micro-interactions", "prototyping"]},
+    {"id": "item-005-09", "kind": "skill", "text": "AWS Lambda: wrote serverless functions for a web scraper side project", "tags": ["aws", "lambda", "serverless", "cloud"]},
+    {"id": "item-005-10", "kind": "skill", "text": "Game feel research: documented 30 mobile games' reward loops and UI patterns in a personal design journal shared as a Notion page", "tags": ["game-design", "research", "ux"]},
+    {"id": "item-005-11", "kind": "project", "text": "PuzzleVault: end-to-end UI/UX for a word puzzle mobile game — created motion design spec sheet so developers could implement animations without designer involvement", "tags": ["game-ui", "motion-design", "mobile"]},
+    {"id": "item-005-12", "kind": "skill", "text": "Sound design basics: used Audacity to cut and loop SFX for prototype games", "tags": ["sound-design", "audacity", "game-dev"]},
+    {"id": "item-005-13", "kind": "skill", "text": "VHDL: implemented an FSM for a digital logic assignment in final year", "tags": ["vhdl", "digital-logic"]}
+  ],
+  "labels": {
+    "item-005-01": true,
+    "item-005-02": true,
+    "item-005-03": true,
+    "item-005-04": true,
+    "item-005-05": true,
+    "item-005-06": true,
+    "item-005-07": true,
+    "item-005-08": true,
+    "item-005-09": false,
+    "item-005-10": true,
+    "item-005-11": true,
+    "item-005-12": true,
+    "item-005-13": false
+  }
+}

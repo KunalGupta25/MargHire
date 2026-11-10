@@ -1,0 +1,39 @@
+{
+  "id": "pair-002",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Product Designer (Associate)",
+    "description": "Nexora Health is a Series-A health-tech startup in Hyderabad building a telemedicine platform for Tier-2 and Tier-3 cities. We need an Associate Product Designer who can translate fuzzy product requirements into clean, testable interfaces. You will collaborate closely with PMs and engineers and run fortnightly usability sessions. Proficiency in Figma and familiarity with design systems are non-negotiable. Prior experience in health or fintech UX is preferred but not mandatory."
+  },
+  "pool": [
+    {"id": "item-002-01", "kind": "skill", "text": "Figma: built a shared component library of 60+ atoms and molecules following atomic design principles", "tags": ["figma", "design-system", "atomic-design"]},
+    {"id": "item-002-02", "kind": "work", "text": "UX Design Intern at CureLink Technologies (Remote, 6 months): designed patient-facing appointment booking and prescription view screens for Android app", "tags": ["internship", "health-tech", "android", "ux"]},
+    {"id": "item-002-03", "kind": "project", "text": "MediCheck: end-to-end UX for a symptom checker web app — persona research, journey maps, Figma prototype, unmoderated Maze tests (n=22)", "tags": ["ux-research", "figma", "health-tech", "prototype"]},
+    {"id": "item-002-04", "kind": "skill", "text": "Usability testing: planned and moderated 5 sessions using Lookback, synthesised findings into actionable design changes", "tags": ["usability-testing", "lookback", "ux-research"]},
+    {"id": "item-002-05", "kind": "skill", "text": "Data storytelling in Tableau: built dashboards showing funnel drop-offs for product team", "tags": ["tableau", "data-viz"]},
+    {"id": "item-002-06", "kind": "skill", "text": "Content design: wrote microcopy for error states, empty states and onboarding tooltips using plain-language principles", "tags": ["content-design", "microcopy"]},
+    {"id": "item-002-07", "kind": "education", "text": "B.Tech Computer Science, VIT Vellore, 2022–2026, CGPA 7.9/10", "tags": ["education", "cs"]},
+    {"id": "item-002-08", "kind": "skill", "text": "Docker: containerised a Node.js REST API for a college project", "tags": ["docker", "devops", "nodejs"]},
+    {"id": "item-002-09", "kind": "skill", "text": "Design critique: facilitated weekly design reviews using structured feedback framework (I like / I wish / What if)", "tags": ["design-critique", "collaboration"]},
+    {"id": "item-002-10", "kind": "project", "text": "RuralReach accessibility audit: evaluated a government scheme web portal for WCAG 2.1 compliance, delivered a 14-point remediation report", "tags": ["accessibility", "wcag", "audit"]},
+    {"id": "item-002-11", "kind": "certification", "text": "Google UX Design Professional Certificate (Coursera), completed 2025", "tags": ["certification", "ux"]},
+    {"id": "item-002-12", "kind": "skill", "text": "SQL: wrote queries against PostgreSQL to pull activation and retention metrics for design experiments", "tags": ["sql", "postgresql", "analytics"]},
+    {"id": "item-002-13", "kind": "skill", "text": "MATLAB: used for signal processing lab coursework in second year", "tags": ["matlab", "signal-processing"]}
+  ],
+  "labels": {
+    "item-002-01": true,
+    "item-002-02": true,
+    "item-002-03": true,
+    "item-002-04": true,
+    "item-002-05": true,
+    "item-002-06": true,
+    "item-002-07": true,
+    "item-002-08": false,
+    "item-002-09": true,
+    "item-002-10": true,
+    "item-002-11": true,
+    "item-002-12": true,
+    "item-002-13": false
+  }
+}

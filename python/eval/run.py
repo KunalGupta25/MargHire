@@ -5,8 +5,8 @@ Usage:
     python -m eval.run --adapter laya-stub --shuffles 3
     python -m eval.run --help
 
-Phase 0: runs the harness with stub adapters to verify the pipeline end-to-end.
-Real model calls start in Phase 3.
+Real provider adapters are available for Clef and Gemini. Laya and the generic
+LLM adapters remain stubs until their runtimes are selected and configured.
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ from .adapters.gemini import GeminiAdapter
 from .adapters.laya import LayaAdapter
 from .adapters.llm import LLMAdapter
 from .loader import load_pairs
-from .metrics import aggregate, order_sensitivity
+from .metrics import aggregate
 from .schema import AdapterResult
 
 ADAPTERS = {
@@ -72,6 +72,8 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
+    if args.shuffles < 1:
+        parser.error("--shuffles must be at least 1")
 
     print("Loading pairs...")
     pairs = load_pairs(pairs_dir=args.pairs_dir)
@@ -90,16 +92,6 @@ def main(argv: list[str] | None = None) -> int:
 
     summary = aggregate(pairs, all_results, adapter.name)
 
-    order_diffs: list[int] = []
-    if args.shuffles >= 2:
-        for pair in pairs:
-            p_res = [
-                r for r in all_results
-                if r.pair_id == pair.id and r.adapter_name == adapter.name
-            ]
-            if len(p_res) >= 2:
-                order_diffs.append(order_sensitivity(p_res[0], p_res[1]))
-
     print(f"\nResults for {adapter.name}:")
     print(f"  Pairs evaluated : {summary.pair_count}")
     print(f"  Macro precision : {summary.macro_precision:.3f}")
@@ -107,17 +99,27 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  Macro F1        : {summary.macro_f1:.3f}")
     if summary.median_latency_s is not None:
         print(f"  Median latency  : {summary.median_latency_s:.2f}s")
-    if order_diffs:
-        avg_diff = sum(order_diffs) / len(order_diffs)
-        print(f"  Order sensitivity (avg item diff on shuffle) : {avg_diff:.2f}")
+    if summary.mean_order_sensitivity is not None:
+        print(f"  Order sensitivity (mean item diff) : {summary.mean_order_sensitivity:.2f}")
     if summary.total_cost_usd is not None:
         print(f"  Total cost      : ${summary.total_cost_usd:.4f}")
 
     args.output.mkdir(parents=True, exist_ok=True)
-    ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    run_at = datetime.now(UTC)
+    ts = run_at.strftime("%Y%m%dT%H%M%SZ")
     out_path = args.output / f"{adapter.name}_{ts}.json"
     out_path.write_text(
-        json.dumps(dataclasses.asdict(summary), indent=2, default=str),
+        json.dumps(
+            {
+                "run_at_utc": run_at.isoformat(),
+                "adapter": adapter.name,
+                "model_id": adapter.model_id,
+                "shuffle_count": args.shuffles,
+                "metrics": dataclasses.asdict(summary),
+            },
+            indent=2,
+            default=str,
+        ),
         encoding="utf-8",
     )
     print(f"\nFull results written to {out_path}")

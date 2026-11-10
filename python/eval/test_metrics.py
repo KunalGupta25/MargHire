@@ -8,6 +8,8 @@ Test IDs map to Test Plan:
 
 from __future__ import annotations
 
+from dataclasses import replace
+
 import pytest
 
 from eval.metrics import aggregate, f1, order_sensitivity, pair_metrics, precision, recall
@@ -169,3 +171,34 @@ class TestAggregate:
         ]
         summary = aggregate([all_positive_pair], results, "adp")
         assert summary.pair_count == 1
+
+    def test_aggregate_persists_mean_order_sensitivity_across_shuffles(
+        self, all_positive_pair: Pair
+    ) -> None:
+        results = [
+            AdapterResult("pair-test", "adp", ["a"], shuffle_index=0),
+            AdapterResult("pair-test", "adp", ["b"], shuffle_index=1),
+            AdapterResult("pair-test", "adp", ["a", "b"], shuffle_index=2),
+        ]
+
+        summary = aggregate([all_positive_pair], results, "adp")
+
+        assert summary.mean_order_sensitivity == pytest.approx(1.5)
+        assert summary.per_pair[0].order_changed == pytest.approx(1.5)
+
+    def test_aggregate_leaves_total_cost_unknown_if_any_pair_cost_is_unknown(
+        self, all_positive_pair: Pair
+    ) -> None:
+        second_pair = replace(all_positive_pair, id="pair-test-2")
+        results = [
+            AdapterResult(
+                "pair-test", "adp", ["a", "b"], cost_usd=0.25, shuffle_index=0
+            ),
+            AdapterResult(
+                "pair-test-2", "adp", ["a", "b"], cost_usd=None, shuffle_index=0
+            ),
+        ]
+
+        summary = aggregate([all_positive_pair, second_pair], results, "adp")
+
+        assert summary.total_cost_usd is None

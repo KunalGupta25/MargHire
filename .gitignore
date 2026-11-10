@@ -4,7 +4,11 @@
 .env.*.local
 
 # ── User data (never commit real personal data) ───────────────────────────────
-data/
+/data/
+**/data/
+# Public synthetic evaluation fixtures are safe to track.
+!python/eval/data/
+!python/eval/data/**
 uploads/
 rendered/
 *.pdf
@@ -48,3 +52,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+/.phase0-scratch-laya/
+/.codex/scratch/laya-phase0/
+/torch==2.15.0+cpu

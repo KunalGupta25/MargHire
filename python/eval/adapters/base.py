@@ -1,7 +1,6 @@
 """Abstract base class for Role Lens adapters.
 
 An adapter takes a Pair and returns the item ids it thinks should appear on the resume.
-Phase 0: stubs only. Real adapters are wired up during the model comparison run.
 """
 
 from __future__ import annotations
@@ -20,6 +19,11 @@ class Adapter(abc.ABC):
     def name(self) -> str:
         """Short identifier used in result files and reports."""
 
+    @property
+    def model_id(self) -> str:
+        """Provider model identifier, or the adapter name for a stub."""
+        return self.name
+
     @abc.abstractmethod
     def select(self, pair: Pair, shuffle_index: int = 0) -> AdapterResult:
         """Select item ids from pair.pool that should appear for pair.job.
@@ -31,7 +35,7 @@ class Adapter(abc.ABC):
                 times with different indices.
 
         Returns:
-            AdapterResult with selected_ids, latency_s and cost_usd populated.
+            AdapterResult with selected_ids and any available latency or cost data.
         """
 
     def _shuffled_pool(self, pair: Pair, shuffle_index: int) -> list[str]:

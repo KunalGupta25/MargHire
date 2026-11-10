@@ -51,6 +51,10 @@ class ClefAdapter(Adapter):
     def name(self) -> str:
         return "clef-flash" if self._flash else "clef"
 
+    @property
+    def model_id(self) -> str:
+        return f"@cf/cloudflare/{self.name}"
+
     def select(self, pair: Pair, shuffle_index: int = 0) -> AdapterResult:
         if not self._account_id or not self._api_token:
             raise ValueError(
@@ -126,6 +130,6 @@ class ClefAdapter(Adapter):
             adapter_name=self.name,
             selected_ids=selected,
             latency_s=latency,
-            cost_usd=0.0,  # Free within daily 10,000 Neurons allowance
+            cost_usd=None,
             shuffle_index=shuffle_index,
         )

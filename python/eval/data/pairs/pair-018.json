@@ -1,0 +1,134 @@
+{
+  "id": "pair-018",
+  "created_by": "synthetic",
+  "created_at": "2026-11-10",
+  "job": {
+    "title": "Junior Frontend Engineer (Web Performance & SDK)",
+    "description": "LogixTech (Delhi NCR) creates embeddable JavaScript analytics SDKs and client portals. We are seeking a Junior Frontend Engineer comfortable with browser APIs, script tag loaders, bundle budgeting, TypeScript, and cross-browser quirks."
+  },
+  "pool": [
+    {
+      "id": "item-018-01",
+      "kind": "skill",
+      "text": "Browser APIs: proficient with MutationObserver, PerformanceObserver, and IntersectionObserver",
+      "tags": [
+        "browser-apis",
+        "javascript"
+      ]
+    },
+    {
+      "id": "item-018-02",
+      "kind": "skill",
+      "text": "TypeScript: authored zero-dependency TypeScript libraries compiled to UMD, ESM, and CJS targets",
+      "tags": [
+        "typescript",
+        "sdk"
+      ]
+    },
+    {
+      "id": "item-018-03",
+      "kind": "skill",
+      "text": "Rollup bundler: configured minification, dead code elimination, and bundle size limit checks",
+      "tags": [
+        "rollup",
+        "bundling"
+      ]
+    },
+    {
+      "id": "item-018-04",
+      "kind": "skill",
+      "text": "Cross-browser compatibility: tested behavior across Chrome, Safari, Firefox, and Edge browsers",
+      "tags": [
+        "compatibility",
+        "browsers"
+      ]
+    },
+    {
+      "id": "item-018-05",
+      "kind": "project",
+      "text": "TinyEventTracker: lightweight (2.4KB gzipped) embeddable client tracking snippet with queuing",
+      "tags": [
+        "javascript",
+        "sdk",
+        "project"
+      ]
+    },
+    {
+      "id": "item-018-06",
+      "kind": "education",
+      "text": "B.Tech IT, Delhi Technological University (DTU), 2022\u20132026, CGPA 8.3/10",
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "item-018-07",
+      "kind": "skill",
+      "text": "Web Security: handled Content Security Policy (CSP), CORS headers, and secure cookie flags",
+      "tags": [
+        "security",
+        "csp",
+        "web"
+      ]
+    },
+    {
+      "id": "item-018-08",
+      "kind": "skill",
+      "text": "Ansible playbooks: automated Nginx configuration and SSL certificate renewals",
+      "tags": [
+        "ansible",
+        "devops"
+      ]
+    },
+    {
+      "id": "item-018-09",
+      "kind": "work",
+      "text": "Software Engineering Intern at WebMetric (Gurugram, 4 months): maintained customer script tester app",
+      "tags": [
+        "internship",
+        "javascript"
+      ]
+    },
+    {
+      "id": "item-018-10",
+      "kind": "skill",
+      "text": "Git branching & semver: published versioned packages following semantic versioning guidelines",
+      "tags": [
+        "git",
+        "npm"
+      ]
+    },
+    {
+      "id": "item-018-11",
+      "kind": "skill",
+      "text": "PostgreSQL indexing: created B-tree and GIN indexes for full-text search",
+      "tags": [
+        "postgres",
+        "database"
+      ]
+    },
+    {
+      "id": "item-018-12",
+      "kind": "skill",
+      "text": "HTML5 Canvas API: rendered client-side performance heatmaps",
+      "tags": [
+        "canvas",
+        "dataviz"
+      ]
+    }
+  ],
+  "labels": {
+    "item-018-01": true,
+    "item-018-02": true,
+    "item-018-03": true,
+    "item-018-04": true,
+    "item-018-05": true,
+    "item-018-06": true,
+    "item-018-07": true,
+    "item-018-08": false,
+    "item-018-09": true,
+    "item-018-10": true,
+    "item-018-11": false,
+    "item-018-12": true
+  }
+}

@@ -39,13 +39,15 @@ Phase 0 is the most important phase. It tests whether decision models beat a che
 
 **Phase 0: foundations and spike**
 
-- [ ] Create the `marghire` repo with AGPL-3.0 licence, README, `.gitignore` (data directory, `.env`), and the folder layout from the technical requirements.
-- [ ] Add CI: lint, type-check, tests, dependency audit, licence check, secret scan.
-- [ ] Write `docker-compose.yml` with API, web, Python helper and SQLite volume.
+- [x] Create the `marghire` repo with AGPL-3.0 licence, README, `.gitignore` (data directory, `.env`), and the folder layout from the technical requirements.
+- [x] Add CI: lint, type-check, tests, dependency audit, licence check, secret scan. (Workflow is present; successful CI validation is still required for phase completion.)
+- [x] Write `docker-compose.yml` with API, web, Python helper and SQLite volume.
 - [ ] Build the spike harness: about 50 resume and job pairs (a mix of your own and synthetic ones), with hand-labelled "should this item appear" answers.
 - [ ] Run Laya, Clef or Clef-flash, and a chosen LLM on the pairs. Record accuracy, order sensitivity, latency and cost.
-- [ ] Test whether Clef and Clairic run inside Cloudflare's free allowance, using your free Cloudflare account.
+- [ ] Test whether Clef and Clef-flash run inside Cloudflare's free allowance, using your free Cloudflare account. (Published pricing checked; account eligibility and benchmark consumption remain unverified.)
 - [ ] Write a one-page result and decide: Decision + LLM, or LLM only as the default.
+
+**Phase 0 status:** Foundations are implemented. The comparison, label provenance, allowance verification, and passing validation evidence remain open; see [Role Lens Spike Report](Role%20Lens%20Spike%20Report.md). Do not treat Phase 0 as complete until those items are resolved.
 
 **Phase 1a: pool basics**
 

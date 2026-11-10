@@ -1,6 +1,6 @@
 """Data model for evaluation pairs, labels and results.
 
-Each pair is one (pool, job) combination with hand-labelled item inclusion decisions.
+Each pair is one (pool, job) combination with labeled item inclusion decisions.
 All types are dataclasses so they serialise cleanly to/from JSON without a third-party library.
 """
 
@@ -84,7 +84,7 @@ class AdapterResult:
     selected_ids: list[str]
     # Wall-clock seconds for the call; None if not measured (e.g. a stub)
     latency_s: float | None = None
-    # Estimated cost in USD; None if unknown or free
+    # Estimated cost in USD; None if unknown
     cost_usd: float | None = None
     # Shuffle index: which shuffle of the option order was used (for order sensitivity)
     shuffle_index: int = 0
@@ -99,8 +99,8 @@ class PairMetrics:
     precision: float
     recall: float
     f1: float
-    # Number of items that changed between two shuffles (None if only one shuffle was run)
-    order_changed: int | None = None
+    # Mean item changes from the primary run to each additional shuffle.
+    order_changed: float | None = None
 
 
 @dataclass
@@ -115,3 +115,4 @@ class HarnessResult:
     median_latency_s: float | None
     total_cost_usd: float | None
     per_pair: list[PairMetrics] = field(default_factory=list)
+    mean_order_sensitivity: float | None = None
