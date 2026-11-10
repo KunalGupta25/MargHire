@@ -1,14 +1,19 @@
 # Graph Report - MargHire  (2026-11-10)
 
 ## Corpus Check
-- 64 files · ~19,608 words
+- 64 files · ~19,514 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 8 file(s) not represented in the graph (top: (none) 3, .example 1, .api 1)
 
 ## Summary
-- 630 nodes · 810 edges · 72 communities (36 shown, 36 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 44 edges (avg confidence: 0.94)
+- 649 nodes · 854 edges · 80 communities (36 shown, 44 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 46 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `6ff44724`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Database Table: job
@@ -56,7 +61,7 @@
 - core/package.json
 - providers/package.json
 - sources/package.json
-- scripts
+- run.py
 - MargHire
 - api/tsconfig.json
 - mcp/tsconfig.json
@@ -75,16 +80,23 @@
 - providers/src/index.ts
 - sources/src/index.ts
 - marghire-python
+- Adapter
+- schema.py
+- ClefAdapter
+- order_sensitivity
+- Role Lens Model Comparison Spike Report
+- GeminiAdapter
+- LLMAdapter
 
 ## God Nodes (most connected - your core abstractions)
-1. `Pair` - 39 edges
-2. `AdapterResult` - 32 edges
-3. `aggregate()` - 15 edges
-4. `compilerOptions` - 15 edges
-5. `load_pairs()` - 14 edges
-6. `_load_one()` - 14 edges
-7. `pair_metrics()` - 14 edges
-8. `Adapter` - 13 edges
+1. `Pair` - 42 edges
+2. `AdapterResult` - 35 edges
+3. `Adapter` - 15 edges
+4. `aggregate()` - 15 edges
+5. `compilerOptions` - 15 edges
+6. `load_pairs()` - 14 edges
+7. `_load_one()` - 14 edges
+8. `pair_metrics()` - 14 edges
 9. `compilerOptions` - 10 edges
 10. `scripts` - 10 edges
 
@@ -93,10 +105,10 @@
   docs/MargHire Implementation Plan and Build Order.md → AGENTS.md
 - `Rule 9: Dual-Database Schema & UUIDs` --rationale_for--> `Database Table: pool_item`  [INFERRED]
   AGENTS.md → docs/MargHire Database Schema and Data Blueprint.md
-- `Multi-Level Test Strategy & CI Quality Gates` --conceptually_related_to--> `Definition of Done (AGENTS)`  [INFERRED]
-  docs/MargHire Test Plan and Test Cases.md → AGENTS.md
 - `Rule 1: Nothing Invented` --rationale_for--> `Truthfulness Verification Engine`  [INFERRED]
   AGENTS.md → docs/MargHire Technical Requirements (TRD SRS).md
+- `Multi-Level Test Strategy & CI Quality Gates` --conceptually_related_to--> `Definition of Done (AGENTS)`  [INFERRED]
+  docs/MargHire Test Plan and Test Cases.md → AGENTS.md
 - `Rule 2: Verified Items Only` --rationale_for--> `TR-POOL-1: Pool Schema Storage and Default Verification`  [INFERRED]
   AGENTS.md → docs/MargHire Technical Requirements (TRD SRS).md
 
@@ -108,15 +120,15 @@
 - **Provider Router Resilience & Fallback Engine** — agents_rule_router_owns_fallback, docs_marghire_product_requirements_document_feature_f11, docs_marghire_technical_requirements_trd_srs_provider_router_spec, docs_marghire_database_schema_and_data_blueprint_table_usage_ledger [INFERRED 0.95]
 - **Zero-Trust Verification and Secrets Perimeter** — agents_rule_verified_only, agents_rule_nothing_invented, agents_rule_secrets, docs_marghire_data_privacy_security_and_compliance_checklist_security_checklist [INFERRED 0.95]
 
-## Communities (72 total, 36 thin omitted)
+## Communities (80 total, 44 thin omitted)
 
 ### Community 0 - "Database Table: job"
 Cohesion: 0.09
 Nodes (20): Claude Agent Integration & AGENTS.md Inclusion, Ponytail Code-Reuse Skill, Privacy Controls Checklist (Minimisation, Erasure, No Telemetry), Database Table: application, Database Table: application_event, Database Table: company, Database Table: job, Database Table: job_analysis (+12 more)
 
 ### Community 1 - "Pair"
-Cohesion: 0.06
-Nodes (16): Adapter, ClefAdapter, LayaAdapter, LLMAdapter, aggregate(), order_sensitivity(), pair_metrics(), build_parser() (+8 more)
+Cohesion: 0.18
+Nodes (7): aggregate(), pair_metrics(), AdapterResult, Pair, PairMetrics, TestAggregate, TestPairMetrics
 
 ### Community 2 - "Database Table: pool_item"
 Cohesion: 0.14
@@ -171,8 +183,8 @@ Cohesion: 0.67
 Nodes (3): Phase 6: MCP Server & Open Documentation, Feature F13: MCP Server, Shared Service Layer (REST API & MCP Server)
 
 ### Community 38 - "package.json"
-Cohesion: 0.07
-Nodes (27): description, devDependencies, eslint@^9.0.0, @eslint/js@^9.0.0, license-checker@^25.0.1, prettier@^3.0.0, typescript@^5.5.0, typescript-eslint@^8.0.0 (+19 more)
+Cohesion: 0.05
+Nodes (37): description, devDependencies, eslint@^9.0.0, @eslint/js@^9.0.0, license-checker@^25.0.1, prettier@^3.0.0, typescript@^5.5.0, typescript-eslint@^8.0.0 (+29 more)
 
 ### Community 39 - "api"
 Cohesion: 0.07
@@ -218,10 +230,6 @@ Nodes (13): devDependencies, @types/node@^22.0.0, exports, @types/node, name, pr
 Cohesion: 0.15
 Nodes (13): devDependencies, @types/node@^22.0.0, exports, @types/node, name, private, scripts, build (+5 more)
 
-### Community 50 - "scripts"
-Cohesion: 0.20
-Nodes (10): scripts, build, check:licenses, clean, dev, lint, test, test:e2e (+2 more)
-
 ### Community 51 - "MargHire"
 Cohesion: 0.20
 Nodes (9): Commands, Contributing, Development setup (without Docker), Licence, MargHire, Planning documents, Quick start, Repository layout (+1 more)
@@ -254,25 +262,29 @@ Nodes (6): compilerOptions, outDir, rootDir, extends, include, ../../tsconfig.js
 Cohesion: 0.40
 Nodes (4): description, name, private, version
 
+### Community 76 - "Role Lens Model Comparison Spike Report"
+Cohesion: 0.29
+Nodes (6): Architecture Decision & Recommendation, Benchmark Results, Executive Summary, Key Findings, Recommendation: **Hybrid Mode (Decision Model Default, LLM-Only Fallback)**, Role Lens Model Comparison Spike Report
+
 ## Knowledge Gaps
 - **69 isolated node(s):** `../../tsconfig.json`, `../../tsconfig.json`, `../../tsconfig.json`, `../../tsconfig.json`, `../../tsconfig.json` (+64 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 349 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 356 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **44 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Pair` connect `Pair` to `_load_one`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Are the 13 inferred relationships involving `Pair` (e.g. with `Adapter` and `ClefAdapter`) actually correct?**
-  _`Pair` has 13 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `Pair` connect `Pair` to `_load_one`, `Adapter`, `schema.py`, `ClefAdapter`, `GeminiAdapter`, `LLMAdapter`, `.validate`, `run.py`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Are the 14 inferred relationships involving `Pair` (e.g. with `Adapter` and `ClefAdapter`) actually correct?**
+  _`Pair` has 14 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `../../tsconfig.json`, `../../tsconfig.json`, `../../tsconfig.json` to the rest of the system?**
   _69 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Database Table: job` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
-- **Why does `load_pairs()` connect `_load_one` to `Pair`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Are the 11 inferred relationships involving `AdapterResult` (e.g. with `Adapter` and `ClefAdapter`) actually correct?**
-  _`AdapterResult` has 11 INFERRED edges - model-reasoned connections that need verification._
-- **Should `Pair` be split into smaller, more focused modules?**
-  _Cohesion score 0.05660945498343872 - nodes in this community are weakly interconnected._
+- **Why does `AdapterResult` connect `Pair` to `Adapter`, `schema.py`, `ClefAdapter`, `order_sensitivity`, `GeminiAdapter`, `LLMAdapter`, `run.py`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Are the 12 inferred relationships involving `AdapterResult` (e.g. with `Adapter` and `ClefAdapter`) actually correct?**
+  _`AdapterResult` has 12 INFERRED edges - model-reasoned connections that need verification._
+- **Should `Database Table: pool_item` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

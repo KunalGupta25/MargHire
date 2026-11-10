@@ -276,9 +276,9 @@
     "semantic_hash": ""
   },
   "python/eval/adapters/clef.py": {
-    "mtime": 1794296577.1914942,
-    "seen": 1794297818.1831641,
-    "ast_hash": "8676e517ca0a97ae9abc45f4546d1a7d",
+    "mtime": 1794299194.0984852,
+    "seen": 1794300411.1528265,
+    "ast_hash": "ab496e8191c90ab03016a902087d1725",
     "semantic_hash": ""
   },
   "python/eval/adapters/laya.py": {
@@ -312,9 +312,9 @@
     "semantic_hash": ""
   },
   "python/eval/run.py": {
-    "mtime": 1794297202.246505,
-    "seen": 1794297818.1831717,
-    "ast_hash": "4c528a96aae4e6a3ccf8cc0955194521",
+    "mtime": 1794299686.4640603,
+    "seen": 1794300411.152838,
+    "ast_hash": "0ebd73fbc3f7c995ae74bf63c8b68617",
     "semantic_hash": ""
   },
   "python/eval/schema.py": {
@@ -339,18 +339,6 @@
     "mtime": 1794296497.3120472,
     "seen": 1794297818.1831765,
     "ast_hash": "6b5df4d697a8ccd1075493dacc6990e8",
-    "semantic_hash": ""
-  },
-  "python/results/llm-stub_20261110T080248Z.json": {
-    "mtime": 1794297768.5960145,
-    "seen": 1794297818.1831775,
-    "ast_hash": "1175b5fdb9ba9a65e903c818af1fc732",
-    "semantic_hash": ""
-  },
-  "results/llm-stub_20261110T075308Z.json": {
-    "mtime": 1794297188.888661,
-    "seen": 1794297818.1831787,
-    "ast_hash": "1175b5fdb9ba9a65e903c818af1fc732",
     "semantic_hash": ""
   },
   "tsconfig.json": {
@@ -387,6 +375,18 @@
     "mtime": 1794296497.3247042,
     "seen": 1794297818.1832032,
     "ast_hash": "7a0413745facaf925524adddb1242c82",
+    "semantic_hash": ""
+  },
+  "python/eval/adapters/gemini.py": {
+    "mtime": 1794299668.3252108,
+    "seen": 1794300411.152829,
+    "ast_hash": "000fb7a3e21416e5de4e587861282c47",
+    "semantic_hash": ""
+  },
+  "docs/Role Lens Spike Report.md": {
+    "mtime": 1794300340.879076,
+    "seen": 1794300411.1528656,
+    "ast_hash": "e1f49ed00ac12b79edaff19957e30840",
     "semantic_hash": ""
   },
   "package-lock.json": {
