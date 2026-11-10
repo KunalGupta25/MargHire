@@ -1,0 +1,56 @@
+{
+  "AGENTS.md": {
+    "mtime": 1794294303.6941519,
+    "seen": 1794295408.3581502,
+    "ast_hash": "19a2a4da699d71688b48eee1e04f4451",
+    "semantic_hash": "19a2a4da699d71688b48eee1e04f4451"
+  },
+  "CLAUDE.md": {
+    "mtime": 1794294321.3245583,
+    "seen": 1794295408.3581562,
+    "ast_hash": "2398a5185a44046b27656e0d064ca50e",
+    "semantic_hash": "2398a5185a44046b27656e0d064ca50e"
+  },
+  "docs/MargHire Data Privacy, Security and Compliance Checklist.md": {
+    "mtime": 1794294446.531913,
+    "seen": 1794295408.358159,
+    "ast_hash": "b4e9acaab26318b9babdba1893140f2d",
+    "semantic_hash": "b4e9acaab26318b9babdba1893140f2d"
+  },
+  "docs/MargHire Database Schema and Data Blueprint.md": {
+    "mtime": 1794294369.3513174,
+    "seen": 1794295408.3581605,
+    "ast_hash": "744ed56580e7f66d557bf2738681167c",
+    "semantic_hash": "744ed56580e7f66d557bf2738681167c"
+  },
+  "docs/MargHire Design and UX Document.md": {
+    "mtime": 1794294416.244902,
+    "seen": 1794295408.358162,
+    "ast_hash": "7ad7eba931fd0e6d0cbe842745799e50",
+    "semantic_hash": "7ad7eba931fd0e6d0cbe842745799e50"
+  },
+  "docs/MargHire Implementation Plan and Build Order.md": {
+    "mtime": 1794294485.608402,
+    "seen": 1794295408.3581629,
+    "ast_hash": "fb41b6c5e78fce208e2950837b688875",
+    "semantic_hash": "fb41b6c5e78fce208e2950837b688875"
+  },
+  "docs/MargHire Product Requirements Document.md": {
+    "mtime": 1794294350.8438096,
+    "seen": 1794295408.3581643,
+    "ast_hash": "98bbc27e627e3438b9cb577a70eb6b8b",
+    "semantic_hash": "98bbc27e627e3438b9cb577a70eb6b8b"
+  },
+  "docs/MargHire Technical Requirements (TRD SRS).md": {
+    "mtime": 1794294397.1693091,
+    "seen": 1794295408.3581655,
+    "ast_hash": "0855b21b436b26d4a61711b7e7da8b3a",
+    "semantic_hash": "0855b21b436b26d4a61711b7e7da8b3a"
+  },
+  "docs/MargHire Test Plan and Test Cases.md": {
+    "mtime": 1794294560.4522474,
+    "seen": 1794295408.3581665,
+    "ast_hash": "c5a38a0d3dfebd3366b6a444f5bf5815",
+    "semantic_hash": "c5a38a0d3dfebd3366b6a444f5bf5815"
+  }
+}
