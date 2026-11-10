@@ -16,7 +16,7 @@
   "47": "core/package.json",
   "48": "providers/package.json",
   "49": "sources/package.json",
-  "50": "scripts",
+  "50": "run.py",
   "51": "MargHire",
   "52": "api/tsconfig.json",
   "53": "mcp/tsconfig.json",
@@ -37,5 +37,13 @@
   "68": "templates/README.md",
   "69": "marghire-python",
   "70": "adapters/__init__.py",
-  "71": "eval/__init__.py"
+  "71": "eval/__init__.py",
+  "72": "Adapter",
+  "73": "schema.py",
+  "74": "ClefAdapter",
+  "75": "order_sensitivity",
+  "76": "Role Lens Model Comparison Spike Report",
+  "77": "GeminiAdapter",
+  "78": "LLMAdapter",
+  "79": ".validate"
 }
